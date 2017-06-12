@@ -22,4 +22,4 @@ Feeling -very- happy with having fixed the JS and having a fully working game. F
 
 Fantastic first day all around!
 
-**Link to work:** [Tic-Tac-Toe](https://codepen.io/jsanderson/pen/JJPwxQ) to do
+**Link to work:** [Tic-Tac-Toe](https://codepen.io/jsanderson/pen/JJPwxQ)
