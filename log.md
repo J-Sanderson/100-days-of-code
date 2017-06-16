@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 4: June 16, 2017
+
+**Today's Progress**: Continung the FCC Twitch streamer status webapp, rebuilding it with the new API. Got it to work and fixed some old code.
+
+**Thoughts:** I feel a lot better about having to rebuild my old code than I did yesterday. It was frustrating then, but the rewriting has shown me there was a lot of room for improvement - better commenting, getting rid of all those global variables that were floating around.
+
+**Link to work:** [Twitch streamer statuses](https://codepen.io/jsanderson/pen/VeNOpL)
+
 ### Day 3: June 15, 2017
 
 **Today's Progress**: Back to the FCC work, some issues have cropped up with subsequent games following the first one not playing correctly. Thought it was a styling error but it seems something isn't getting correctly passed back to the main play function. Fixed it - there was some code lying around relating to a since removed class. Play tested it a bit (managed to beat it once, so the imperfect move possibility is definitely there!) and happy to call this one done.
