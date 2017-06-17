@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 5: June 17, 2017
+
+**Today's Progress**: Feeling somewhat unwell today so went back to working on the gallery site from Day 2, getting it all updated. Mostly tidying everythig up and getting it presentable
+
+**Thoughts:** Not feeling very motivated due to illness, but glad I had something low stress to do. It was something I'd been putting off for ages anyway...
+
+**Link to work:** None today.
+
 ### Day 4: June 16, 2017
 
 **Today's Progress**: Continung the FCC Twitch streamer status webapp, rebuilding it with the new API. Got it to work and fixed some old code.
