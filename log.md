@@ -2,6 +2,14 @@
 
 ### Day 5: June 17, 2017
 
+**Today's Progress**: Still not feeling too great, did some basic layout work on another personal site (this time, for some writing work).
+
+**Thoughts:** Just low stress stuff for those umotivated sick days. Considering devoting weekends to personal projects and weekdays to FCC/other tutorial projects. Will see how it goes. The best bit - I'm one week in!
+
+**Link to work:** None today.
+
+### Day 5: June 17, 2017
+
 **Today's Progress**: Feeling somewhat unwell today so went back to working on the gallery site from Day 2, getting it all updated. Mostly tidying everythig up and getting it presentable
 
 **Thoughts:** Not feeling very motivated due to illness, but glad I had something low stress to do. It was something I'd been putting off for ages anyway...
@@ -12,7 +20,7 @@
 
 **Today's Progress**: Continung the FCC Twitch streamer status webapp, rebuilding it with the new API. Got it to work and fixed some old code.
 
-Next up is the weather app, another case of having to start again with a new API. Problems with access control first of all - didn't realise had to add "callback=?" to the end of the getJSON function. Easy enough to fix things now. Got the main bulk of the app working again, next up need to offer an imperial units option and get some variable backgrounds in there.
+Next up is the weather app, another case of having to start again with a new API. Problems with access control first of all - didn't realise had to add "callback=?" to the end of the getJSON url. Easy enough to fix things now. Got the main bulk of the app working again, next up need to offer an imperial units option and get some variable backgrounds in there.
 
 **Thoughts:** I feel a lot better about having to rebuild my old code than I did yesterday. It was frustrating then, but the rewriting has shown me there was a lot of room for improvement - better commenting, getting rid of all those global variables that were floating around.
 
