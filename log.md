@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 6: June 18, 2017
+
+**Today's Progress**: Back to the weather app. It's all functional now, added some new backgrounds and an imperial unit conversion option. Doing some formatting changes to make text more readable against some of the background images.
+
+**Thoughts:** Nothing game changing, but I think I'm settling into a routine of sitting down to code and looking forward to it too.
+
+**Link to work:** [Local weather](https://codepen.io/jsanderson/pen/VeRmJM)
+
 ### Day 5: June 17, 2017
 
 **Today's Progress**: Still not feeling too great, did some basic layout work on another personal site (this time, for some writing work).
