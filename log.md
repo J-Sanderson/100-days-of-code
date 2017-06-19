@@ -4,7 +4,7 @@
 
 **Today's Progress**: Back to the weather app. It's all functional now, added some new backgrounds and an imperial unit conversion option. Doing some formatting changes to make text more readable against some of the background images.
 
-**Thoughts:** Nothing game changing, but I think I'm settling into a routine of sitting down to code and looking forward to it too.
+**Thoughts:** Nothing game changing, but I think I'm settling into a routine of sitting down to code and looking forward to it too. Great flow state too, ended up late home because I was so absorbed in what I was doing!
 
 **Link to work:** [Local weather](https://codepen.io/jsanderson/pen/VeRmJM)
 
