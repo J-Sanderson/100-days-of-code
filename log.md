@@ -1,6 +1,16 @@
 # 100 Days Of Code - Log
 
-### Day 6: June 18, 2017
+### Day 8: June 18, 2017
+
+**Today's Progress**: Finishing off the weather app, adding an imageless version for small screens.
+
+Decided to redo my FCC portfolio page once that was done. Minor tweaks again.
+
+**Thoughts:** Keep on feeling the urge to add more to the weather app, but I think it's important to know when to call it done.
+
+**Link to work:** [Local weather](https://codepen.io/jsanderson/pen/VeRmJM)
+
+### Day 7: June 18, 2017
 
 **Today's Progress**: Back to the weather app. It's all functional now, added some new backgrounds and an imperial unit conversion option. Doing some formatting changes to make text more readable against some of the background images.
 
@@ -8,7 +18,7 @@
 
 **Link to work:** [Local weather](https://codepen.io/jsanderson/pen/VeRmJM)
 
-### Day 5: June 17, 2017
+### Day 6: June 17, 2017
 
 **Today's Progress**: Still not feeling too great, did some basic layout work on another personal site (this time, for some writing work).
 
