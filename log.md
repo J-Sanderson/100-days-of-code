@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 9: June 18, 2017
+
+**Today's Progress**: Onto the Simon webapp, the last front end development challenge on FCC. Had to research the game some. Set up a test page - nothing fancy, just some clickable coloured divs to try the game logic out on. I think I'm going to try putting my own twist on the way it looks, but I'm not too concerned about layout at this stage.
+
+Decided to step back from the code for now and map out the program's flow.
+
+**Thoughts:** I wonder if I rely too much on JQuery... should I be trying new things?
+
+Kind of interesting to be working on a game I'm unfamiliar with as opposed to one I know like before. I wonder if that makes my approach any different?
+
+**Link to work:** [Local weather](https://codepen.io/jsanderson/pen/VeRmJM)
+
 ### Day 8: June 18, 2017
 
 **Today's Progress**: Finishing off the weather app, adding an imageless version for small screens.
