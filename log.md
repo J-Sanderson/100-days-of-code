@@ -10,7 +10,7 @@ Decided to step back from the code for now and map out the program's flow.
 
 Kind of interesting to be working on a game I'm unfamiliar with as opposed to one I know like before. I wonder if that makes my approach any different?
 
-**Link to work:** [Local weather](https://codepen.io/jsanderson/pen/VeRmJM)
+**Link to work:** None today.
 
 ### Day 8: June 18, 2017
 
