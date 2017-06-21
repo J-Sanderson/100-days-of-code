@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 9: June 20, 2017
+### Day 9: June 21, 2017
 
 **Today's Progress**: Onto the Simon webapp, the last front end development challenge on FCC. Had to research the game some. Set up a test page - nothing fancy, just some clickable coloured divs to try the game logic out on. I think I'm going to try putting my own twist on the way it looks, but I'm not too concerned about layout at this stage.
 
@@ -12,7 +12,7 @@ Kind of interesting to be working on a game I'm unfamiliar with as opposed to on
 
 **Link to work:** None today.
 
-### Day 8: June 19, 2017
+### Day 8: June 20, 2017
 
 **Today's Progress**: Finishing off the weather app, adding an imageless version for small screens.
 
@@ -22,7 +22,7 @@ Decided to redo my FCC portfolio page once that was done. Minor tweaks again.
 
 **Link to work:** [Local weather](https://codepen.io/jsanderson/pen/VeRmJM)
 
-### Day 7: June 18, 2017
+### Day 7: June 19, 2017
 
 **Today's Progress**: Back to the weather app. It's all functional now, added some new backgrounds and an imperial unit conversion option. Doing some formatting changes to make text more readable against some of the background images.
 
@@ -30,7 +30,7 @@ Decided to redo my FCC portfolio page once that was done. Minor tweaks again.
 
 **Link to work:** [Local weather](https://codepen.io/jsanderson/pen/VeRmJM)
 
-### Day 6: June 17, 2017
+### Day 6: June 18, 2017
 
 **Today's Progress**: Still not feeling too great, did some basic layout work on another personal site (this time, for some writing work).
 
