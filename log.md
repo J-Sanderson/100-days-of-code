@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 10: June 22, 2017
+
+**Today's Progress**: Continuing the Simon game, roughed out a flowchart for the basic game logic. Next I want to focus on making the divs (they might not stay divs, it depends on how I lay the game out, but I'm using them right now for simplicity's sake) light up one by one. Managed to use setInterval to make one div light up and turn off, now to get a sequence going without them all going off at once. Doing some more reading on setInterval.
+
+My pomodoro clock (see below) would decrement the time remaining, convert that to a m:s display to put on the page, and complete when the timer ran out. Can I modify that for this game (switch light x on/off when time y reached) or would that be overly complicated overkill?
+
+**Thoughts:** This was the first time I planned a project using a flowchart. Previously I haven't felt the need to, but in this case I felt I needed a map. It was very helpful seeing it laid out before me. Will definitely use this method again in the future. (Not sure why I never felt the need before, I worked a lot with flowcharts in a previous job.)
+
+With the lights, the most frustrating part is getting the program to 'pause' and light things up in sequence. I'm not sure I fully understand setTimeout, though I use it as a seconds counter in a previous project: [FCC Pomodoro Clock](https://codepen.io/jsanderson/pen/qNoXZJ). This time it's a it more difficult. Don't want to do what I did before and stop for ages because I'm discouraged, though... It's okay. I'm in that early stage where everything is a mess, I've made it through before, I'll make it through here.
+
+**Link to work:** None today.
+
 ### Day 9: June 21, 2017
 
 **Today's Progress**: Onto the Simon webapp, the last front end development challenge on FCC. Had to research the game some. Set up a test page - nothing fancy, just some clickable coloured divs to try the game logic out on. I think I'm going to try putting my own twist on the way it looks, but I'm not too concerned about layout at this stage.
