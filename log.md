@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 11: June 22, 2017
+
+**Today's Progress**: More on the Simon game and timing the sequence flashing. Taking my own advice and decided to plot out how I think I'll do it on a flowchart rather than touching any actual code. [This may also be of some help](https://stackoverflow.com/questions/7519793/sequencing-events-in-javascript). Thinking Jquery queues are what I'm looking for. Experimenting with delay() - maybe I was doing it wrong by changing classes, maybe animate() is my friend here? It can't do colours but I could have an 'off' div that lays on top of the 'on' div, and can be set to not display. Tried it, found it makes positioning a pain. Maybe background images? I'm thinking of using some anyway. The image itself isn't possible, but maybe the position...? Did a test run with a random wallpaper, and it works. The sequencing is still to come, but I can at least animate the background.
+
+**Thoughts:** Definitely at the point where my least favourite thing about JS is not being able to just tell it to pause and then resume x time later... but I get the feeling this project is meant to get you working on that. I do like FCC's 'throw you in' style even if times like these are frustrating. But having that moment where you feel you've found an answer is worth it.
+
+I'm thinking the animation sequence timing is going to be the difficult part here. But I don't want to speak too soon either.
+
 ### Day 10: June 22, 2017
 
 **Today's Progress**: Continuing the Simon game, roughed out a flowchart for the basic game logic. Next I want to focus on making the divs (they might not stay divs, it depends on how I lay the game out, but I'm using them right now for simplicity's sake) light up one by one. Managed to use setInterval to make one div light up and turn off, now to get a sequence going without them all going off at once. Doing some more reading on setInterval.
