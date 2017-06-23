@@ -8,6 +8,8 @@
 
 I'm thinking the animation sequence timing is going to be the difficult part here. But I don't want to speak too soon either.
 
+**Link to work:** None today.
+
 ### Day 10: June 22, 2017
 
 **Today's Progress**: Continuing the Simon game, roughed out a flowchart for the basic game logic. Next I want to focus on making the divs (they might not stay divs, it depends on how I lay the game out, but I'm using them right now for simplicity's sake) light up one by one. Managed to use setInterval to make one div light up and turn off, now to get a sequence going without them all going off at once. Doing some more reading on setInterval.
