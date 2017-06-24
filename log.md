@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 12: June 23, 2017
+
+**Today's Progress**: Made some background images for the Simon game and tried some test animations. They flip nicely back and forth now, no complex layering needed. Now to see if I can use queues to get them flashing in order.
+
+Moved back to the personal/writing site I was working on last week. Added some story content, static HTML as usual, and embedded some fonts. Looing good.
+
+**Thoughts:** Lazy day, I admit. But it felt good to go back to the personal projects I'd been neglecting too!
+
+**Link to work:** None today.
+
 ### Day 11: June 22, 2017
 
 **Today's Progress**: More on the Simon game and timing the sequence flashing. Taking my own advice and decided to plot out how I think I'll do it on a flowchart rather than touching any actual code. [This may also be of some help](https://stackoverflow.com/questions/7519793/sequencing-events-in-javascript). Thinking Jquery queues are what I'm looking for. Experimenting with delay() - maybe I was doing it wrong by changing classes, maybe animate() is my friend here? It can't do colours but I could have an 'off' div that lays on top of the 'on' div, and can be set to not display. Tried it, found it makes positioning a pain. Maybe background images? I'm thinking of using some anyway. The image itself isn't possible, but maybe the position...? Did a test run with a random wallpaper, and it works. The sequencing is still to come, but I can at least animate the background.
