@@ -4,7 +4,7 @@
 
 **Today's Progress**: Made some background images for the Simon game and tried some test animations. They flip nicely back and forth now, no complex layering needed. Now to see if I can use queues to get them flashing in order.
 
-Moved back to the personal/writing site I was working on last week. Added some story content, static HTML as usual, and embedded some fonts. Looing good.
+Moved back to the personal/writing site I was working on last week. Added some story content, static HTML as usual, and embedded some fonts. Looking good.
 
 **Thoughts:** Lazy day, I admit. But it felt good to go back to the personal projects I'd been neglecting too!
 
