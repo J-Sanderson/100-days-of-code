@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 13: June 24, 2017
+
+**Today's Progress**: The gallery popups for the personal/art site I was working on last week are buggy. Switched back to basic image links for now. It's bare bones but it works.
+
+**Thoughts:** I made the popups using CSS - I can easily do them with JQuery but I wanted something a touch more accessible. But I see what I did wrong with the CSS popups. I copied a lot of code without really understanding what I was doing. I'd still like to do CSS popups if at all possible, but I want to understand what I'm doing this time.
+
+Considering setting up a local Wordpress installation too. I work mostly with static pages but I thin it may be time to try learning some backend stuff.
+
+**Link to work:** None today.
+
 ### Day 12: June 23, 2017
 
 **Today's Progress**: Made some background images for the Simon game and tried some test animations. They flip nicely back and forth now, no complex layering needed. Now to see if I can use queues to get them flashing in order.
