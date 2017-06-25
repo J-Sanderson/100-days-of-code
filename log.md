@@ -6,7 +6,7 @@
 
 **Thoughts:** I made the popups using CSS - I can easily do them with JQuery but I wanted something a touch more accessible. But I see what I did wrong with the CSS popups. I copied a lot of code without really understanding what I was doing. I'd still like to do CSS popups if at all possible, but I want to understand what I'm doing this time.
 
-Considering setting up a local Wordpress installation too. I work mostly with static pages but I thin it may be time to try learning some backend stuff.
+Considering setting up a local Wordpress installation too. I work mostly with static pages but I think it may be time to try learning some backend stuff.
 
 **Link to work:** None today.
 
