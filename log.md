@@ -1,6 +1,14 @@
 # 100 Days Of Code - Log
 
-### Day 13: June 24, 2017
+### Day 14: June 26, 2017
+
+**Today's Progress**: Life suddenly got busy so decided to do something calming and work on the gallery. Decided to do a JQuery version for now since I know I can get it to work. It's not super end user friendly, but I'm the only one who's going to be editing it, so it'll do for now.
+
+**Thoughts:** Lazy days make me feel guilty...
+
+**Link to work:** None today.
+
+### Day 13: June 25, 2017
 
 **Today's Progress**: The gallery popups for the personal/art site I was working on last week are buggy. Switched back to basic image links for now. It's bare bones but it works.
 
@@ -10,7 +18,7 @@ Considering setting up a local Wordpress installation too. I work mostly with st
 
 **Link to work:** None today.
 
-### Day 12: June 23, 2017
+### Day 12: June 24, 2017
 
 **Today's Progress**: Made some background images for the Simon game and tried some test animations. They flip nicely back and forth now, no complex layering needed. Now to see if I can use queues to get them flashing in order.
 
@@ -20,7 +28,7 @@ Moved back to the personal/writing site I was working on last week. Added some s
 
 **Link to work:** None today.
 
-### Day 11: June 22, 2017
+### Day 11: June 23, 2017
 
 **Today's Progress**: More on the Simon game and timing the sequence flashing. Taking my own advice and decided to plot out how I think I'll do it on a flowchart rather than touching any actual code. [This may also be of some help](https://stackoverflow.com/questions/7519793/sequencing-events-in-javascript). Thinking Jquery queues are what I'm looking for. Experimenting with delay() - maybe I was doing it wrong by changing classes, maybe animate() is my friend here? It can't do colours but I could have an 'off' div that lays on top of the 'on' div, and can be set to not display. Tried it, found it makes positioning a pain. Maybe background images? I'm thinking of using some anyway. The image itself isn't possible, but maybe the position...? Did a test run with a random wallpaper, and it works. The sequencing is still to come, but I can at least animate the background.
 
