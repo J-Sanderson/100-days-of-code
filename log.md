@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 15: June 27, 2017
+
+**Today's Progress**: The gallery is working, could use a few minor formatting tweaks but it works...
+
+**Thoughts:** I hope things clear up. It's nice to have some relaxing work, but I want to get back to the big stuff...
+
+**Link to work:** None today.
+
 ### Day 14: June 26, 2017
 
 **Today's Progress**: Life suddenly got busy so decided to do something calming and work on the gallery. Decided to do a JQuery version for now since I know I can get it to work. It's not super end user friendly, but I'm the only one who's going to be editing it, so it'll do for now.
