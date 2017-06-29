@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 16: June 28, 2017
+
+**Today's Progress**: None today. Things piled up too much and I needed a break. Back to work tomorrow!
+
 ### Day 15: June 27, 2017
 
 **Today's Progress**: The gallery is working, could use a few minor formatting tweaks but it works...
