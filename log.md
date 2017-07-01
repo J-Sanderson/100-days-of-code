@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 18: June 30, 2017
+
+**Today's Progress**: Still feeling very sick. Wanted to do something even if small so I set up a test Wordpress install. I don't know what I'll do with it, but I want to at least learn to make themes. After that updated some more personal work.
+
+**Thoughts:** I feel so behind only just learning Wordpress now. I've always been a static site person - I learnt HTML in the late Geocities days so static has always been how I work. But even if I don't get much personal use from Wordpress I think it's worth learning. I lost an interview chance for not knowing any back end stuff, I don't want to lose any more.
+
+**Link to work:** None today.
+
+### Day 17: June 29, 2017
+
+**Today's Progress**: Nope, its a full blown sick day...
+
 ### Day 16: June 28, 2017
 
 **Today's Progress**: None today. Things piled up too much and I needed a break. Back to work tomorrow!
