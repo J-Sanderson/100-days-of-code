@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 20: July 2, 2017
+
+**Today's Progress**: More personal sites. Hoping to be back to some heavier work tomorrow...
+
+**Thoughts:** I still feel like I'm being lazy working on personal sites and not pushing myself, but at the same time I'm also getting a lot of work done that was sitting around, so it evens itself out?
+
+### Day 19: July 1, 2017
+
+**Today's Progress**: Kept pushing myself to do some work while sick, did some more formatting on one of the personal sites...
+
 ### Day 18: June 30, 2017
 
 **Today's Progress**: Still feeling very sick. Wanted to do something even if small so I set up a test Wordpress install. I don't know what I'll do with it, but I want to at least learn to make themes. After that updated some more personal work.
