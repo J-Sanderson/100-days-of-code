@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 21: July 3, 2017
+
+**Today's Progress**: Finally back to the Simon game! Managed to get the lights to switch 'on' in succession using delay(). Next I want to make the lights blink on and off rather than staying on. Set up a test fixed sequence to get the timing right. Next up, linked that to an array which I can then get the game to modify later - each array element shares its name with one of the light divs. Scrapped the fixed sequence and set up a for loop referring to that array.
+
+This worked but problems set in when I added more items to the array - suddenly the timing was wrong again. I think there's a problem in calculating the delay, got to work out the exact sequence. Went back to the hard coded sequence and commented out the loop for now.
+
+I think it has something to do with the delay on subsequent calls to that div being added on to what came before. Today's question - is there a way to clear the preexisting delay? [Answer: Not a simple one...](https://stackoverflow.com/questions/7929266/jquery-delay-how-to-stop-it) but there's some workarounds there that I want to look into next time.
+
+**Thoughts:** Getting back to a challenge feels good. Finding delay()'s timing to be very confusing, but reading is always good. Things are tough - I didn't expect to run up against that issue with delays not being able to cancel - but I feel challenged in a good way, like I know I can solve these problems with a bit of effort. That's great! I haven't felt like this for days now! I love days where I learn something new about the tools I've been using all this time!
+
 ### Day 20: July 2, 2017
 
 **Today's Progress**: More personal sites. Hoping to be back to some heavier work tomorrow...
