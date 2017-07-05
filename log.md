@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 23: July 4, 2017
+
+**Today's Progress**: Back with the Simon game and timing the light flashes. Attempting to replace delay() with animate() and use stop() to clear it. Slow going. I'm not sure I'm on the right path with this. More looking around, [this seems similar to my problems](https://stackoverflow.com/questions/5324587/jquery-animation-in-sequence), but only acts on each div once - in my case the divs need to animate multiple times within the sequence. Maybe it was queues I needed after all. Tried out some work with them but everything seems even more tangled up. Perhaps I need to name them.
+
+**Thoughts:** Sometimes the amount of options available is frustrating, you spend a while on one only to find it wasn't the best idea. I admit I'm feeling discouraged - I'm looking up everything I can and while it makes sense, I can't seem to apply it to what I need to do. I don't feel very smart right now, although I know I'll get this in the future.
+
 ### Day 22: July 4, 2017
 
 **Today's Progress**: Stuck away from my normal work station today so did some personal site work again and some reading on static site generators. I'm interested in learning how to convert my sites to themes, even if I don't end up using them.
