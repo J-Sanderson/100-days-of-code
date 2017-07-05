@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 22: July 4, 2017
+
+**Today's Progress**: Stuck away from my normal work station today so did some personal site work again and some reading on static site generators. I'm interested in learning how to convert my sites to themes, even if I don't end up using them.
+
+**Thoughts:** I wish I had more to say about the personal sites, but honestly it's basic work, formatting and the like. So not very exciting. Got some ideas for more interesting personal projects for when I can't get to my FCC work, though - thinking of the "3K words for the unmotivated" writing webapp I've been considering, or some site themes based on teletext, just for fun and flexing the design site of things.
+
 ### Day 21: July 3, 2017
 
 **Today's Progress**: Finally back to the Simon game! Managed to get the lights to switch 'on' in succession using delay(). Next I want to make the lights blink on and off rather than staying on. Set up a test fixed sequence to get the timing right. Next up, linked that to an array which I can then get the game to modify later - each array element shares its name with one of the light divs. Scrapped the fixed sequence and set up a for loop referring to that array.
