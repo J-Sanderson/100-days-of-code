@@ -1,6 +1,16 @@
 # 100 Days Of Code - Log
 
-### Day 23: July 4, 2017
+### Day 24: July 6, 2017
+
+**Today's Progress**: Success - kind of. I've got the lights to blink in sequence using setTimeout, no more queues or delays. Some more wrangling and I got it working in a for loop, though I had to put the actual on/off function outside the loop. Just one problem with the timing, when one light switches off, the next one immediately switches on. This means if the same light blinks twice or more in sucession (something I put in my test array because I specifically wanted to try out that condition) the individual blinks aren't visible. The light appears to stay on.
+
+For a moment I considered making it so that adjoining elements in the array couldn't be the same, but face it, that's being extremely lazy over a fixable problem. The timing has always caught me out, getting the right numbers in sequence is hard, but it shouldn't be impossible! I DO have issues with visualising those numbers, so back to the flowcharts. If I can write out what's going on in flowchart form, I should have a second by second breakdown of what exactly is happening here. Tried that and was better able to visualise the number sequence that would allow me to time the lights properly. Now they flash as they should do! I can also speed up the sequence by adjusting the interval time, which will be useful when I need to speed the game up in later stages.
+
+Now that little bit of core functionality is working, I want to get it going within an actual game rather than repeating a predetermined sequence. The game needs to randomly choose a light to add to the sequence, so I set it to generate random numbers between 1 and 4 within a switch statement. Each number corresponds to a string containing the light div's id ('red', 'yellow', 'blue' or 'green'), that string goes into the array, and the sequencing loop references that array. Still a few bugs in that. Will get to them next time, but overall this was a good day.
+
+**Thoughts:** Still frustrating to run into a problem after most are solved. You start to wonder if it's another thing you can't solve and the whole thing will need rebuilding again. But it's much better going than yesterday. I admit the temptation to decide to just go with the two or more elements flashing in sequence issue is strong, but it would be very bad form to just give up and pretend it was always part of the game when it's not. So, onward, and getting it to WORK rather than working around the issue feels great.
+
+### Day 23: July 5, 2017
 
 **Today's Progress**: Back with the Simon game and timing the light flashes. Attempting to replace delay() with animate() and use stop() to clear it. Slow going. I'm not sure I'm on the right path with this. More looking around, [this seems similar to my problems](https://stackoverflow.com/questions/5324587/jquery-animation-in-sequence), but only acts on each div once - in my case the divs need to animate multiple times within the sequence. Maybe it was queues I needed after all. Tried out some work with them but everything seems even more tangled up. Perhaps I need to name them.
 
