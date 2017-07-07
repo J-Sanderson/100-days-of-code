@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 25: July 7, 2017
+
+**Today's Progress**: Actually did some coding in work, just a few VBA macros, but it felt very fulfilling anyway. Now back to the Simon game. The code that pushes light values ('red', 'yellow', 'blue' or 'green') is still a bit buggy, sometimes nothing goes into the array. Turns out it was just an issue with the switch statement not being written correctly, nothing big or difficult.
+
+Now that the game can generate random sequences it needs to keep on doing so, adding on to the next step and displaying where it is in the sequence. Moved the 'light switch' (the part that handles the lights turning on and off) to its own function, and the rest into a while loop (it probably won't stay there, but I want to check it can generate new additions to the sequence twenty times, so it will do for now).
+
+After making sure everything's getting passed around correctly, everything seems to work! (I hope...) I've got the sequence displaying in the console as well to test it, but of course the problem with that is it appears instantly (or as close as can be to human eyes). And I want the current length to be visible on the game so the player can see where they are. Added a small div to the page that initially displays 0 and increments each time a new sequence is displayed.
+
+Unfortunately it seems as if the sequence isn't running quite as I thought it would. It looks like instead of displaying each step in the process, it just skips straight to step 20. I'm not sure how or why (suspect it's another timing error) but that's where flowcharts come in again. Suspect the problem is that while the 'light switch' has all its delays set up ok, the for loop that calls it has no delay. So I need to know how long each iteration of the sequence needs to display by and delay the execution of the light switch by that amount.
+
+**Thoughts:** A little exciting and a little bit scary. After all that effort getting the lights to work there's a bit of a 'now what?' moment - having the flowchart again to show me what needs to be done next is a real help.
+
+Words cannot express my love of flowcharts right now. Not only for guidance but for seeing where things go wrong. If I have a visual of the program's flow, everything becomes clear to me. They've already saved me several times on this project, and I don't think this will be the last time.
+
+I'm seriously going to miss this project over the weekend. It's been a whole load of frustrating fun. And I'm quite sure by now that those aren't mutually exclusive.
+
 ### Day 24: July 6, 2017
 
 **Today's Progress**: Success - kind of. I've got the lights to blink in sequence using setTimeout, no more queues or delays. Some more wrangling and I got it working in a for loop, though I had to put the actual on/off function outside the loop. Just one problem with the timing, when one light switches off, the next one immediately switches on. This means if the same light blinks twice or more in sucession (something I put in my test array because I specifically wanted to try out that condition) the individual blinks aren't visible. The light appears to stay on.
