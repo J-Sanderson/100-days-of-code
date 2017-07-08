@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 26: July 8, 2017
+
+**Today's Progress**: Updated one of my gallery sites, but I also want to do something meatier than just personal site work when I'm away from my FCC challenges. So I picked up on a project I wanted to start which was a webapp for a popular NaNoWriMo motivational thread ('A Crawl for the Motivationally Challenged!'). The thread challenges you to write chunks of words, none of which is any more than 200 words at a time, which build up and leave you with just over 3,000 words at the end. For a while now I've wanted to do a webapp that counts your words as you type and shows your progress throughout the challenge. A bit like the web version of [Write or Die](http://writeordie.com) without the timer. (Though I guess I could add a timer if people wanted, but let's not get ahead...)
+
+Thankfully I had some existing [word counters](https://codepen.io/jsanderson/pen/RoxOPM) which I'd already modified for an implimentation of the [50 Headed Hydra](https://codepen.io/jsanderson/pen/pNKrzL0) challenge, so modifying it to work on a new page was easy work. I've gotten a working version but so far it only works on the first step of the challenge (10 words). I'm considering how to make it go through each one of the steps in turn. For any other language I'd just use a loop, but I don't know if I can pause JS to wait for the user to write their words before moving on to the next step. All that work on the Simon game has helped me with JS timing, but I don't know how long it will take for the user to write, so I can't hard code that. I may just have to make the wordcounter its own function and keep calling it for each step, but I'm unsure if that's a satisfactory solution. The timing issue is still there too. Each step needs to follow on from the user's input...
+
+**Thoughts:** Yeah, I admit it, when I'm home my motivation goes waaaay down. This isn't good! I'm glad to be being a bit less lazy. Sure those personal sites had work that needed to be done, but once it's done I can't waffle on them forever.
+
 ### Day 25: July 7, 2017
 
 **Today's Progress**: Actually did some coding in work, just a few VBA macros, but it felt very fulfilling anyway. Now back to the Simon game. The code that pushes light values ('red', 'yellow', 'blue' or 'green') is still a bit buggy, sometimes nothing goes into the array. Turns out it was just an issue with the switch statement not being written correctly, nothing big or difficult.
