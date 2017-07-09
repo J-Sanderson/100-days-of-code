@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 27: July 9, 2017
+
+**Today's Progress**: I fixed the problem with the word counter. Another simple solution, just have the counter iterate when the user presses the 'done' button to show they're finished with their chunk, and call the text handler with the new counter value. Added some code to the text handler to break out if the goal list is done, which so far just displays an alert but will get expanded on once I prettify everything.
+
+Testing it out, I ran into problems with the page accepting wordcounts lower than the given goal. Couldn't work out why - the goal variable was exactly what it should be, but the page kept acting as if it was 10 (the first goal) every time. Thought it might be a scope error and declared the goal variable at the top of the script instead. Sure enough, everything started working as it should.
+
+Tested it out again. The code to handle ending the challenge when the last goal is reached isn't quite working - found out it wasn't breaking out of the text handler properly, fixed that.
+
+Everything seems to be holding up! I need to prettify the page now, maybe add an optional progress bar, all that fancy stuff, but the meat of the thing is there.
+
+**Thoughts:** If there's one thing I've learnt over the last few days, it's that I have a bad habit of looking for big, complex solutions where small, simple ones exist. I need to kick that. Not sure how except for distancing myself for a bit. I actually thought of having the text handler call itself while falling asleep last night...
+
+I would like to understand more about why the scope error occured as it did. I knew enough to fix it when I suspected that was what was going on, but I don't feel I really grasp why it acted as it did. That's something I'd like to read up on. I have been flicking through You Don't Know JS lately, I'm wondering if I'll get some understanding there. The why is as important as the how.
+
+**Link to work:** [A Word Crawl for the Motivationally Challenged!](https://codepen.io/jsanderson/pen/EXdPey)
+
 ### Day 26: July 8, 2017
 
 **Today's Progress**: Updated one of my gallery sites, but I also want to do something meatier than just personal site work when I'm away from my FCC challenges. So I picked up on a project I wanted to start which was a webapp for a popular NaNoWriMo motivational thread ('A Crawl for the Motivationally Challenged!'). The thread challenges you to write chunks of words, none of which is any more than 200 words at a time, which build up and leave you with just over 3,000 words at the end. For a while now I've wanted to do a webapp that counts your words as you type and shows your progress throughout the challenge. A bit like the web version of [Write or Die](http://writeordie.com) without the timer. (Though I guess I could add a timer if people wanted, but let's not get ahead...)
