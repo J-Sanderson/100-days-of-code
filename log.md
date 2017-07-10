@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 28: July 10, 2017
+
+**Today's Progress**: Timing is not going well on the Simon game. It still seems to be only showing the final sequence even when I try to make it go through the steps one at a time. I wonder if what I learnt yesterday on the word counters will help. At the moment I'm not worrying about the DOM, just logging the sequence to the console step by step to check it's working. For some reason putting a timeout on the logging causes it to delay correctly, but with the final sequence each time. Hmmmm.
+
+Maybe I need to look at this from another angle. Instead of generating each step on the fly, why not generate the whole thing and then only show what needs to be shown? That seems like it would solve a lot of timing issues, no need to worry about making the program wait to generate the next part of the sequence.
+
+Done that and it seems a lot tidier. Thinking now about having the game show the sequence. I'm worrying too much about it showing the sequence length of one, then two, then three... all in one go, which the game isn't ever going to do! It's going to wait for the user to input their sequence - so why am I worrying over something that the game won't need to do? Time to stop that and get working on user input.
+
+Of course here is another timing problem - my test user input doesn't wait for the game to stop showing the sequence. And I don't want to assume the user is going to sit and wait for the sequence to finish before they start pressing buttons. That would be lazy, and I've resisted laziness once on this project. Not going to give in now.
+
+**Thoughts:** I think this is another 'I don't know anything' days. But I had one of those last week, and I made it through, so why should this be any different?
+
+Looking at yesterday and the day before, doing the word counter webapp was some good timing. Both setups involve the page waiting for user input, and I think I learnt a lot about each one from the other. I didn't mean for that to come together so well, but it definitely worked out.
+
+Once again, I need to give the brain a rest every once in a while and look for simple solutions.
+
 ### Day 27: July 9, 2017
 
 **Today's Progress**: I fixed the problem with the word counter. Another simple solution, just have the counter iterate when the user presses the 'done' button to show they're finished with their chunk, and call the text handler with the new counter value. Added some code to the text handler to break out if the goal list is done, which so far just displays an alert but will get expanded on once I prettify everything.
