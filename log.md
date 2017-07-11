@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 29: July 11, 2017
+
+**Today's Progress**: Did some reading up on aspects of JS I had been asked about but didn't know much about - event propagation/bubbling, promises, and closures. I have a somewhat better grasp of them now but would like to do some actual work with them before I'd feel comfortable saying I understood them. I'm very much a learn by doing sort of person.
+
+For now, back to the Simon game. I've added another timeout on my test game and set it up so that when it is the user's turn, the lights get an 'active' class in that timeout. The function that register's a user's click then only actives when the light has that class. Now I need to make sure that function will do something.
+
+First of all, the light has to switch back on. Copied over the code from the original light switch - it switches on but the timer isn't quite right for switching it off. Admittedly I'm not fond of repeating the code so I think I'll take a different approach. If I put the clicked light's id into an array (which I was going to do anyway) then I can just call the original light switch function using that, giving it the last item in the user sequence array each time. That seems to work, but it looks like I'll need to restructure how the delays are calculated in the light switch function. Currently they're calculated based on the position of the array - good for the computer, not for a user who doesn't want to wait an increasing number of seconds to see feedback from their click. Added a new parameter to say if the function is being called for the computer or the user, and a couple of ternaries to set the delays accordingly. Running smoothly again.
+
+Next up is to compare the user's inputs to the pregenerated sequence. Set up a comparison - nothing special, just displaying a message in the document to say if the click was right or wrong. But it shows the comparison works - something to build on later. I'll probably end up putting the user click handler in its own function that calls itself until the user is done with the current sequence length, rather as I did with the word counter. I think that will be the next step.
+
+**Thoughts:** "I don't know" is a powerful thing to say sometimes, because admitting you don't know something also means you know what to learn, so that you do.
+
+I'm not sure I'm happy with adding more timeouts to this game - got a feeling somewhere along the line something will collapse. We'll see if I'm right or just worrying over nothing.
+
+I wonder if I go on too much here? Or is that a good thing? It's kind of motivating to record my thoughts as I work...
+
 ### Day 28: July 10, 2017
 
 **Today's Progress**: Timing is not going well on the Simon game. It still seems to be only showing the final sequence even when I try to make it go through the steps one at a time. I wonder if what I learnt yesterday on the word counters will help. At the moment I'm not worrying about the DOM, just logging the sequence to the console step by step to check it's working. For some reason putting a timeout on the logging causes it to delay correctly, but with the final sequence each time. Hmmmm.
