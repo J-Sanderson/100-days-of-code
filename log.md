@@ -2,6 +2,16 @@
 
 ### Day 29: July 11, 2017
 
+**Today's Progress**: I had planned to work on the Simon game but couldn't get a chance to sit down with it, so I worked on the word counter challenge. Added a progress bar to track how far the user is through the challenge - it animates every time the user finishes a section. Also added a toggle to switch the bar on or off so the user can choose whether or not to see it.
+
+**Thoughts:** Maybe it was a good thing to take a break on the Simon game - I don't want to stop working on it, but sometimes you gotta step back.
+
+The word couter is feeling very simple and relaxing in comparison, but that's no bad thing. I'm glad to be doing some personal work on this scale as well. FCC's challenges are excellent for learning, but there is a lot to be said for seeing somethig in your own life that you can solve with code, and then going out and doing it!
+
+**Link to work:** [A Word Crawl for the Motivationally Challenged!](https://codepen.io/jsanderson/pen/EXdPey)
+
+### Day 29: July 11, 2017
+
 **Today's Progress**: Did some reading up on aspects of JS I had been asked about but didn't know much about - event propagation/bubbling, promises, and closures. I have a somewhat better grasp of them now but would like to do some actual work with them before I'd feel comfortable saying I understood them. I'm very much a learn by doing sort of person.
 
 For now, back to the Simon game. I've added another timeout on my test game and set it up so that when it is the user's turn, the lights get an 'active' class in that timeout. The function that register's a user's click then only actives when the light has that class. Now I need to make sure that function will do something.
