@@ -2,6 +2,12 @@
 
 ### Day 29: July 11, 2017
 
+**Today's Progress**: While reading through You Don't Know JS' chapter on [https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md](closures), I found some interesting details in the section regarding closures and loops. I think this might go some way toward explainaing some of the sequence display issues I had in the Simon game. Interesting reading.
+
+**Thoughts:** I'm over a quarter of the way done now and honestly I feel like it's going too fast! The end is going to come sooner than I thought. Maybe I'll try a round two afterwards... 200 days of code?
+
+### Day 29: July 11, 2017
+
 **Today's Progress**: I had planned to work on the Simon game but couldn't get a chance to sit down with it, so I worked on the word counter challenge. Added a progress bar to track how far the user is through the challenge - it animates every time the user finishes a section. Also added a toggle to switch the bar on or off so the user can choose whether or not to see it.
 
 **Thoughts:** Maybe it was a good thing to take a break on the Simon game - I don't want to stop working on it, but sometimes you gotta step back.
