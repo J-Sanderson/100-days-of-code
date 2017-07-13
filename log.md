@@ -2,9 +2,23 @@
 
 ### Day 29: July 11, 2017
 
-**Today's Progress**: While reading through You Don't Know JS' chapter on [closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md), I found some interesting details in the section regarding closures and loops. I think this might go some way toward explainaing some of the sequence display issues I had in the Simon game. Interesting reading.
+**Today's Progress**: While reading through You Don't Know JS' chapter on [closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md), I found some interesting details in the section regarding closures and loops. I think this might go some way toward explainaing some of the sequence display issues I had in the Simon game, and possibly the scope errors in the word counter. Interesting reading.
+
+Now back to the game. The user clicks are working but the game needs to stop them once the user is done with the current sequence (or makes a mistake, when I get to implimenting strict mode). Set it up to remove the active class from the lights once the sequence length is reached - works just fine. No code yet to handle restarting/strict mode on errors, but that can come later.
+
+I now have a reasonably working game, but it only runs with a set sequence of three presses. Next big step - get it working as a proper game, one sequence at a time. Moved the whole playing code, apart from generating the sequence at the start, to its own function. I still only have a hazy idea of what is to happen, but I'm imagining it working similar to the word counter, calling itself again when done. Created a counter to show what round of the game the player is on, and got it to display in the on screen counter.
+
+Thinking about getting the function to call itself again. I can't easily put in a delay as I have no means of knowing how long the current round is going to take. But I do have code to handle finishing the user's inputs, which is dependent on the user's click - I can just re-call the function there. This seems to work, though now I have to make sure the code inside the play function isn't so static. As expected the biggest issue is the timing for making the lights active. They need to be set to active as soon as the page is done demonstrating the sequence, so I need to determine the number sequence to use to calculate the delay. Wrote down the round number/delay sequence and paper which helped me to work it out. Tested it, but the timing still isn't right.
+
+Looked around at the program flow with the console - I think it's somewhere in the user click, or re-calling the play function. It seems to be re-calling play() even when the user counter isn't done. I think this may be similar to the issue I had with the word counter, but globally declaring the current round variable didn't help. I'm just going to have to keep looking and breaking things down until I find the answer...
 
 **Thoughts:** I'm over a quarter of the way done now and honestly I feel like it's going too fast! The end is going to come sooner than I thought. Maybe I'll try a round two afterwards... 200 days of code?
+
+Starting to worry about how tangled the Simon code is - feels like it's bouncing around and passing things all over the place. Trying not to worry about it until I have the whole game functional, though. I'm still only on the basics - I don't know what it'll be like later. (Later note - already feels somewhat improved by putting the light switch/click functions inside the main play function?)
+
+Moving on to getting the game working as a proper game is intimidating - it means taking what I have now and adding a whole new layer onto it. Things will likely break. That's ok. I can handle this.
+
+And really, it went better than I thought. Sure there's a few confusing bits and some very broken parts, but the game is starting to act more and more as it should do. It's a very satisfying feeling.
 
 ### Day 29: July 11, 2017
 
