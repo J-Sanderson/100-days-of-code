@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 29: July 11, 2017
+### Day 31: July 12, 2017
 
 **Today's Progress**: While reading through You Don't Know JS' chapter on [closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md), I found some interesting details in the section regarding closures and loops. I think this might go some way toward explainaing some of the sequence display issues I had in the Simon game, and possibly the scope errors in the word counter. Interesting reading.
 
@@ -20,7 +20,7 @@ Moving on to getting the game working as a proper game is intimidating - it mean
 
 And really, it went better than I thought. Sure there's a few confusing bits and some very broken parts, but the game is starting to act more and more as it should do. It's a very satisfying feeling.
 
-### Day 29: July 11, 2017
+### Day 30: July 12, 2017
 
 **Today's Progress**: I had planned to work on the Simon game but couldn't get a chance to sit down with it, so I worked on the word counter challenge. Added a progress bar to track how far the user is through the challenge - it animates every time the user finishes a section. Also added a toggle to switch the bar on or off so the user can choose whether or not to see it.
 
