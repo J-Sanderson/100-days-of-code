@@ -1,6 +1,14 @@
 # 100 Days Of Code - Log
 
-### Day 31: July 12, 2017
+### Day 32: July 14, 2017
+
+**Today's Progress**: Finishing off the word counter. Added in a popup box to explain the challenge, then added some styling and tidied the CSS. I'm going to call this one done for now!
+
+**Thoughts:**  Small, relaxing, but very fulfilling. I made something useful!
+
+**Link to work:** [A Word Crawl for the Motivationally Challenged!](https://codepen.io/jsanderson/pen/EXdPey)
+
+### Day 31: July 13, 2017
 
 **Today's Progress**: While reading through You Don't Know JS' chapter on [closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md), I found some interesting details in the section regarding closures and loops. I think this might go some way toward explainaing some of the sequence display issues I had in the Simon game, and possibly the scope errors in the word counter. Interesting reading.
 
