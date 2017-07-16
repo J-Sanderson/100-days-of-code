@@ -2,9 +2,17 @@
 
 ### Day 33: July 15, 2017
 
-**Today's Progress**: Need a new weekend project now that the word couter is done. My thought was to try teaching myself some of the concepts that I wanted to brush up on, so I started putting together a simple event bubbling demo. So far I have the basic setup done, but no actual bubbling - I still need to do some more reading into how to set that up.
+**Today's Progress**: Little bit more work on the event bubbling demo. I got it working, it's quick and easy but I now know something I didn't before! I think I'd like to expand it a bit later but I'm mainly just happy to have taken a rather embarassing phone call and turned into into a learning opportunity!
 
-**Thoughts:** working with pure vanilla JS feels so strange. There's so much I don't know because I've done all my DOM handling with JQuery. That's fine, that's what JQuery is for, but I do feel like I need to know the basics too.
+**Thoughts:** That was a lot easier than I thought it'd be! Feels almost too easy. But it works and that's what's important. I think I'd like to do some more demos to teach myself - I still want to get a better understanding of promises and closures. They at least seem a lot less scary than they did only a week ago!
+
+**Link to work:** [Event Bubbling Demo](https://codepen.io/jsanderson/full/gREyob/)
+
+### Day 33: July 15, 2017
+
+**Today's Progress**: Need a new weekend project now that the word counter is done. My thought was to try teaching myself some of the concepts that I wanted to brush up on, so I started putting together a simple event bubbling demo. So far I have the basic setup done, but no actual bubbling - I still need to do some more reading into how to set that up.
+
+**Thoughts:** Working with pure vanilla JS feels so strange. There's so much I don't know because I've done all my DOM handling with JQuery. That's fine, that's what JQuery is for, but I do feel like I need to know the basics too. Maybe I should challenge myself to put JQuery to one side a bit more just so I know more of what the vanilla JS is actually doing.
 
 ### Day 32: July 14, 2017
 
