@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 33: July 15, 2017
+### Day 34: July 16, 2017
 
 **Today's Progress**: Little bit more work on the event bubbling demo. I got it working, it's quick and easy but I now know something I didn't before! I think I'd like to expand it a bit later but I'm mainly just happy to have taken a rather embarassing phone call and turned into into a learning opportunity!
 
