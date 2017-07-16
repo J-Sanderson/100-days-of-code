@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 33: July 15, 2017
+
+**Today's Progress**: Need a new weekend project now that the word couter is done. My thought was to try teaching myself some of the concepts that I wanted to brush up on, so I started putting together a simple event bubbling demo. So far I have the basic setup done, but no actual bubbling - I still need to do some more reading into how to set that up.
+
+**Thoughts:** working with pure vanilla JS feels so strange. There's so much I don't know because I've done all my DOM handling with JQuery. That's fine, that's what JQuery is for, but I do feel like I need to know the basics too.
+
 ### Day 32: July 14, 2017
 
 **Today's Progress**: Finishing off the word counter. Added in a popup box to explain the challenge, then added some styling and tidied the CSS. I'm going to call this one done for now!
@@ -10,7 +16,7 @@
 
 ### Day 31: July 13, 2017
 
-**Today's Progress**: While reading through You Don't Know JS' chapter on [closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md), I found some interesting details in the section regarding closures and loops. I think this might go some way toward explainaing some of the sequence display issues I had in the Simon game, and possibly the scope errors in the word counter. Interesting reading.
+**Today's Progress**: While reading through You Don't Know JS' chapter on [closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md), I found some interesting details in the section regarding closures and loops. I think this might go some way toward explaining some of the sequence display issues I had in the Simon game, and possibly the scope errors in the word counter. Interesting reading.
 
 Now back to the game. The user clicks are working but the game needs to stop them once the user is done with the current sequence (or makes a mistake, when I get to implimenting strict mode). Set it up to remove the active class from the lights once the sequence length is reached - works just fine. No code yet to handle restarting/strict mode on errors, but that can come later.
 
