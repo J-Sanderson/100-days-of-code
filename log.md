@@ -2,6 +2,20 @@
 
 ### Day 34: July 16, 2017
 
+**Today's Progress**: Back to the Simon game. Need to work out what's causing the play function to call itself at the wrong time. After some poking around there seem to be yet more issues with the light timing.
+
+I think I may need to step back and think some more about getting the display right without worrying about the user's clicks so much. Probably need to roll back and look at that more in depth. Made a new fork and stripped out the code relating to counting and testing the user's clicks. Focusing just on having the user click any light, then the sequence displaying the next iteration. That should help weed out any time errors.
+
+So far the sequence is working but it does seem to be having some issues with counting the current round. I'm testing by having the console display the current round, and it's doing so twice once I get past round one. Double checked for duplicate code but there doesn't appear to be any. There also seems to be an error in timing for when the lights become active each round. It seems to occur in rounds three and up - the delay in making the lights active seems to be capping somehow at two or three seconds. Tried to log the delay to take a look at it, and it seems to be called twice or more, just as with the current round variable - and the first delay is 3 seconds, as I observed. It then gets called an increasing number of times as the rounds go on. The final iteration for each round is correct but obviously can't function properly.
+
+So again, it's all back to the round numbers. Not much progress but at least I think I've hit the major source of the problem...
+
+**Thoughts:** Very nitpicky work. That said, I like hunting down problems like this. Not so fond of facing the prospect of dismantling so much code after so much effort. But if it doesn't work, it can't stay. Sometimes dismantling and rebuilding helps me find what's wrong.
+
+Feels like yet another day for the 'things will get better if you keep at it' reassurances. But that's ok. If I knew everything, I wouldn't be doing this.
+
+### Day 34: July 16, 2017
+
 **Today's Progress**: Little bit more work on the event bubbling demo. I got it working, it's quick and easy but I now know something I didn't before! I think I'd like to expand it a bit later but I'm mainly just happy to have taken a rather embarassing phone call and turned into into a learning opportunity!
 
 **Thoughts:** That was a lot easier than I thought it'd be! Feels almost too easy. But it works and that's what's important. I think I'd like to do some more demos to teach myself - I still want to get a better understanding of promises and closures. They at least seem a lot less scary than they did only a week ago!
