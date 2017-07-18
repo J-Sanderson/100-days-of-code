@@ -1,6 +1,22 @@
 # 100 Days Of Code - Log
 
-### Day 34: July 16, 2017
+### Day 35: July 18, 2017
+
+**Today's Progress**: Another go at the Simon game and getting the round variable to behave. It seems to be iterating over and over until it hits double its previous value - still unsure why. I keep thinking it's still a scope error because it's so similar to the word counter issues I had, but it's not behaving as that did. Tried creating a local variable with let, still no luck. 
+
+Some more testing and it does seem that the doubling is due to the play function calling itself over and over until the round value has doubled. Very puzzled now, as the function should only be called on a user's click. Even commenting out all the light switches/timing and just having the current sequence display in the console still causes doubling.
+
+Stripped everything down even further - now all that happens is the console logs the current round. A little more testing with alerts and it seems that it's the click handler excecuting multiple times? Tried moving the click handler outside of play(). Finally the stripped down function counts properly! Now to rebuild. But finally, I found the weak spot.
+
+Now to rebuild - I have an earlier version but I think I will be rebuilding the stripped down one using that as a reference. I feel the code was getting a bit convoluted and I was losing track, so this will hopefully help me grasp it better. Recreated the light switch function, can definitely see improvements I can make on what variables I pass to it.
+
+**Thoughts:** At the lowest point of the tic-tac-toe challenge, it was much like this - I felt like I had to rebuild everything all over again, and I didn't know how or why things happened as they did. I stalled for a long time because of it. I don't want to do that again.
+
+I'm not admitting defeat but I am admitting that this is an issue I don't fully understand. I know I can learn but things do seem pretty low at the moment. But if the tic-tac-toe challenge is any indication, this is where things start looking up...
+
+And I suppose they did. But again, I'm pretty sad that I don't understand why it happened. I want to understand more. 'It works somehow if I do this' isn't satisfying!
+
+### Day 34: July 17, 2017
 
 **Today's Progress**: Back to the Simon game. Need to work out what's causing the play function to call itself at the wrong time. After some poking around there seem to be yet more issues with the light timing.
 
