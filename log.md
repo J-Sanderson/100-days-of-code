@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 36: July 19, 2017
+
+**Today's Progress**: Reconstructed the Simon game. The sequence display and lights are still working. I now need to focus on the logic for the user's clicks. At the moment it is set to move on to the next step in the sequence when the user presses any light regardless of how far along the sequence is, or whether the click was even correct.
+
+First of all, added code to just say if the user's click was right or wrong. Now it needs to handle the two situations differently:
+
+If wrong: re-display the sequence all over again (or restart everything if in strict mode)
+If right: check if the user has finished inputting the sequence, and start the next round if so.
+
+First added in the wrong branch - that was easy enough for now, just re-call play() without iterating the user's click counter or the round counter, and the sequence displays again (I'm planning to add strict mode and some sort of 'wrong click' message later - want to get the basic functionality right first). The code for the right branch is a little more complex as it needs to do a few more things: iterate the user click counter, test if the counter is equal to the current round, then call play() for the next round if so.
+
+At last, the game is starting to run as it should! But it's still missing a win functionality. Put in a quick test to see if the round is equal to the maximum steps (20). Need to trial it to see if it works, so time to play the game...
+
+**Thoughts:** I don't want to say anything too soon, but this feels like the monent where it starts to come together again...
+
+It runs properly. I don't know if I can say how great that feels. It's the moment where you think yes, this is what I love to do, and I'm glad I'm doing it. Code isn't just something I'm doing because it's a big thing, but because making things and seeing them work is something I love, and this is a great medium for it.
+
 ### Day 35: July 18, 2017
 
 **Today's Progress**: Another go at the Simon game and getting the round variable to behave. It seems to be iterating over and over until it hits double its previous value - still unsure why. I keep thinking it's still a scope error because it's so similar to the word counter issues I had, but it's not behaving as that did. Tried creating a local variable with let, still no luck. 
