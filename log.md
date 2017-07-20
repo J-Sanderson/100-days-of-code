@@ -1,5 +1,23 @@
 # 100 Days Of Code - Log
 
+### Day 37: July 20, 2017
+
+**Today's Progress**: Playtested the Simon game - it works and the win condition triggers at the right point! There is of course still lots to do, but the basic game will now play as required.
+
+Next up, I want to enable strict mode since that's one of the still missing core aspects. Added a checkbox to turn it on and off and a variable to keep track. Tested it again - the wrong click branch now handles this and will exit the play function (though at the moment it doesn't restart - I will probably add in a 'you lost, do you want to try again?' message later). 
+
+In the same vein, the game needs a reset button so the user can choose to start again. Added one in, set it to reset everything and restart. In the future I want to add a 'do you want to restart?' message but that can come later.
+
+The next user story that needs to be covered is speeding the game up on the 5th, 9th, and 13th steps to mimic the original game and add more of a challenge - as it stands each light stays on for a second, which is pretty slow (and rather dull when play-testing, I found). Set the interval to vary depending on the current round, tested it out and it feels nice and challenging.
+
+The only user story left to fulfil is the sounds - I think I will do those later. FCC has the original game sounds but I have an idea that I want to do instead (it'll play like the original, but won't look or sound like it), and it will involve finding the sounds I need, so that will have to come later.
+
+Apart from that, I have a very plain looking but fully functional Simon game!
+
+**Thoughts:** A relaxing day, probably for the best since I have family over, but I would have pushed on regardless - I'm all the more excited to be doing this as the project grows more and more into what it should be. I've noticed a pattern when creating/making in other areas - there is always a point where everything seems irreversibly broken, but it gets better. This is the getting better bit.
+
+**Link to work:** [Simon game](https://codepen.io/jsanderson/pen/vZwYOx)
+
 ### Day 36: July 19, 2017
 
 **Today's Progress**: Reconstructed the Simon game. The sequence display and lights are still working. I now need to focus on the logic for the user's clicks. At the moment it is set to move on to the next step in the sequence when the user presses any light regardless of how far along the sequence is, or whether the click was even correct.
