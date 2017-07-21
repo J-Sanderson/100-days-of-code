@@ -2,7 +2,7 @@
 
 ### Day 38: July 21, 2017
 
-**Today's Progress**: Continuing to work on the Simon game. Now that the main functionality is down, I'm working on smaller things. Worked mostly on adding some messages - the win condition, a lose message for strict mode. They pop up okay, but I'm having trouble gettig the button clicks on those messages to start a new game. They don' seem to be registering yet, need to work out why. Planning what I want the game to look like too - I think I will make some images to add flavour.
+**Today's Progress**: Continuing to work on the Simon game. Now that the main functionality is down, I'm working on smaller things. Worked mostly on adding some messages - the win condition, a lose message for strict mode. They pop up okay, but I'm having trouble gettig the button clicks on those messages to start a new game. They don't seem to be registering yet, need to work out why. Planning what I want the game to look like too - I think I will make some images to add flavour.
 
 **Thoughts:** Things feel slower today, but I think that's because I've moved on from solving the big things. Still lots to do, but it's all different now.
 
