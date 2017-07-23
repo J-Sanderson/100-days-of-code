@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+
+### Day 40: July 23, 2017
+
+**Today's Progress**: Some tweaks to the Simon game - nothing major today, mainly layout/color/graphics changes. Still got a few bugs but as right now I'm in a position to be able to make graphics I want to focus on that while I can. Will return to the bugs tomorrow. Looking for sounds - not yet found anything satisfactory, may record my own.
+
+**Thoughts:** Small things, but I like seeing the game get a theme.
+
+**Link to work:** [Copycat! A  Simon clone!](https://codepen.io/jsanderson/pen/vZwYOx)
+
+### Day 39: July 22, 2017
+
+**Today's Progress**: Last day of family visit, so no work done today...
+
 ### Day 38: July 21, 2017
 
 **Today's Progress**: Continuing to work on the Simon game. Now that the main functionality is down, I'm working on smaller things. Worked mostly on adding some messages - the win condition, a lose message for strict mode. They pop up okay, but I'm having trouble gettig the button clicks on those messages to start a new game. They don't seem to be registering yet, need to work out why. Planning what I want the game to look like too - I think I will make some images to add flavour.
