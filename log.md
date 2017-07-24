@@ -1,5 +1,12 @@
 # 100 Days Of Code - Log
 
+### Day 41: July 24, 2017
+
+**Today's Progress**: Fixed the broken 'play again' button in the Simon game. Still need sounds, but focusing for now on the layout, colour scheme etc. Got the layout set to roughly how I want it, still using some placeholders so will need to draw appropriate graphics as needed. Need to make a mobile version too, as it stands the layout is extremely mobile unfriendly.
+
+**Thoughts:** Everything feels so sedate now! It's weird to think of this last challenge almost being done. I'm wondering what I'll do next.
+
+**Link to work:** [Copycat! A  Simon clone!](https://codepen.io/jsanderson/pen/vZwYOx)
 
 ### Day 40: July 23, 2017
 
