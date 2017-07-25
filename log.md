@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 42: July 25, 2017
+
+**Today's Progress**: More tweaks to the Simon game - a mobile layout, an 'about box'. Small things, mostly. I will need to create some more graphics and sounds before I can do anything big.
+
+**Thoughts:** Slow, calm, relaxing. I got this.
+
+**Link to work:** [Copycat! A  Simon clone!](https://codepen.io/jsanderson/pen/vZwYOx)
+
 ### Day 41: July 24, 2017
 
 **Today's Progress**: Fixed the broken 'play again' button in the Simon game. Still need sounds, but focusing for now on the layout, colour scheme etc. Got the layout set to roughly how I want it, still using some placeholders so will need to draw appropriate graphics as needed. Need to make a mobile version too, as it stands the layout is extremely mobile unfriendly.
