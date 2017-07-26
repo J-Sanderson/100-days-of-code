@@ -1,10 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 43: July 26, 2017
+
+**Today's Progress**: I've gone about as far as I can go on the Simon clone without more graphics. (At least using Placekitten is themetically appropriate?) Going back to my fallback of learning and demonstrating some of the concept discussed in that one recruitment call that gave me a lot to think of. I would like to do some work on promises to get a better understanding of them, which led me into API calls - another thing I want to understand better. As with the event bubbling demo I want to try my hands at working with vanilla JS instead of JQuery.
+
+The first thing I learnt was that finding how to do vanilla API calls isn't easy! Managed to find [a good thread](https://stackoverflow.com/questions/35294633/what-is-the-vanilla-js-version-of-jquerys-getjson) in the end. Attempting to make a cross origin API call - using Wikipedia's for now as this is a test and I've already used it. Having access control problems, finding that odd as the same API worked fine with JQuery. A little more reading got me [this](https://stackoverflow.com/questions/2067472/what-is-jsonp-all-about) and [this](https://www.html5rocks.com/en/tutorials/cors/) (and a real sinking feeling that I don't know much about API calls, but that's fixable).
+
+Some more browsing got me [this](https://web-design-weekly.com/2014/08/18/ajax-without-jquery/) which definitely sounds like my situation (gotta love that 'I'm not alone!' feeling). The JSONP demo looks interesting, I'll probably do some more studying on how it works tomorrow.
+
+**Thoughts:** I love the idea of doing a whole course with vanilla JS - just like my efforts to use more. JQuery is great but I wish I'd done more vanilla work before being introduced to it. I want a better grasp of the language I'm meant to be using and I don't want to 'just know JQuery'.
+
+I'm glad to have the fallback projects. There's a lot of 'now what?' feelings floating around now that the last big FCC front end project is coming to a close. Need to keep some focus!
+
+APIs are frustrating, meanwhile, and part of me is wondering if this was a waste of a day. That I didn't really DO anything other than get annoyed at a lot of things... but I really want to learn how to do this, at the same time. At least I think I've narrowed down what exactly I'm looking for and found someone in a similar position.
+
 ### Day 42: July 25, 2017
 
 **Today's Progress**: More tweaks to the Simon game - a mobile layout, an 'about box'. Small things, mostly. I will need to create some more graphics and sounds before I can do anything big.
 
-**Thoughts:** Slow, calm, relaxing. I got this.
+**Thoughts:** Slow, calm, relaxing. I got this. (But I really think something more monumental should have happened given the day...)
 
 **Link to work:** [Copycat! A  Simon clone!](https://codepen.io/jsanderson/pen/vZwYOx)
 
