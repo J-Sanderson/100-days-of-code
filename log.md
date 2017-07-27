@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 44: July 27, 2017
+
+**Today's Progress**: Too sleep deprived today to wrangle APIs so I did a smaller project I was considering, a Teletext recreation. No real reason, it was just something I'd wanted to have a go at, and now is as good as any. Also tied into my current desire to work with vanilla JS some more.
+
+**Thoughts:** I think I will return to the Simon game over the weekend - I need to actually sit down and do some drawing to finish off the graphics, which is why it's taking so long. Need to carve out time to do that.
+
+The Teletext project was just a diversion and I'm not sure how practical it would be, but it was fun working out how to imitate the look!
+
+**Link to work:** [Teletext](https://codepen.io/jsanderson/full/yoLLjv/)
+
 ### Day 43: July 26, 2017
 
 **Today's Progress**: I've gone about as far as I can go on the Simon clone without more graphics. (At least using Placekitten is themetically appropriate?) Going back to my fallback of learning and demonstrating some of the concept discussed in that one recruitment call that gave me a lot to think of. I would like to do some work on promises to get a better understanding of them, which led me into API calls - another thing I want to understand better. As with the event bubbling demo I want to try my hands at working with vanilla JS instead of JQuery.
