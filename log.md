@@ -8,6 +8,8 @@
 
 The Teletext project was just a diversion and I'm not sure how practical it would be, but it was fun working out how to imitate the look!
 
+[Also here's something semi-related that gave me a good laugh.](https://medium.com/@isaaclyman/8-css-gotchas-to-start-your-morning-off-right-c5daade0731d)
+
 **Link to work:** [Teletext](https://codepen.io/jsanderson/full/yoLLjv/)
 
 ### Day 43: July 26, 2017
