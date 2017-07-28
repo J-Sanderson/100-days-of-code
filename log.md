@@ -6,6 +6,8 @@
 
 I want to do more vanilla JS work so I dug up one of my oldest FCC projects, the quote generator, and made a vanilla fork (and fixed some embarassing old CSS while I was at it). It's not very complicated, just getting an element and setting its contents, but interesting to see the difference. I think I would like to do this with more of my projects.
 
+Tried out a Sass tutorial as well since that will be covered in the next FCC modules and their tutorials aren't avaiable. (Not strictly counting time working with tutorials, but wanted to log it anyway.)
+
 **Thoughts:** Mainly I'm just trying to find things to do until I get the time to sit down and finish those Simon graphics, I admit that. But at least I'm still pursuing my goal to work with vanilla JS for a while.
 
 **Link to work:** [Teletext](https://codepen.io/jsanderson/full/yoLLjv/) - 
