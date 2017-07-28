@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 45: July 28, 2017
+
+**Today's Progress**: Still sleep deprived, great... Doing some minor tweaks. Fixed up the mobile layout for the Teletext recreation, and also some responsiveness issues with the word counter.
+
+I want to do more vanilla JS work so I dug up one of my oldest FCC projects, the quote generator, and made a vanilla fork (and fixed some embarassing old CSS while I was at it). It's not very complicated, just getting an element and setting its contents, but interesting to see the difference. I think I would like to do this with more of my projects.
+
+**Thoughts:** Mainly I'm just trying to find things to do until I get the time to sit down and finish those Simon graphics, I admit that. But at least I'm still pursuing my goal to work with vanilla JS for a while.
+
+**Link to work:**
+[Teletext](https://codepen.io/jsanderson/full/yoLLjv/)
+[A Word Crawl for the Motivationally Challenged!](https://codepen.io/jsanderson/pen/EXdPey)
+[Random Quotes (original JQuery version)](https://codepen.io/jsanderson/pen/WrPxWo)
+[Random Quotes (vanilla JS version)](https://codepen.io/jsanderson/pen/prjpGa)
+
 ### Day 44: July 27, 2017
 
 **Today's Progress**: Too sleep deprived today to wrangle APIs so I did a smaller project I was considering, a Teletext recreation. No real reason, it was just something I'd wanted to have a go at, and now is as good as any. Also tied into my current desire to work with vanilla JS some more.
