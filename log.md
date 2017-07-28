@@ -8,10 +8,9 @@ I want to do more vanilla JS work so I dug up one of my oldest FCC projects, the
 
 **Thoughts:** Mainly I'm just trying to find things to do until I get the time to sit down and finish those Simon graphics, I admit that. But at least I'm still pursuing my goal to work with vanilla JS for a while.
 
-**Link to work:**
-[Teletext](https://codepen.io/jsanderson/full/yoLLjv/)
-[A Word Crawl for the Motivationally Challenged!](https://codepen.io/jsanderson/pen/EXdPey)
-[Random Quotes (original JQuery version)](https://codepen.io/jsanderson/pen/WrPxWo)
+**Link to work:** [Teletext](https://codepen.io/jsanderson/full/yoLLjv/) - 
+[A Word Crawl for the Motivationally Challenged!](https://codepen.io/jsanderson/pen/EXdPey) - 
+[Random Quotes (original JQuery version)](https://codepen.io/jsanderson/pen/WrPxWo) - 
 [Random Quotes (vanilla JS version)](https://codepen.io/jsanderson/pen/prjpGa)
 
 ### Day 44: July 27, 2017
