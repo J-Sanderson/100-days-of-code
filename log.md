@@ -2,9 +2,11 @@
 
 ### Day 46: July 29, 2017
 
-**Today's Progress**: Back to the Simon game. I'm still planning on fixing up the graphics this weekend, so I drew up some more and added them to the page. Tweaked the CSS some too - it was a horrible mess, redundancies everywhere, thanks to having been patched up one bit at a time. Should be a little cleaner now.
+**Today's Progress**: Back to the Simon game. I'm still planning on fixing up the graphics this weekend, so I drew up some more and added them to the page. Tweaked the CSS some too - it was a horrible mess, redundancies everywhere, thanks to having been patched up one bit at a time. Should be a little cleaner now. Trying to fix up the mobile layout too. Someone was very kind enough to send me a screenshot of the page on their phone so I have some ideas of what needs to be done. 
 
 **Thoughts:** Good to be working again!
+
+Mobile breakpoints are interesting. They remind me in some way of old webpages and having to compensate for different resolutions. Remember pages that would have seperate versions for 1024x768 vs 800x600? I can't complain about breakpoints now. I also somehow like the idea that a single page can look so dramatically different depending on size. I don't know, something about it seems pleasing?
 
 **Link to work:** [Copycat! A  Simon clone!](https://codepen.io/jsanderson/pen/vZwYOx)
 
