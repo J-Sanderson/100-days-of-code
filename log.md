@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 46: July 29, 2017
+
+**Today's Progress**: Back to the Simon game. I'm still planning on fixing up the graphics this weekend, so I drew up some more and added them to the page. Tweaked the CSS some too - it was a horrible mess, redundancies everywhere, thanks to having been patched up one bit at a time. Should be a little cleaner now.
+
+**Thoughts:** Good to be working again!
+
+**Link to work:** [Copycat! A  Simon clone!](https://codepen.io/jsanderson/pen/vZwYOx)
+
 ### Day 45: July 28, 2017
 
 **Today's Progress**: Still sleep deprived, great... Doing some minor tweaks. Fixed up the mobile layout for the Teletext recreation, and also some responsiveness issues with the word counter.
