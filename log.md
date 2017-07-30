@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 47: July 30, 2017
+
+**Today's Progress**: More changes to the Simon game - more artwork, working on the mobile layout.
+
+**Thoughts:** Not much to say, today feels pretty routine, but there's always something to do...
+
+**Link to work:** [Copycat! A  Simon clone!](https://codepen.io/jsanderson/pen/vZwYOx)
+
 ### Day 46: July 29, 2017
 
 **Today's Progress**: Back to the Simon game. I'm still planning on fixing up the graphics this weekend, so I drew up some more and added them to the page. Tweaked the CSS some too - it was a horrible mess, redundancies everywhere, thanks to having been patched up one bit at a time. Should be a little cleaner now. Trying to fix up the mobile layout too. Someone was very kind enough to send me a screenshot of the page on their phone so I have some ideas of what needs to be done. 
