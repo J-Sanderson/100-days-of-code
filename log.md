@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 48: July 31, 2017
+
+
+**Today's Progress**: Finished off the mobile layout and the graphics for the Simon game. Did a playtest since one of them only displays on a win condition. Spotted a bug where the lights stay on following restarting after a won game. Will need to fix that later but I have it noted down. After that I need to get the sounds done and hopefully will have a completed project!
+
+**Thoughts:** Glad I got a big chunk of the work done. Still very routine but satisfying too.
+
+**Link to work:** [Copycat! A  Simon clone!](https://codepen.io/jsanderson/pen/vZwYOx)
+
 ### Day 47: July 30, 2017
 
 **Today's Progress**: More changes to the Simon game - more artwork, working on the mobile layout.
