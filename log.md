@@ -2,7 +2,7 @@
 
 ### Day 48: August 1, 2017
 
-**Today's Progress**: Fixed the lights not turning off after a win on the Simon game. Everything that I know of is done now apart from the sounds, which are unfortunately going to cause another delay as with the graphics. Did some work on making a vanilla JS version of another older project, this time the calculator.
+**Today's Progress**: Fixed the lights not turning off after a win on the Simon game. Everything that I know of is done now apart from the sounds, which are unfortunately going to cause another delay as with the graphics. Did some work on making a vanilla JS version of another older project, this time the calculator. Have a decent grasp of getting values from the DOM and inserting them but still, a lot is beyond me. I'm having trouble just thinking how to do the click handlers. [This should help.](https://stackoverflow.com/questions/42017072/multiple-onclick-button-events-vanilla-javascript)
 
 **Thoughts:** I don't feel very motivated right now, probably because I don't have anything big to tackle, just lots of little things. Focus becomes harder. And going back to old code can make you wonder what you were thinking..
 
