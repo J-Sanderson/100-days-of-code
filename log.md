@@ -1,7 +1,12 @@
 # 100 Days Of Code - Log
 
-### Day 48: July 31, 2017
+### Day 48: August 1, 2017
 
+**Today's Progress**: Fixed the lights not turning off after a win on the Simon game. Everything that I know of is done now apart from the sounds, which are unfortunately going to cause another delay as with the graphics. Did some work on making a vanilla JS version of another older project, this time the calculator.
+
+**Thoughts:** I don't feel very motivated right now, probably because I don't have anything big to tackle, just lots of little things. Focus becomes harder. And going back to old code can make you wonder what you were thinking..
+
+### Day 48: July 31, 2017
 
 **Today's Progress**: Finished off the mobile layout and the graphics for the Simon game. Did a playtest since one of them only displays on a win condition. Spotted a bug where the lights stay on following restarting after a won game. Will need to fix that later but I have it noted down. After that I need to get the sounds done and hopefully will have a completed project!
 
