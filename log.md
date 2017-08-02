@@ -2,9 +2,15 @@
 
 ### Day 49: August 2, 2017
 
-**Today's Progress**: Having another look at my vanilla JS version of the calculator I wrote a while back. Copy-pasting getElementById all over worked for the quote generator, because that was a very small and simple page, but with the calculator I think it would be better to rewrite the whole thing from scratch. I'm reading up on attaching an event handler to multiple elements (in this case, all the buttons on the calculator). In Jquery that's easy enough, fire off the function whenever a button element is clicked. Vanilla is a little more complex - I can add a handler for every button but that's repetitive overkill. So now I'm learning about [delegation](https://www.kirupa.com/html5/handling_events_for_many_elements.htm).
+**Today's Progress**: Having another look at my vanilla JS version of the calculator I wrote a while back. Copy-pasting getElementById all over worked for the quote generator, because that was a very small and simple page, but with the calculator I think it would be better to rewrite the whole thing from scratch. I'm reading up on attaching an event handler to multiple elements (in this case, all the buttons on the calculator). In Jquery that's easy enough, fire off the function whenever a button element is clicked. Vanilla is a little more complex - I can add a handler for every button but that's repetitive overkill. So now I'm learning about [using propagation for multiple-element handlers](https://www.kirupa.com/html5/handling_events_for_many_elements.htm) (short version, attach the event to the elements' parent) and added a version of that to the div that holds the calculator buttons.
+
+I can now get a function to fire on any button press. Making the function now do what I want will involve getting the button's class and the contents. I know how to do the latter, but not the former, so did some reading and found classList and the object it creates. From there on it's a case of reconstructing the calculator's functions as before. It seems to mostly work but returns NaN. Not sure where this is happening - will have to investigate next time.
 
 **Thoughts:** This definitely feels like one of those situations where using JQuery would save a lot of time and effort. But at the same time I don't really know what it's doing to attach that function to all those buttons. I feel like I should.
+
+I do like the propagation handling method linked above. It's not as simple as JQuery but still has a nice elegance, and I like that my earlier reading into event propagation is seeing some practical use.
+
+**Link to work:** [Calculator (vanilla JS version](https://codepen.io/jsanderson/pen/jLrOMv)
 
 ### Day 48: August 1, 2017
 
