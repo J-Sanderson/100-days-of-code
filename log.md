@@ -6,7 +6,7 @@
 
 **Thoughts:** I'm feeling a bit lazy, but there isn't much else I can do until I can record and edit the Simon game sounds, which is going to be a weekend project most likely. At least in the meantime I'm doing plenty of skill expansion work even if it's not strictly new stuff.
 
-**Link to work:** [Calculator (vanilla JS version](https://codepen.io/jsanderson/pen/jLrOMv)
+**Link to work:** [Calculator (vanilla JS version)](https://codepen.io/jsanderson/pen/jLrOMv)
 
 ### Day 49: August 2, 2017
 
@@ -18,7 +18,7 @@ I can now get a function to fire on any button press. Making the function now do
 
 I do like the propagation handling method linked above. It's not as simple as JQuery but still has a nice elegance, and I like that my earlier reading into event propagation is seeing some practical use.
 
-**Link to work:** [Calculator (vanilla JS version](https://codepen.io/jsanderson/pen/jLrOMv)
+**Link to work:** [Calculator (vanilla JS version)](https://codepen.io/jsanderson/pen/jLrOMv)
 
 ### Day 48: August 1, 2017
 
