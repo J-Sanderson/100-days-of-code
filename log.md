@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 50: August 2, 2017
+
+**Today's Progress**: Fixed the issue with the vanilla JS calculator displaying NaN - yet again another silly mistake, this time putting the wrong variable into the memory array/screen. Fixed it and everything is working.
+
+**Thoughts:** I'm feeling a bit lazy, but there isn't much else I can do until I can record and edit the Simon game sounds, which is going to be a weekend project most likely. At least in the meantime I'm doing plenty of skill expansion work even if it's not strictly new stuff.
+
+**Link to work:** [Calculator (vanilla JS version](https://codepen.io/jsanderson/pen/jLrOMv)
+
 ### Day 49: August 2, 2017
 
 **Today's Progress**: Having another look at my vanilla JS version of the calculator I wrote a while back. Copy-pasting getElementById all over worked for the quote generator, because that was a very small and simple page, but with the calculator I think it would be better to rewrite the whole thing from scratch. I'm reading up on attaching an event handler to multiple elements (in this case, all the buttons on the calculator). In Jquery that's easy enough, fire off the function whenever a button element is clicked. Vanilla is a little more complex - I can add a handler for every button but that's repetitive overkill. So now I'm learning about [using propagation for multiple-element handlers](https://www.kirupa.com/html5/handling_events_for_many_elements.htm) (short version, attach the event to the elements' parent) and added a version of that to the div that holds the calculator buttons.
