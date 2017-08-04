@@ -1,6 +1,14 @@
 # 100 Days Of Code - Log
 
-### Day 50: August 2, 2017
+### Day 51: August 4, 2017
+
+**Today's Progress**: Worked on my next vanilla conversion, the pomodoro clock. This one actually turned out to be a lot easier than the calculator because there wasn't as much new stuff to learn and it could mostly be fixed by copy-pasting. The only trip-up was learning how to get the value of an input (.value, not .innerHTML). I did identify a bug in the original clock with the timer acting erratically when the start button is clicked while a countdown is still running. Created a new branch to try to fix that - solved by adding a check to the start button function so that it will only run if the clock is not in a running state. (This was also some good practice with branches and merging.)
+
+**Thoughts:** With regards to the vanilla conversions, I plan to do tic-tac-toe next and then the Simon game once the JQuery original is complete. After that I'll call the vanilla side project done, for now at least. I could do my non-FCC projects as well, but I think it would be overkill and there wouldn't be anything new to learn with those projects' functionality. I would at some point like to do the JSON API projects in vanilla too, but that may have to wait until I feel more confident with APIs in general. I do have one or two project ideas in mind for working with API calls, though.
+
+**Link to work:** [Pomodoro clock](https://codepen.io/jsanderson/pen/jLrOMv) - [Pomodoro clock (vanilla JS version)](https://codepen.io/jsanderson/pen/qNoXZJ)
+
+### Day 50: August 3, 2017
 
 **Today's Progress**: Fixed the issue with the vanilla JS calculator displaying NaN - yet again another silly mistake, this time putting the wrong variable into the memory array/screen. Fixed it and everything is working.
 
