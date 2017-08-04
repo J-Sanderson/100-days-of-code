@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 51: August 4, 2017
+### Day 52: August 4, 2017
 
 **Today's Progress**: Worked on my next vanilla conversion, the pomodoro clock. This one actually turned out to be a lot easier than the calculator because there wasn't as much new stuff to learn and it could mostly be fixed by copy-pasting. The only trip-up was learning how to get the value of an input (.value, not .innerHTML). I did identify a bug in the original clock with the timer acting erratically when the start button is clicked while a countdown is still running. Created a new branch to try to fix that - solved by adding a check to the start button function so that it will only run if the clock is not in a running state. (This was also some good practice with branches and merging.)
 
@@ -8,7 +8,7 @@
 
 **Link to work:** [Pomodoro clock](https://codepen.io/jsanderson/pen/jLrOMv) - [Pomodoro clock (vanilla JS version)](https://codepen.io/jsanderson/pen/qNoXZJ)
 
-### Day 50: August 3, 2017
+### Day 51: August 3, 2017
 
 **Today's Progress**: Fixed the issue with the vanilla JS calculator displaying NaN - yet again another silly mistake, this time putting the wrong variable into the memory array/screen. Fixed it and everything is working.
 
@@ -16,7 +16,7 @@
 
 **Link to work:** [Calculator (vanilla JS version)](https://codepen.io/jsanderson/pen/jLrOMv)
 
-### Day 49: August 2, 2017
+### Day 50: August 2, 2017
 
 **Today's Progress**: Having another look at my vanilla JS version of the calculator I wrote a while back. Copy-pasting getElementById all over worked for the quote generator, because that was a very small and simple page, but with the calculator I think it would be better to rewrite the whole thing from scratch. I'm reading up on attaching an event handler to multiple elements (in this case, all the buttons on the calculator). In Jquery that's easy enough, fire off the function whenever a button element is clicked. Vanilla is a little more complex - I can add a handler for every button but that's repetitive overkill. So now I'm learning about [using propagation for multiple-element handlers](https://www.kirupa.com/html5/handling_events_for_many_elements.htm) (short version, attach the event to the elements' parent) and added a version of that to the div that holds the calculator buttons.
 
@@ -28,7 +28,7 @@ I do like the propagation handling method linked above. It's not as simple as JQ
 
 **Link to work:** [Calculator (vanilla JS version)](https://codepen.io/jsanderson/pen/jLrOMv)
 
-### Day 48: August 1, 2017
+### Day 49: August 1, 2017
 
 **Today's Progress**: Fixed the lights not turning off after a win on the Simon game. Everything that I know of is done now apart from the sounds, which are unfortunately going to cause another delay as with the graphics. Did some work on making a vanilla JS version of another older project, this time the calculator. Have a decent grasp of getting values from the DOM and inserting them but still, a lot is beyond me. I'm having trouble just thinking how to do the click handlers. [This should help.](https://stackoverflow.com/questions/42017072/multiple-onclick-button-events-vanilla-javascript)
 
