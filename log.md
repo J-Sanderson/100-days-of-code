@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 53: August 5, 2017
+
+**Today's Progress**: Recorded sounds for the Simon game. (I sat under a sheet and meowed at my phone. Really.) Next up is to chop them up and get them into the game itself.
+
+For now I'm working on the vanilla tic-tac-toe conversion. This turned out to be easier, so far at least, than I thought. Not as easy as the pomodoro conversion, but not as difficult as I was worried about. It is one of the more complex pieces of code I've written, but most of it is vanilla anyway, and because the game keeps track of an internal array for the most part rather than making DOM calls, there isn't too much to convert. So far it plays a game quite well, it just needs to display the win/lose/draw message and start a new game. 
+
+**Thoughts:** Now if anyone asks me what the oddest thing I've ever done for this challenge is...
+
+**Link to work:** [Tic-Tac-Toe (vanilla JS version)](https://codepen.io/jsanderson/pen/PKbeM)
+
 ### Day 52: August 4, 2017
 
 **Today's Progress**: Worked on my next vanilla conversion, the pomodoro clock. This one actually turned out to be a lot easier than the calculator because there wasn't as much new stuff to learn and it could mostly be fixed by copy-pasting. The only trip-up was learning how to get the value of an input (.value, not .innerHTML). I did identify a bug in the original clock with the timer acting erratically when the start button is clicked while a countdown is still running. Created a new branch to try to fix that - solved by adding a check to the start button function so that it will only run if the clock is not in a running state. (This was also some good practice with branches and merging.)
