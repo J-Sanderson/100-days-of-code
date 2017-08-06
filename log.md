@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 54: August 6, 2017
+
+**Today's Progress**: Edited the sounds for the Simon game, so I put the vanilla conversions on the side and added this into the game. There are four distinct sounds for each button press, as well two failure sounds (one for strict mode and one for regular mode) and one for the win condition. Play tested to make sure they all worked, and I think I can call this one done!
+
+**Thoughts:** Wow, being done is weird. I'm not submitting it yet - I'll do that tomorrow, unless the people I passed it to find a bug. But it's a monumental one, because after a lot of time I've done everything on FCC's front end certification. That feels weird. I've been looking at other people's solutions and they're so complex looking next to mine! People are using canvas and Three.js and I'm using a few basic divs. But that's okay! FCC teaches you there's plenty you don't know and the best thing to do about that is to learn. So I'm not going to feel bad that I didn't use every single feature or library in the book. I know I have the capability to pick them up and I'll enjoy it, too.
+
+Or: you can give in to imposter syndrome, or you can look that jerk in the eye and punch it in the face! You choose!
+
+**Link to work:** [Copycat! A  Simon clone!](https://codepen.io/jsanderson/pen/vZwYOx)
+
 ### Day 53: August 5, 2017
 
 **Today's Progress**: Recorded sounds for the Simon game. (I sat under a sheet and meowed at my phone. Really.) Next up is to chop them up and get them into the game itself.
