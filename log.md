@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 56: August 8, 2017
+
+**Today's Progress**: Completed the vanilla JS Simon game. This one turned out to be a lot easier than I thought with exception of the checkbox, which I never anticipated would be so difficult to work with.
+
+**Thoughts:** The hardest part of finding how to do these things in vanilla is definitely navigating through everyone saying "just use JQuery...
+
+**Link to work:** [Copycat! A  Simon clone! (vanilla JS version)](https://codepen.io/jsanderson/pen/PKpYvv)
+
 ### Day 55: August 7, 2017
 
 **Today's Progress**: Submitted the Simon game. Got the front end certificate. Not much else to say...
