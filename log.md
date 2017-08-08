@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 55: August 7, 2017
+
+**Today's Progress**: Submitted the Simon game. Got the front end certificate. Not much else to say...
+
+Went back to the vanilla tic tac toe game, had no trouble finishing it off. Now to do the Simon game conversion. This one is mostly basic but I ran into issues figuring out how to animate the background positions that let the lights switch on and off. style.backgroundPosition turned out to be what I wanted and not as complicated as I feared.
+
+**Thoughts:** Well. I did a thing.
+
+Trying to decide what to do next - data visualisation or back end? I'm going to have to decide soon...
+
+**Link to work:** [Tic-Tac-Toe (vanilla JS version)](https://codepen.io/jsanderson/pen/PKbeM)
+
 ### Day 54: August 6, 2017
 
 **Today's Progress**: Edited the sounds for the Simon game, so I put the vanilla conversions on the side and added this into the game. There are four distinct sounds for each button press, as well two failure sounds (one for strict mode and one for regular mode) and one for the win condition. Play tested to make sure they all worked, and I think I can call this one done!
