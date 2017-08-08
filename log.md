@@ -4,9 +4,11 @@
 
 **Today's Progress**: Completed the vanilla JS Simon game. This one turned out to be a lot easier than I thought with exception of the checkbox, which I never anticipated would be so difficult to work with.
 
+While I'm waiting to be able to work with FCC's back end course (which is probably going to be my next move), I started putting together a basic race condition demonstration. This was another situation I'd wanted to make a demo page for as it was something I'd read up on whilst researching promises, and as with event bubbling I felt creating an instance of it would help me understand the ideas. The page is another quote machine containing two calls to Wikiquote's API - a deliberate race condition is set up so that each call cancels the other's excecution.
+
 **Thoughts:** The hardest part of finding how to do these things in vanilla is definitely navigating through everyone saying "just use JQuery...
 
-**Link to work:** [Copycat! A  Simon clone! (vanilla JS version)](https://codepen.io/jsanderson/pen/PKpYvv)
+**Link to work:** [Copycat! A  Simon clone! (vanilla JS version)](https://codepen.io/jsanderson/pen/PKpYvv) - [Race condition demo](https://codepen.io/jsanderson/pen/OjpZjm)
 
 ### Day 55: August 7, 2017
 
