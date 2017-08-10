@@ -2,7 +2,9 @@
 
 ### Day 58: August 10, 2017
 
-**Today's Progress**: Still unable to sign up for Cloud 9 for the back end projects. Looking around at some of FCC's beta tutorials, but it's slow and feels a bit buggy.
+**Today's Progress**: Still unable to sign up for Cloud 9 for the back end projects. Looking around at some of FCC's beta tutorials, but it's slow and feels a bit buggy. Found the [alpha React challenges](http://hysterical-amusement.surge.sh) which seem to be a bit smoother, going through those instead.
+
+**Thoughts:** Everything feels big and complicated again. Bye, comfort zone!
 
 ### Day 57: August 9, 2017
 
