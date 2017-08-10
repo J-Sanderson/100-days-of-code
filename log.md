@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 58: August 10, 2017
+
+**Today's Progress**: Still unable to sign up for Cloud 9 for the back end projects. Looking around at some of FCC's beta tutorials, but it's slow and feels a bit buggy.
+
+### Day 57: August 9, 2017
+
+**Today's Progress**: Skipped due to having two medical appointments on the same date.
+
 ### Day 56: August 8, 2017
 
 **Today's Progress**: Completed the vanilla JS Simon game. This one turned out to be a lot easier than I thought with exception of the checkbox, which I never anticipated would be so difficult to work with.
