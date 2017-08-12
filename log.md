@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 60: August 12, 2017
+
+**Today's Progress**: Finally able to sign up to Cloud9. Got started on the backend course by going through FCC's npm tutorials
+
+**Thoughts:** To be honest, this felt very uninformative. I learnt how to enter a few commands but I don't think I understood what I was doing. Would have liked to have seen some examples of how npm gets some use in the real world. As it stands I'm still not entirely sure what it's actually for and I don't think that was the intended takeaway. Perhaps things will become clearer later.
+
+### Day 59: August 11, 2017
+
+**Today's Progress**: Sleep issues got in the way of being able to work today...
+
 ### Day 58: August 10, 2017
 
 **Today's Progress**: Still unable to sign up for Cloud 9 for the back end projects. Looking around at some of FCC's beta tutorials, but it's slow and feels a bit buggy. Found the [alpha React challenges](http://hysterical-amusement.surge.sh) which seem to be a bit smoother, going through those instead.
