@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 61: August 13, 2017
+
+**Today's Progress**: Continued FCC's backend course by working on Node.js - so far learning basic stuff and async I/O.
+
+**Thoughts:** I'm liking this part of the course more than the npm side of things. Backend is very intimidating since I don't have as much experience as I do with frontend. It's a whole other world full of unfamiliar things. But I'm really liking the puzzle solving aspects to these tutorial pieces.
+
+Admittedly I know I shouldn't be counting tutorial work, but since this is such a new field for me and I'm stretching myself, I think I'll happily cheat.
+
 ### Day 60: August 12, 2017
 
 **Today's Progress**: Finally able to sign up to Cloud9. Got started on the backend course by going through FCC's npm tutorials
