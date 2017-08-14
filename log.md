@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 62: August 14, 2017
+
+**Today's Progress**: TBD
+
+**Thoughts:** Unrelated to this, I'm considering seeing if I can contribute some code to one of my favourite sites, [Habitica](https://habitica.com), after reading an article about it. It's scary, because I am very much Not A People Person, but working alone with no feedback can only get you so far. At the very least I think I will try browsing some open issues.
+
 ### Day 61: August 13, 2017
 
 **Today's Progress**: Continued FCC's backend course by working on Node.js - so far learning basic stuff and async I/O.
