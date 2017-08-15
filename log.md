@@ -1,8 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 63: August 15, 2017
+
+**Today's Progress**: Back to FCC's Node.js course. More work on async I/O and filtering a directory list.
+
+Next up is doing the same thing but creating a module to do it rather than a single file.
+
+**Thoughts:** I loved working on the directory list challenge. It reminded me of CS50 - similar environment, similar "write a program that does X, hint: here's Y's documentation" setup. Finding the solution was so satisfying even if mine was a bit more elaborate than it needed to be. (I filtered the array, when I could have just logged everything from the original that matched.)
+
 ### Day 62: August 14, 2017
 
-**Today's Progress**: TBD
+**Today's Progress**: Another day off. This has been a horrible last few days but hopefully they are over.
+
+(I did join Habitica's coding guild, though... need to set up a local install of the site and the fun begins...)
 
 **Thoughts:** Unrelated to this, I'm considering seeing if I can contribute some code to one of my favourite sites, [Habitica](https://habitica.com), after reading an article about it. It's scary, because I am very much Not A People Person, but working alone with no feedback can only get you so far. At the very least I think I will try browsing some open issues.
 
