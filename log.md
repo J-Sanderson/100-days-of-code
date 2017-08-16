@@ -6,6 +6,8 @@
 
 [This](https://stackoverflow.com/questions/13452660/how-to-return-value-from-nodejs-callback-function) seems to explain the problem, but I'm still unsure how to solve it. At least I know what the problem is...
 
+Found a link relating to [callbacks](https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call/14220323#14220323) that I will look into next time.
+
 **Thoughts:** As yesterday - challenging but rewarding. Though I'm starting to miss making things.
 
 ### Day 63: August 15, 2017
