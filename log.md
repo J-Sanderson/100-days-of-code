@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 64: August 16, 2017
+
+**Today's Progress**: More Node.js coursework, today working on creating a module. I've been able to make the module and run it, but I'm having trouble getting it to return a value. I get undefined each time.
+
+**Thoughts:** As yesterday - challenging but rewarding. Though I'm starting to miss making things.
+
 ### Day 63: August 15, 2017
 
 **Today's Progress**: Back to FCC's Node.js course. More work on async I/O and filtering a directory list.
