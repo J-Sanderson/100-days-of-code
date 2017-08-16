@@ -4,6 +4,8 @@
 
 **Today's Progress**: More Node.js coursework, today working on creating a module. I've been able to make the module and run it, but I'm having trouble getting it to return a value. I get undefined each time.
 
+[This](https://stackoverflow.com/questions/13452660/how-to-return-value-from-nodejs-callback-function) seems to explain the problem, but I'm still unsure how to solve it. At least I know what the problem is...
+
 **Thoughts:** As yesterday - challenging but rewarding. Though I'm starting to miss making things.
 
 ### Day 63: August 15, 2017
