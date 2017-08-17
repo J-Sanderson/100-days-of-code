@@ -6,6 +6,8 @@
 
 Next up is making a request using [http.get()](https://nodejs.org/api/http.html#http_http_get_options_callback). So far I've managed to get the request to give me... something. But it's not what I need when I try to verify. Adding .on('error') fixed it, but I admit I don't really understand what .on() is actually doing or where to find anything about it...
 
+After that did the HTTP collect challenge, which meant expanding my knowledge of things that can be done with .on(). This one wasn't so challenging as before, I only had trouble trying to find out how to tell when the stream had ended.
+
 **Thoughts:** This one was making me feel a bit stupid and unsure I understand callbacks, but it seems a lot of people have trouble with this one and it seems to be a bit buggy, so it's not just me. Onward.
 
 ### Day 64: August 16, 2017
