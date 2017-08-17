@@ -4,7 +4,7 @@
 
 **Today's Progress**: Kept trying with the module, eventually got to the point where I had to go looking up the course. It turned out I was trying to put too much in the module, so I fixed it to only handle the readdir() part. Finally got it working.
 
-Next up is making a request using [http.get()](https://nodejs.org/api/http.html#http_http_get_options_callback).
+Next up is making a request using [http.get()](https://nodejs.org/api/http.html#http_http_get_options_callback). So far I've managed to get the request to give me... something. But it's not what I need when I try to verify.
 
 **Thoughts:** This one was making me feel a bit stupid and unsure I understand callbacks, but it seems a lot of people have trouble with this one and it seems to be a bit buggy, so it's not just me. Onward.
 
