@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 65: August 17, 2017
+
+**Today's Progress**: Kept trying with the module, eventually got to the point where I had to go looking up the course. It turned out I was trying to put too much in the module, so I fixed it to only handle the readdir() part. Finally got it working.
+
+**Thoughts:** This one was making me feel a bit stupid and unsure I understand callbacks, but it seems a lot of people have trouble with this one and it seems to be a bit buggy, so it's not just me. Onward.
+
 ### Day 64: August 16, 2017
 
 **Today's Progress**: More Node.js coursework, today working on creating a module. I've been able to make the module and run it, but I'm having trouble getting it to return a value. I get undefined each time.
