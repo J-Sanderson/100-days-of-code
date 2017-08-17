@@ -8,7 +8,9 @@ Next up is making a request using [http.get()](https://nodejs.org/api/http.html#
 
 After that did the HTTP collect challenge, which meant expanding my knowledge of things that can be done with .on(). This one wasn't so challenging as before, I only had trouble trying to find out how to tell when the stream had ended.
 
-**Thoughts:** This one was making me feel a bit stupid and unsure I understand callbacks, but it seems a lot of people have trouble with this one and it seems to be a bit buggy, so it's not just me. Onward.
+**Thoughts:** The module challenge was making me feel a bit stupid and unsure I understand callbacks, but it seems a lot of people have trouble with this one and it seems to be a bit buggy, so it's not just me. Onward.
+
+Felt good about the other two apart from the worries that I don't fully understand .on(), but that may get better with more effort.
 
 ### Day 64: August 16, 2017
 
