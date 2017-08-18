@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 66: August 18, 2017
+
+**Today's Progress**: Moved onto the Juggling Async challenge. I've managed to write a script that will pull out data from all three URLS, but I need them to not print until all streams have completed, and then to print in order. Need to figure out how to do that.
+
+**Thoughts:** I'm starting to miss making things. I'm sure I'll be back to that soon, though!
+
 ### Day 65: August 17, 2017
 
 **Today's Progress**: Kept trying with the module, eventually got to the point where I had to go looking up the course. It turned out I was trying to put too much in the module, so I fixed it to only handle the readdir() part. Finally got it working.
