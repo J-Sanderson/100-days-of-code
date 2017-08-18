@@ -6,9 +6,13 @@
 
 Went looking for ways to handle multiple callbacks and found a suggestion to have a counter and only print the results when it reaches zero. Tried it out and the solution passed, but did some tweaking after to make the code less repetitive.
 
+Later, had a situation in which I needed to count word frequencies. Put together a page to do that - though it currently displays words in alphabetical order, and I would like to display by frequency. If I get the chance in the future I'll see about fixing that.
+
 **Thoughts:** I'm starting to miss making things. I'm sure I'll be back to that soon, though!
 
-**Link to work:** [learnyounode challenges](https://github.com/J-Sanderson/learnyounode-challenges)
+(and I was...)
+
+**Link to work:** [learnyounode challenges](https://github.com/J-Sanderson/learnyounode-challenges) - [Word frequencies](https://codepen.io/jsanderson/pen/eEVGzB)
 
 ### Day 65: August 17, 2017
 
