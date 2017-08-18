@@ -4,7 +4,11 @@
 
 **Today's Progress**: Moved onto the Juggling Async challenge. I've managed to write a script that will pull out data from all three URLS, but I need them to not print until all streams have completed, and then to print in order. Need to figure out how to do that.
 
+Went looking for ways to handle multiple callbacks and found a suggestion to have a counter and only print the results when it reaches zero. Tried it out and the solution passed, but did some tweaking after to make the code less repetitive.
+
 **Thoughts:** I'm starting to miss making things. I'm sure I'll be back to that soon, though!
+
+**Link to work:** [learnyounode challenges](https://github.com/J-Sanderson/learnyounode-challenges)
 
 ### Day 65: August 17, 2017
 
