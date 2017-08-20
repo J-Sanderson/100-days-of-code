@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 68: August 20, 2017
+
+**Today's Progress**: Worked on the time server challenge for learnyounode. This one was tough, and I didn't understand a lot of what I was doing, but I got it working.
+
+**Thoughts:** This was another one where I had to end up looking up the answer. I don't like having to do that but sometimes you're so lost it's all you can do. I try to type it all out bit by bit to help understanding, though. No copy-pasting.
+
+### Day 67: August 19, 2017
+
+**Today's Progress**: Missed this day. No real excuse, I let other things take over. (Uh, one of my childhood shows got a cool reboot? Does that count?)
+
 ### Day 66: August 18, 2017
 
 **Today's Progress**: Moved onto the Juggling Async challenge. I've managed to write a script that will pull out data from all three URLS, but I need them to not print until all streams have completed, and then to print in order. Need to figure out how to do that.
