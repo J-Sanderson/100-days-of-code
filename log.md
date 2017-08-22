@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 69: August 21, 2017
+
+**Today's Progress**: Ran out of time to work on any learnyounode, filled in with some work on one of my personal sites instead.
+
+**Thoughts:** I admit it, I think I'm starting to look for excuses. This is new and difficult territory. I need to not get discouraged and just keep pushing. Sometimes that's going to mean admitting I don't understand and looking up the answer, which I'm ashamed of. But it's still something...
+
 ### Day 68: August 20, 2017
 
 **Today's Progress**: Worked on the time server challenge for learnyounode. This one was tough, and I didn't understand a lot of what I was doing, but I got it working.
