@@ -6,7 +6,11 @@
 
 Completed the uppercaser challenge next, but did end up having to look up the solution. I tried not to do that until I'd read as much as I could, though.
 
+Moving on to the JSON API server now...
+
 **Thoughts:** I think I needed that success, even if I still only partially understand what I'm doing.
+
+The JSON API server is turning out better than expected. Maybe everything is a bit more familiar now.
 
 **Link to work:** [learnyounode challenges](https://github.com/J-Sanderson/learnyounode-challenges)
 
