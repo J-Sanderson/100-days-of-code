@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 70: August 22, 2017
+
+**Today's Progress**: Back to learnyounode and the http file server challenge. This one was intimidating but I tried to look up the functions I needed to use rather than going straight for the answer. It paid off and I got it working.
+
+**Thoughts:** I think I needed that success, even if I still only partially understand what I'm doing.
+
+**Link to work:** [learnyounode challenges](https://github.com/J-Sanderson/learnyounode-challenges)
+
 ### Day 69: August 21, 2017
 
 **Today's Progress**: Ran out of time to work on any learnyounode, filled in with some work on one of my personal sites instead.
