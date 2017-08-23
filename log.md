@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 71: August 23, 2017
+
+**Today's Progress**: Working on the JSON API server. Seems to be going ok but the response is very slow. I thought it was some buggy code but I scaled it back to a point where it worked ok, and still not working well. I will have to test later on another connection to see if it improves.
+
 ### Day 70: August 22, 2017
 
 **Today's Progress**: Back to learnyounode and the http file server challenge. This one was intimidating but I tried to look up the functions I needed to use rather than going straight for the answer. It paid off and I got it working.
