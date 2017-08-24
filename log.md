@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 72: August 24, 2017
+
+**Today's Progress**: Moving on to expressworks. Made it through the first three challenges (Hello World, Static, Jade) ok.
+
+**Thoughts:** I think I'm back to where I was at the start of learnyounode, only half understanding what I'm doing, but at least I should be okay by the end.
+
 ### Day 71: August 23, 2017
 
 **Today's Progress**: Working on the JSON API server. Seems to be going ok but the response is very slow. I thought it was some buggy code but I scaled it back to a point where it worked ok, and still not working well. I will have to test later on another connection to see if it improves. Restarting the workspace seems to help, but after I make any changes and rerun the program, the lag returns. Finally got it to work even if it meant restarting with every change...
