@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 73: August 25, 2017
+
+**Today's Progress**: Continuing expressworks, got all but the last challenge done.
+
+**Thoughts:** Some despair, some insights. Same as usual then.
+
+**Link to work:** [expressworks challenges](https://github.com/J-Sanderson/expressworks-challenges)
+
 ### Day 72: August 24, 2017
 
 **Today's Progress**: Moving on to expressworks. Made it through the first three challenges (Hello World, Static, Jade) ok.
