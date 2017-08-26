@@ -4,6 +4,8 @@
 
 **Today's Progress**: Completed expressworks, though I had to look up the final solution - got most of it right on my own, though.
 
+Moved on to git-it, had trouble with some of the challenges not validating (used the wrong branch name?)
+
 **Thoughts:** I am still not cofident I know what I'm doing but I hope some hands on work will fix that.
 
 **Link to work:** [expressworks challenges](https://github.com/J-Sanderson/expressworks-challenges)
