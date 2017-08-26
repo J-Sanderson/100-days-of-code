@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 74: August 26, 2017
+
+**Today's Progress**: Completed expressworks, though I had to look up the final solution - got most of it right on my own, though.
+
+**Thoughts:** I am still not cofident I know what I'm doing but I hope some hands on work will fix that.
+
+**Link to work:** [expressworks challenges](https://github.com/J-Sanderson/expressworks-challenges)
+
 ### Day 73: August 25, 2017
 
 **Today's Progress**: Continuing expressworks, got all but the last challenge done.
