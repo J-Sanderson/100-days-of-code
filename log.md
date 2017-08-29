@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 76: August 28, 2017
+
+**Today's Progress**: Trying to work on learnyoumongo but having difficulty getting anything to run. Poked around at getting a local install of Habitica going.
+
+**Thoughts:** Lots of discouragement. I want to dive in more!
+
+### Day 75: August 27, 2017
+
+**Today's Progress**: Time crunched, worked on some small personal HTML projects.
+
 ### Day 74: August 26, 2017
 
 **Today's Progress**: Completed expressworks, though I had to look up the final solution - got most of it right on my own, though.
