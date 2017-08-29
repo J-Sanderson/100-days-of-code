@@ -2,7 +2,9 @@
 
 ### Day 77: August 29, 2017
 
-**Today's Progress**: Found an explanation of the [problems with learnyoumongo](https://forum.freecodecamp.org/t/learnyoumongo-mongo-in-c9-exercise-2-and-3-pitfalls-for-beginners/67987), managed to get step 2 to pass for the first time! Now on to the next parts.
+**Today's Progress**: Found an explanation of the [problems with learnyoumongo](https://forum.freecodecamp.org/t/learnyoumongo-mongo-in-c9-exercise-2-and-3-pitfalls-for-beginners/67987), managed to get step 2 to pass for the first time! Ran step 3 ok although again I did have to look up the solution...
+
+**Thoughts:** This is horribly frustrating but it does seem I'm not alone. Found [something to watch](https://forum.freecodecamp.org/t/need-help-with-back-end-introduction/93136) when I get the chance.
 
 ### Day 76: August 28, 2017
 
