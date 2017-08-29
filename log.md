@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 77: August 29, 2017
+
+**Today's Progress**: Found an explanation of the [problems with learnyoumongo](https://forum.freecodecamp.org/t/learnyoumongo-mongo-in-c9-exercise-2-and-3-pitfalls-for-beginners/67987), managed to get step 2 to pass for the first time! Now on to the next parts.
+
 ### Day 76: August 28, 2017
 
 **Today's Progress**: Trying to work on learnyoumongo but having difficulty getting anything to run. Poked around at getting a local install of Habitica going.
