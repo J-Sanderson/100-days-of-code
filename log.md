@@ -2,9 +2,11 @@
 
 ### Day 77: August 29, 2017
 
-**Today's Progress**: Found an explanation of the [problems with learnyoumongo](https://forum.freecodecamp.org/t/learnyoumongo-mongo-in-c9-exercise-2-and-3-pitfalls-for-beginners/67987), managed to get step 2 to pass for the first time! Ran step 3 ok although again I did have to look up the solution. Managed to run step 4 without any outside assistance.
+**Today's Progress**: Found an explanation of the [problems with learnyoumongo](https://forum.freecodecamp.org/t/learnyoumongo-mongo-in-c9-exercise-2-and-3-pitfalls-for-beginners/67987), managed to get step 2 to pass for the first time! Ran step 3 ok although again I did have to look up the solution. Managed to run the rest without any outside assistance aside from the final aggregation challenge which I also had to look up.
 
 **Thoughts:** This is horribly frustrating but it does seem I'm not alone. Found [something to watch](https://forum.freecodecamp.org/t/need-help-with-back-end-introduction/93136) when I get the chance.
+
+Now I'm done with the backend tutorials and could progress to the projects but I don't feel ready to. That seems to be a common sentiment - I just don't have the same foundation as I do with frontend works. I think I will take a detour and follow the Net Ninja videos for a while. Normally I wouldn't want to detour but I feel I need more grounding than I have, so this should hopefully be a productive one.
 
 ### Day 76: August 28, 2017
 
