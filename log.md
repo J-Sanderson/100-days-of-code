@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 78: August 30, 2017
+
+**Today's Progress**: Started my detour through the Net Ninja videos. Worked through event emitters, reading and writing files.
+
+**Thoughts:** I'm liking this series so far. Very clear and easy to understand, feeling optomistic that by the end I'll know enough to be able to build the FCC challenges.
+
 ### Day 77: August 29, 2017
 
 **Today's Progress**: Found an explanation of the [problems with learnyoumongo](https://forum.freecodecamp.org/t/learnyoumongo-mongo-in-c9-exercise-2-and-3-pitfalls-for-beginners/67987), managed to get step 2 to pass for the first time! Ran step 3 ok although again I did have to look up the solution. Managed to run the rest without any outside assistance aside from the final aggregation challenge which I also had to look up.
