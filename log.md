@@ -2,9 +2,9 @@
 
 ### Day 78: August 30, 2017
 
-**Today's Progress**: Started my detour through the Net Ninja videos. Worked through event emitters, reading and writing files, creating/deleting directories, creating a server.
+**Today's Progress**: Started my detour through the Net Ninja videos. Worked through event emitters, reading and writing files, creating/deleting directories, creating a server, and readable streams.
 
-**Thoughts:** I'm liking this series so far. Very clear and easy to understand, feeling optomistic that by the end I'll know enough to be able to build the FCC challenges.
+**Thoughts:** I'm liking this series so far. Very clear and easy to understand, feeling optomistic that by the end I'll know enough to be able to build the FCC challenges. I'm not doing much beyond following along with the demonstrated code, but it does feel like valuable learning. Things make sense now.
 
 ### Day 77: August 29, 2017
 
