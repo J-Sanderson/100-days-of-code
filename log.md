@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 79: August 31, 2017
+
+**Today's Progress**: Continuing on through the Net Ninja's Node videos, mainly focusing today on routing and Express.js.
+
+**Thoughts:** This feels great! I'm not as lost as I was with learnyounode - I wish I'd gone through this series first because I actually feel like I have a grasp on what I'm doing and what everything is. I feel confident that I'll be able to make something!
+
 ### Day 78: August 30, 2017
 
 **Today's Progress**: Started my detour through the Net Ninja videos. Worked through event emitters, reading and writing files, creating/deleting directories, creating a server, and readable streams.
