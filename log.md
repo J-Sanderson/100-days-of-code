@@ -2,7 +2,9 @@
 
 ### Day 80: September 1, 2017
 
-**Today's Progress**: Working through query strings and rendering to the page.
+**Today's Progress**: Working through query strings and rendering to the page, and POST requests.
+
+**Thoughts:** Still feeling great. Next up is a step by step demo of putting together a to-do list app. I think I will code along to get some grounding in putting something together start to finish, then move on to the FCC challenges. The API projects seem doable now, though I will probably go through the Net Ninjas' MongoDB videos before moving on to the dynamic web app projects.
 
 ### Day 79: August 31, 2017
 
