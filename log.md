@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 80: September 1, 2017
+
+**Today's Progress**: Working through query strings and rendering to the page.
+
 ### Day 79: August 31, 2017
 
 **Today's Progress**: Continuing on through the Net Ninja's Node videos, mainly focusing today on routing and Express.js.
