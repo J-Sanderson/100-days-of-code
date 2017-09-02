@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+
+### Day 81: September 2, 2017
+
+**Today's Progress**: Worked through the Net Ninja's to-do list app and setting everything up. I've got it running although with local storage only.
+
+**Thoughts:** The next few videos involve MongoDB as part of the backend. I think I'll go through them anyway, even if I'm not focusing on that aspect just yet. I may as well give myself the practice and it's only a few videos anyway. After that, I'm ready to tackle the API challenges!
+
+**Link to work:** [to-do app](https://to-do-jsanderson.glitch.me)
+
 ### Day 80: September 1, 2017
 
 **Today's Progress**: Working through query strings and rendering to the page, and POST requests.
