@@ -1,5 +1,12 @@
 # 100 Days Of Code - Log
 
+### Day 82: September 3, 2017
+
+**Today's Progress**: Added styling to the to-do list.
+
+**Thoughts:** A relaxing day before I dive into the MongoDB stuff.
+
+**Link to work:** [to-do app](https://to-do-jsanderson.glitch.me)
 
 ### Day 81: September 2, 2017
 
