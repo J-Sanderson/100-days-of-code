@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 83: September 4, 2017
+
+**Thoughts:** Finished off the todo list videos by setting up a database and hooking the app up to it.
+
+**Thoughts:** That felt great! Next up is to dive into the FCC projects...
+
+**Link to work:** [to-do app](https://to-do-jsanderson.glitch.me)
+
 ### Day 82: September 3, 2017
 
 **Today's Progress**: Added styling to the to-do list.
