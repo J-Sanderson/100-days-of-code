@@ -4,7 +4,7 @@
 
 **Thoughts:** Finished off the todo list videos by setting up a database and hooking the app up to it.
 
-**Thoughts:** That felt great! Next up is to dive into the FCC projects...
+**Thoughts:** That felt great! Next up is to dive into the FCC projects... I think [dateformat](https://github.com/felixge/node-dateformat) will be very useful for the first one.
 
 **Link to work:** [to-do app](https://to-do-jsanderson.glitch.me)
 
