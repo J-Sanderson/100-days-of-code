@@ -4,6 +4,8 @@
 
 **Today's Progress:** Attempting to parse dates for the timestamp microservice. Seems I will get more use from [moment.js](https://momentjs.com/docs/) than dateformat. Having difficulty getting both a natural language and a unix timestamp to return, seems I will need to use regexp on the parameters first of all and determine if the string is entirely numbers.
 
+Managed to get the timestamp working for unix times, but it seems to return the wrong natural language date. 1450137600 should give me December 15th 2015, but instead gives me January 17th, 1970. Currently unclear why.
+
 **Thoughts:** Here's the frustrating part again...
 
 **Link to work:** [Timestamp Microservice](https://timestamp-jsanderson.glitch.me)
