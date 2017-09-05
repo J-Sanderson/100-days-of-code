@@ -2,7 +2,7 @@
 
 ### Day 84: September 4, 2017
 
-**Today's Progress:** Attempting to parse dates for the timestamp microservice. Seems I will get more use from [moment.js](https://momentjs.com/docs/) than dateformat. Having difficulty getting both a natural language and a unix tiemstamp to return, seems I will need to use regexp on the parameters first of all and determine if the string is entirely numbers.
+**Today's Progress:** Attempting to parse dates for the timestamp microservice. Seems I will get more use from [moment.js](https://momentjs.com/docs/) than dateformat. Having difficulty getting both a natural language and a unix timestamp to return, seems I will need to use regexp on the parameters first of all and determine if the string is entirely numbers.
 
 **Thoughts:** Here's the frustrating part again...
 
