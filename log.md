@@ -1,8 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 84: September 4, 2017
+
+**Today's Progress:** Attempting to parse dates for the timestamp microservice. Seems I will get more use from [moment.js](https://momentjs.com/docs/) than dateformat. Having difficulty getting both a natural language and a unix tiemstamp to return, seems I will need to use regexp on the parameters first of all and determine if the string is entirely numbers.
+
+**Thoughts:** Here's the frustrating part again...
+
+**Link to work:** [Timestamp Microservice](https://timestamp-jsanderson.glitch.me)
+
 ### Day 83: September 4, 2017
 
-**Thoughts:** Finished off the todo list videos by setting up a database and hooking the app up to it.
+**Today's Progress:** Finished off the todo list videos by setting up a database and hooking the app up to it.
 
 Started work on the timestamp microservice. So far the server will either return a static HTML file for the base URL or some test JSON if some parameters are added. The next step will be to check for dates and respond accordingly.
 
