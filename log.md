@@ -1,6 +1,14 @@
 # 100 Days Of Code - Log
 
-### Day 84: September 4, 2017
+### Day 85: September 6, 2017
+
+**Today's Progress:** Got a reply on the FCC boards stating the timestamp needed to be multiplied by 1000 so as to work in millseconds. Tried it and everything worked! Added functionality for natural language dates and cases where the param is not a valid date, and an explanation/examples on the front page.
+
+**Thoughts:** A good day! I'm very happy with moment.js for making everything so simple. So far there's no styling on the front page. I may add some but as the focus is on the API endpoint I will leave it for now and save it for a slow day.
+
+**Link to work:** [Timestamp Microservice](https://timestamp-jsanderson.glitch.me)
+
+### Day 84: September 5, 2017
 
 **Today's Progress:** Attempting to parse dates for the timestamp microservice. Seems I will get more use from [moment.js](https://momentjs.com/docs/) than dateformat. Having difficulty getting both a natural language and a unix timestamp to return, seems I will need to use regexp on the parameters first of all and determine if the string is entirely numbers.
 
