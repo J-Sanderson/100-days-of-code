@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 86: September 7, 2017
+
+**Today's Progress:** Decided to add some minimal styling to the timestamp front page.
+
+**Link to work:** [Timestamp Microservice](https://timestamp-jsanderson.glitch.me)
+
 ### Day 85: September 6, 2017
 
 **Today's Progress:** Got a reply on the FCC boards stating the timestamp needed to be multiplied by 1000 so as to work in millseconds. Tried it and everything worked! Added functionality for natural language dates and cases where the param is not a valid date, and an explanation/examples on the front page.
