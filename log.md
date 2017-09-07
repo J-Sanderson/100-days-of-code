@@ -4,6 +4,8 @@
 
 **Today's Progress:** Decided to add some minimal styling to the timestamp front page.
 
+Made a start on the request header microservice. Basic functionality is running but I need to grab an accurate IP address from the header.
+
 **Link to work:** [Timestamp Microservice](https://timestamp-jsanderson.glitch.me)
 
 ### Day 85: September 6, 2017
