@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 87: September 8, 2017
+
+**Today's Progress:** Set up the request header service. It seems to mostly work but I want to test the IP functionality on some more systems. It seems to be giving me the home IP address on the system I'm currently using.
+
+**Link to work:** [Request Header Parser Microservice](https://reqheader-jsanderson.glitch.me/)
+
 ### Day 86: September 7, 2017
 
 **Today's Progress:** Decided to add some minimal styling to the timestamp front page.
