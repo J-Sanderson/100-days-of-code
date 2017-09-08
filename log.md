@@ -4,6 +4,12 @@
 
 **Today's Progress:** Set up the request header service. It seems to mostly work but I want to test the IP functionality on some more systems. It seems to be giving me the home IP address on the system I'm currently using.
 
+Found some fixes for getting IPs from proxy requests. Added code to handle those cases, I can now see my correct IP.
+
+**Thoughts:** Everything feels deceptively easy so far...
+
+Next up is the URL shortener. I'm glad now that I covered MongoDB with the Net Ninja, since it looks like I will need a database to store the URLs. I may watch his MongoDB series and see if I can get any more usefulness from them.
+
 **Link to work:** [Request Header Parser Microservice](https://reqheader-jsanderson.glitch.me/)
 
 ### Day 86: September 7, 2017
