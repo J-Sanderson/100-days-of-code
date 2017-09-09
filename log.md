@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 88: September 9, 2017
+
+**Today's Progress:** Made a start on the URL shortener microservice by setting up the basic endpoints. Thinking about how I will handle the basic logic. I will need to handle correct and incorrect inputs on both endpoints. Set up a controller module to contain that functionality in the future.
+
+**Thoughts:** Having some trouble exporting multiple functions but I just need to brush up on syntax there. Feeling confident I know enough MongoDB to handle this - it looks to be on the same skill level as the todo app.
+
+**Link to work:** [URL Shortener Microservice](https://miniurl-jsanderson.glitch.me)
+
 ### Day 87: September 8, 2017
 
 **Today's Progress:** Set up the request header service. It seems to mostly work but I want to test the IP functionality on some more systems. It seems to be giving me the home IP address on the system I'm currently using.
