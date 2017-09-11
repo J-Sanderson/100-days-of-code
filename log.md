@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 90: September 11, 2017
+
+**Today's Progress:** Got the exports working in the controller module. Looking into what I need to do to parse URLs given to the server.
+
+### Day 89: September 10, 2017
+
+**Today's Progress:** Taking the day off (it's my birthday!)
+
 ### Day 88: September 9, 2017
 
 **Today's Progress:** Made a start on the URL shortener microservice by setting up the basic endpoints. Thinking about how I will handle the basic logic. I will need to handle correct and incorrect inputs on both endpoints. Set up a controller module to contain that functionality in the future.
