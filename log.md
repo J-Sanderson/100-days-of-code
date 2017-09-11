@@ -10,7 +10,9 @@ Found a [useful thread](https://forum.freecodecamp.org/t/how-to-pass-a-url-as-a-
 
 Had some trouble with the URL validating in regexp, but found that I could use the valid-url module to handle all that.
 
-**Thoughts:** Ooh that's annoying... well, off to do some reading...
+Now that the server can handle URL checks, it needs to interact with the database. First off, I want to pass valid URLs to the database for storage and assign them an ID that can be used to return the URL later.
+
+**Thoughts:** Ooh that routing's annoying... well, off to do some reading...
 
 Sometimes I feel like using modules when I can't do something myself (like the regexp today) is cheating, but on the other hand, that's what they're there for, right?
 
