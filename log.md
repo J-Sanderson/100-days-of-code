@@ -6,6 +6,8 @@
 
 Set up a database on mlab and hooked it up to the module, currently just connecting but not doing anything. Started work on the regexp to check for valid URLs (I will add the check for existing instances in the database later, once things are actually in the database). Managed to check that the param string begins with 'http:' or 'https:' but it falters when adding slashes, presumably because the GET route is just for new/:url - may need to rethink my routing.
 
+Found a [useful thread](https://forum.freecodecamp.org/t/how-to-pass-a-url-as-a-parameter-solved/47118) and picked back up with a wildcard endpoint, though this may need tweaking in the future.
+
 **Thoughts:** Ooh that's annoying... well, off to do some reading...
 
 **Link to work:** [URL Shortener Microservice](https://miniurl-jsanderson.glitch.me)
