@@ -2,7 +2,13 @@
 
 ### Day 90: September 11, 2017
 
-**Today's Progress:** Got the exports working in the controller module. Looking into what I need to do to parse URLs given to the server.
+**Today's Progress:** Got the exports working in the controller module. Looking into what I need to do to parse URLs given to the server - check if it already exists in the database, then check if it is a valid URL if not.
+
+Set up a database on mlab and hooked it up to the module, currently just connecting but not doing anything. Started work on the regexp to check for valid URLs (I will add the check for existing instances in the database later, once things are actually in the database). Managed to check that the param string begins with 'http:' or 'https:' but it falters when adding slashes, presumably because the GET route is just for new/:url - may need to rethink my routing.
+
+**Thoughts:** Ooh that's annoying... well, off to do some reading...
+
+**Link to work:** [URL Shortener Microservice](https://miniurl-jsanderson.glitch.me)
 
 ### Day 89: September 10, 2017
 
