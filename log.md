@@ -8,7 +8,11 @@ Set up a database on mlab and hooked it up to the module, currently just connect
 
 Found a [useful thread](https://forum.freecodecamp.org/t/how-to-pass-a-url-as-a-parameter-solved/47118) and picked back up with a wildcard endpoint, though this may need tweaking in the future.
 
+Had some trouble with the URL validating in regexp, but found that I could use the valid-url module to handle all that.
+
 **Thoughts:** Ooh that's annoying... well, off to do some reading...
+
+Sometimes I feel like using modules when I can't do something myself (like the regexp today) is cheating, but on the other hand, that's what they're there for, right?
 
 **Link to work:** [URL Shortener Microservice](https://miniurl-jsanderson.glitch.me)
 
