@@ -8,6 +8,8 @@ Next up will be to set up the second endpoint so that when given an ID, it will 
 
 **Thoughts:** That felt great, lots of problem solving and putting something workable together. So far this is the most extensive work I've done in MongoDB. I know it's not a lot but it is for myself.
 
+Admittedly, for a URL shortener, the returned URLs aren't really that short...
+
 **Link to work:** [URL Shortener Microservice](https://miniurl-jsanderson.glitch.me)
 
 ### Day 90: September 11, 2017
