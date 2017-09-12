@@ -6,6 +6,8 @@
 
 Next up will be to set up the second endpoint so that when given an ID, it will redirect to the associated URL. Set up the endpoint to search the database. It will return a JSON error object if the ID isn't there. For existing URLs I gave it a temp setup, just returning a sring including the longform URL to show the database search is working. That endpoint should instead redirect the user to that URL. Something else I will have to learn how to do. Did somne reading and it turned out all I needed was the response object's redirect function. Added that in and everything works!
 
+Fixed up the front page to include a project description and example links, and calling this one done.
+
 **Thoughts:** That felt great, lots of problem solving and putting something workable together. So far this is the most extensive work I've done in MongoDB. I know it's not a lot but it is for myself.
 
 Admittedly, for a URL shortener, the returned URLs aren't really that short...
