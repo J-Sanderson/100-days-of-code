@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 91: September 12, 2017
+
+**Today's Progress:** Set up a couple of datbase queries on the new URL endpoint. Firstly, to find the highest existing ID number in the database and create the new record with an ID one higher, so each ID is now unique to the stored URL. Secondly, to identify existing URLs in the database and return their details instead of creating a new record. The database is now capable of holding one unique identifier per URL and stores a few test examples. This endpoint is now done.
+
+Next up will be to set up the second endpoint so that when given an ID, it will redirect to the associated URL.
+
+**Thoughts:** That felt great, lots of problem solving and putting something workable together. So far this is the most extensive work I've done in MongoDB. I know it's not a lot but it is for myself.
+
+**Link to work:** [URL Shortener Microservice](https://miniurl-jsanderson.glitch.me)
+
 ### Day 90: September 11, 2017
 
 **Today's Progress:** Got the exports working in the controller module. Looking into what I need to do to parse URLs given to the server - check if it already exists in the database, then check if it is a valid URL if not.
