@@ -4,7 +4,7 @@
 
 **Today's Progress:** Set up a couple of datbase queries on the new URL endpoint. Firstly, to find the highest existing ID number in the database and create the new record with an ID one higher, so each ID is now unique to the stored URL. Secondly, to identify existing URLs in the database and return their details instead of creating a new record. The database is now capable of holding one unique identifier per URL and stores a few test examples. This endpoint is now done.
 
-Next up will be to set up the second endpoint so that when given an ID, it will redirect to the associated URL.
+Next up will be to set up the second endpoint so that when given an ID, it will redirect to the associated URL. Set up the endpoint to search the database. It will return a JSON error object if the ID isn't there. For existing URLs I gave it a temp setup, just returning a sring including the longform URL to show the database search is working. That endpoint should instead redirect the user to that URL. Something else I will have to learn how to do.
 
 **Thoughts:** That felt great, lots of problem solving and putting something workable together. So far this is the most extensive work I've done in MongoDB. I know it's not a lot but it is for myself.
 
