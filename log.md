@@ -1,8 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 92: September 13, 2017
+
+**Today's Progress:** Set up endpoints for the image search abstraction layer. Now I need to think about how I'll get the actual search data (and later, adding it to a database). From reading up on the challenge I can either use an API or parse HTML from a page of search results. I may do the latter since I've already done API work on the front end challenges, so this will be something different.
+
+**Thoughts:** So far this feels like the most intimidating of the backend challenges, but I think that's only because there are a lot of things I don't know. Give me time and effort and I'll know them.
+
+**Link to work:** [Image Search Abstraction Layer](https://imgsearch-jsanderson.glitch.me/)
+
 ### Day 91: September 12, 2017
 
-**Today's Progress:** Set up a couple of datbase queries on the new URL endpoint. Firstly, to find the highest existing ID number in the database and create the new record with an ID one higher, so each ID is now unique to the stored URL. Secondly, to identify existing URLs in the database and return their details instead of creating a new record. The database is now capable of holding one unique identifier per URL and stores a few test examples. This endpoint is now done.
+**Today's Progress:** Set up a couple of database queries on the new URL endpoint. Firstly, to find the highest existing ID number in the database and create the new record with an ID one higher, so each ID is now unique to the stored URL. Secondly, to identify existing URLs in the database and return their details instead of creating a new record. The database is now capable of holding one unique identifier per URL and stores a few test examples. This endpoint is now done.
 
 Next up will be to set up the second endpoint so that when given an ID, it will redirect to the associated URL. Set up the endpoint to search the database. It will return a JSON error object if the ID isn't there. For existing URLs I gave it a temp setup, just returning a sring including the longform URL to show the database search is working. That endpoint should instead redirect the user to that URL. Something else I will have to learn how to do. Did somne reading and it turned out all I needed was the response object's redirect function. Added that in and everything works!
 
