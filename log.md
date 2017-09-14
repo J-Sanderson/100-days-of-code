@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 93: September 14, 2017
+
+**Today's Progress:** Tried out some HTML scraping using the request module, managed to split out the results.
+
+**Thoughts:** I'm wondering whether to continue with the scraping or pick up an API - I have some concerns that I'm not picking up all the things I need to, most notably a link to the full image. I may try the API route after all and see which one works best.
+
+**Link to work:** [Image Search Abstraction Layer](https://imgsearch-jsanderson.glitch.me/)
+
 ### Day 92: September 13, 2017
 
 **Today's Progress:** Set up endpoints for the image search abstraction layer. Now I need to think about how I'll get the actual search data (and later, adding it to a database). From reading up on the challenge I can either use an API or parse HTML from a page of search results. I may do the latter since I've already done API work on the front end challenges, so this will be something different.
