@@ -4,6 +4,8 @@
 
 **Today's Progress:** Reading up on image search APIs and may use [Flickr's](https://www.flickr.com/services/api/) as getting a key for noncommercial use seems simple enough and there's a Node module to handle it.
 
+Got a key and hooked up the app to the API. Authentication seems to go ok, but I'm having trouble getting search results, so need to read some more documentation.
+
 **Thoughts:** Unrelated but at some point I'm going to have to work out how many days I've missed so I can make them all up at the end of the challenge. And then get started on Round Two. I've done so much with this challenge, but there is so much more I want to do as well.
 
 Part of me still worries that excessive use of Node modules is cheating. The other part thinks they're awesome.
