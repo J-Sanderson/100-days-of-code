@@ -14,7 +14,7 @@ Now I need to have the app return a list of results. The example from FCC return
 
 Next up is to sort that out, and then add a pagination function so the user can see more than the first ten results.
 
-**Thoughts:** Unrelated but at some point I'm going to have to work out how many days I've missed so I can make them all up at the end of the challenge. And then get started on Round Two. I've done so much with this challenge, but there is so much more I want to do as well.
+**Thoughts:** Unrelated but at some point I'm going to have to work out how many days I've missed so I can make them all up at the end of the challenge. And then get started on Round Two. I've done so much with this challenge, but there is so much more I want to do as well. (Counted 8 days missed so will call it done on day 107)
 
 Part of me still worries that excessive use of Node modules is cheating. The other part thinks they're awesome.
 
