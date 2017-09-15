@@ -12,6 +12,8 @@ Got this one to work! Managed to set up a test response and get the app to displ
 
 Now I need to have the app return a list of results. The example from FCC returns an array of ten objects in total, so I want mine to do the same. Managed to get that to work with a for loop, although I am unclear what the response header should be since it's an array of objects and not a single JSON string.
 
+Next up is to sort that out, and then add a pagination function so the user can see more than the first ten results.
+
 **Thoughts:** Unrelated but at some point I'm going to have to work out how many days I've missed so I can make them all up at the end of the challenge. And then get started on Round Two. I've done so much with this challenge, but there is so much more I want to do as well.
 
 Part of me still worries that excessive use of Node modules is cheating. The other part thinks they're awesome.
