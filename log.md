@@ -8,6 +8,10 @@ Got a key and hooked up the app to the API. Authentication seems to go ok, but I
 
 Trying [a different module](https://www.npmjs.com/package/node-flickr)...
 
+Got this one to work! Managed to set up a test response and get the app to display the first result as JSON. The format isn't identical to FCC's, because we're using different APIs, but I can at least get a URL and title for the photo, which is the important part. Tested it out with a few other search strings. Everything looks good.
+
+Now I need to have the app return a list of results. The example from FCC returns an array of ten objects in total, so I want mine to do the same. Managed to get that to work with a for loop, although I am unclear what the response header should be since it's an array of objects and not a single JSON string.
+
 **Thoughts:** Unrelated but at some point I'm going to have to work out how many days I've missed so I can make them all up at the end of the challenge. And then get started on Round Two. I've done so much with this challenge, but there is so much more I want to do as well.
 
 Part of me still worries that excessive use of Node modules is cheating. The other part thinks they're awesome.
