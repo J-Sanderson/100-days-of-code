@@ -18,6 +18,8 @@ Next up is to sort that out, and then add a pagination function so the user can 
 
 Part of me still worries that excessive use of Node modules is cheating. The other part thinks they're awesome.
 
+I'm wondering if it'd be an interesting side project to include some generated pages for these API projects. It's not part of the course but I think it would be some good practice with templating.
+
 **Link to work:** [Image Search Abstraction Layer](https://imgsearch-jsanderson.glitch.me/)
 
 ### Day 93: September 14, 2017
