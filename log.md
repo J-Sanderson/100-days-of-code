@@ -6,7 +6,7 @@
 
 Next up is to hook the app up to a database so it can store previous queries. Looking at the example FCC app it will also need to store the date and time the search was made. Set the app to write to the database every time a search is made with the query and current date object. Next up is to set up the recent searches endpoint and return the ten most recent results.
 
-**Thoughts:** Hopefully adding databse functionality should be easy by now. It felt quite smooth and routine, the only difficult upcoming part I can see is working out how to get more than one result for the recent search endpoint. But I hardly think that's a problem with no solutions!
+**Thoughts:** Hopefully adding database functionality should be easy by now. It felt quite smooth and routine, the only difficult upcoming part I can see is working out how to get more than one result for the recent search endpoint. But I hardly think that's a problem with no solutions!
 
 **Link to work:** [Image Search Abstraction Layer](https://imgsearch-jsanderson.glitch.me/)
 
