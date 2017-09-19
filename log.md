@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 98: September 18, 2017
+
+**Today's Progress:** Another day of no progress, cut short by a medical appointment. Current end day: 109.
+
+### Day 97: September 17, 2017
+
+**Today's Progress:** Another heavy day, spent some time on a personal site.
+
+### Day 96: September 16, 2017
+
+**Today's Progress:** I'm writing all these on 19/09 as it's been a heavy weekend. Had no time today. Current end day: 108
+
 ### Day 94: September 15, 2017
 
 **Today's Progress:** Reading up on image search APIs and may use [Flickr's](https://www.flickr.com/services/api/) as getting a key for noncommercial use seems simple enough and there's a Node module to handle it.
