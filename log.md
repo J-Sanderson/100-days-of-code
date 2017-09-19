@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+### Day 99: September 19, 2017
+
+**Today's Progress:** Back to the image search app. I need to set up a pagination function (?offset=2 etc) to the routing.
+
 ### Day 98: September 18, 2017
 
 **Today's Progress:** Another day of no progress, cut short by a medical appointment. Current end day: 109.
