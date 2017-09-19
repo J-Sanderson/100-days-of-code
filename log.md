@@ -2,7 +2,13 @@
 
 ### Day 99: September 19, 2017
 
-**Today's Progress:** Back to the image search app. I need to set up a pagination function (?offset=2 etc) to the routing.
+**Today's Progress:** Back to the image search app. I need to set up a pagination function (?offset=2 etc) to the routing. Passed the offset in a query string to the controller, then used that to modify the for loop that returned the results.
+
+Next up is to hook the app up to a database so it can store previous queries. Looking at the example FCC app it will also need to store the date and time the search was made.
+
+**Thoughts:** Hopefully adding databse functionality should be easy by now.
+
+**Link to work:** [Image Search Abstraction Layer](https://imgsearch-jsanderson.glitch.me/)
 
 ### Day 98: September 18, 2017
 
