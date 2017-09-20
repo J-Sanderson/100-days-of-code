@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 100: September 20, 2017
+
+**Today's Progress:** Worked on the recent searched endpoint of the image search app. I ended up returning either the ten most recent searches (if there were more than ten in the database) or all the recent searches (if there were less than ten) by use of a backwards iterating loop.
+
+**Thoughts:** I worry that this may not have been the best way to get the most recent searches, but it did work out at least. There is still much to learn.
+
+I did expect to take longer on this than I did. I can never tell if that's a good or bad thing. Did I do well, or is there some horrible, huge mistake I missed?
+
+I'm now wondering what to do once I've done the API projects, as there's only one left after this one. I'm thinking I may put FCC's following backend development projects to one side and work on some more Net Ninja videos, mainly for some front end frameworks. This is mainly because when I look at jobs, I see a lot of thse frameworks that I could use more understanding of. It'd also help me for the data visualisation challenges at FCC as they require Sass/React. Part of me thinks this is waffling, but another part thinks this it's good practice, and I don't regret the last detour I took into the Net Ninja's videos.
+
+As this is day 100, I'm also thinking about what to do next, though I have nine days to make up before this challenge is done. I think I'll do a round two. It'll cover NaNoWriMo and the holidays, but if there's one think I've learnt from NaNoWriMo it's that you can't wait for events to accomodate you. You need to dive in. There will be a round two. It will be awesome.
+
+**Link to work:** [Image Search Abstraction Layer](https://imgsearch-jsanderson.glitch.me/)
+
 ### Day 99: September 19, 2017
 
 **Today's Progress:** Back to the image search app. I need to set up a pagination function (?offset=2 etc) to the routing. Passed the offset in a query string to the controller, then used that to modify the for loop that returned the results.
