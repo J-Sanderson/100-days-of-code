@@ -4,6 +4,8 @@
 
 **Today's Progress:** Worked on the recent searched endpoint of the image search app. I ended up returning either the ten most recent searches (if there were more than ten in the database) or all the recent searches (if there were less than ten) by use of a backwards iterating loop.
 
+Set up the front page/instructions for the app and calling it done for now!
+
 **Thoughts:** I worry that this may not have been the best way to get the most recent searches, but it did work out at least. There is still much to learn.
 
 I did expect to take longer on this than I did. I can never tell if that's a good or bad thing. Did I do well, or is there some horrible, huge mistake I missed?
