@@ -2,9 +2,11 @@
 
 ### Day 101: September 21, 2017
 
-**Today's Progress:** Started on the file metadata service, the last of the API challenges. Set up a basic front page - this challenge will be different as the front page will play a large role rather than just being a landing page. I will need to set up a form and allow the user to upload a file. FCC's instructions reccomend [Multer](https://www.npmjs.com/package/multer) for handling this part.
+**Today's Progress:** Started on the file metadata service, the last of the API challenges. Set up a basic front page - this challenge will be different as the front page will play a large role rather than just being a landing page. I will need to set up a form and allow the user to upload a file. FCC's instructions reccomend [Multer](https://www.npmjs.com/package/multer) for handling this part. Doing some reading up on how to use it.
 
 **Thoughts:** The API challenges went faster than I thought. I think a lot of that is because I was doing this challenge throughout, as opposed to the front end challenges where for the earlier stages I wasn't doing anythng to a schedule.
+
+This one is difficult. I'm seeing a lot of people compare it to the timestamp service but I still feel like I'm not understanding everything. It'll probably make more sense later.
 
 ### Day 100: September 20, 2017
 
