@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 101: September 21, 2017
+
+**Today's Progress:** Started on the file metadata service, the last of the API challenges. Set up a basic front page - this challenge will be different as the front page will play a large role rather than just being a landing page. I will need to set up a form and allow the user to upload a file. FCC's instructions reccomend [Multer](https://www.npmjs.com/package/multer) for handling this part.
+
+**Thoughts:** The API challenges went faster than I thought. I think a lot of that is because I was doing this challenge throughout, as opposed to the front end challenges where for the earlier stages I wasn't doing anythng to a schedule.
+
 ### Day 100: September 20, 2017
 
 **Today's Progress:** Worked on the recent searched endpoint of the image search app. I ended up returning either the ten most recent searches (if there were more than ten in the database) or all the recent searches (if there were less than ten) by use of a backwards iterating loop.
