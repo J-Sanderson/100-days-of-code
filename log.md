@@ -2,7 +2,7 @@
 
 ### Day 102: September 22, 2017
 
-**Today's Progress:** Finsihed off the file metadata service. Multer handles a lot of the hard work, so the end result was quite small and quick.
+**Today's Progress:** Finshed off the file metadata service. Multer handles a lot of the hard work, so the end result was quite small and quick.
 
 **Thoughts:** That was... surprising. The hardest part was just working out how to upload and to get Multer to do what I wanted.
 
