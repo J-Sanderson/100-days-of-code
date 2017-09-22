@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 102: September 22, 2017
+
+**Today's Progress:** Finsihed off the file metadata service. Multer handles a lot of the hard work, so the end result was quite small and quick.
+
+**Thoughts:** That was... surprising. The hardest part was just working out how to upload and to get Multer to do what I wanted.
+
+**Link to work:** [File Metadata Microservice](https://metadata-jsanderson.glitch.me/)
+
 ### Day 101: September 21, 2017
 
 **Today's Progress:** Started on the file metadata service, the last of the API challenges. Set up a basic front page - this challenge will be different as the front page will play a large role rather than just being a landing page. I will need to set up a form and allow the user to upload a file. FCC's instructions reccomend [Multer](https://www.npmjs.com/package/multer) for handling this part. Doing some reading up on how to use it.
