@@ -4,7 +4,7 @@
 
 **Today's Progress:** Started work with the Net Ninja's React.js videos, taking a sidetrack from FCC. Doing some basic rendering and props.
 
-**Thoughts:** This seems lazy, because there is a sudden learning curve with FCC's backend course at this point, and I admit I may be stalling. However at this stage I think I'm going to need some more advanced front end skills than I have, including for those back end projects. I think this is going to be the right step.
+**Thoughts:** This seems lazy, because there is a sudden learning curve with FCC's backend course at this point, and I admit I may be stalling. However at this stage I think I'm going to need some more advanced front end skills than I have, including for those back end projects. I think this is going to be the right step. I'm already getting excited at what React is going to let me do!
 
 ### Day 104: September 24, 2017
 
