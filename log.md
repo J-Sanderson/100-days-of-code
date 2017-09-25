@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 104: September 24, 2017
+
+**Today's Progress:** Still having trouble with finding time at the weekends, but managed to squeeze in some personal site work. Plain HTML for now.
+
+### Day 103: September 23, 2017
+
+**Today's Progress:** Missed today - weekends are very busy at the moment. Finish point: day 110.
+
 ### Day 102: September 22, 2017
 
 **Today's Progress:** Finshed off the file metadata service. Multer handles a lot of the hard work, so the end result was quite small and quick.
