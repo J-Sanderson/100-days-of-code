@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 105: September 25, 2017
+
+**Today's Progress:** Started work with the Net Ninja's React.js videos, taking a sidetrack from FCC. Doing some basic rendering.
+
+**Thoughts:** This seems lazy, because there is a sudden learning curve with FCC's backend course at this point, and I admit I may be stalling. However at this stage I think I'm going to need some more advanced front end skills than I have, including for those back end projects. I think this is going to be the right step.
+
 ### Day 104: September 24, 2017
 
 **Today's Progress:** Still having trouble with finding time at the weekends, but managed to squeeze in some personal site work. Plain HTML for now.
