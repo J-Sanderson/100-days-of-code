@@ -2,7 +2,7 @@
 
 ### Day 106: September 26, 2017
 
-**Today's Progress:** Continuing the Net Ninja's React.js videos. Working on state and component nesting.
+**Today's Progress:** Continuing the Net Ninja's React.js videos. Working on state and component nesting. Basic events working ok but passing events back amd forth is causing things to not render. Started backtracking to find out where the problem is.
 
 **Thoughts:** I'm starting to worry that I won't get enough understanding by the end of this playlist. But I think I can counter that by making more things. I guess JQuery was like this to begin with too, I just don't remember.
 
