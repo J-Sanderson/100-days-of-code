@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 106: September 26, 2017
+
+**Today's Progress:** Continuing the Net Ninja's React.js videos. Working on state and component nesting.
+
+**Thoughts:** I'm starting to worry that I won't get enough understanding by the end of this playlist. But I think I can counter that by making more things. I guess JQuery was like this to begin with too, I just don't remember.
+
 ### Day 105: September 25, 2017
 
 **Today's Progress:** Started work with the Net Ninja's React.js videos, taking a sidetrack from FCC. Doing some basic rendering and props.
