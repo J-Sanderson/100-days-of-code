@@ -8,6 +8,10 @@
 
 I'm not sure what I did to cause the page to not render when passing events, but backtracking did help to remind me that these React components are objects and I need to remember that means they're something I know, not a new scary thing.
 
+The playlist is focused again on the creation of a todo list. I think I will finish it off and style it with Sass, and call it a practice run for the FCC Sass/React projects, which I'll move on to next. I still feel a bit strange breaking off the backend course in the middle, but working some on frontend frameworks is definitely starting to feel like the right way to go.
+
+**Link to work:** [React Todo List](https://codepen.io/jsanderson/pen/PJWNab)
+
 ### Day 105: September 25, 2017
 
 **Today's Progress:** Started work with the Net Ninja's React.js videos, taking a sidetrack from FCC. Doing some basic rendering and props.
