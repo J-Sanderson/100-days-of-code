@@ -2,9 +2,11 @@
 
 ### Day 106: September 26, 2017
 
-**Today's Progress:** Continuing the Net Ninja's React.js videos. Working on state and component nesting. Basic events working ok but passing events back amd forth is causing things to not render. Started backtracking to find out where the problem is.
+**Today's Progress:** Continuing the Net Ninja's React.js videos. Working on state and component nesting. Basic events working ok but passing events back and forth is causing things to not render. Started backtracking through the playlist files and got it to work after rewriting the code to follow each change again.
 
 **Thoughts:** I'm starting to worry that I won't get enough understanding by the end of this playlist. But I think I can counter that by making more things. I guess JQuery was like this to begin with too, I just don't remember.
+
+I'm not sure what I did to cause the page to not render when passing events, but backtracking did help to remind me that these React components are objects and I need to remember that means they're something I know, not a new scary thing.
 
 ### Day 105: September 25, 2017
 
