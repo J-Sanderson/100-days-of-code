@@ -2,7 +2,7 @@
 
 ### Day 107: September 27, 2017
 
-**Today's Progress:** Finished off the React.js videos with some work on input refs, then did some SCSS styling. Moving on to the FCC React challenges, first off is the Markdown previewer. Set up a basic page, so far just renders a pair of main divs that will hold the input and the preview.
+**Today's Progress:** Finished off the React.js videos with some work on input refs, then did some SCSS styling. Moving on to the FCC React challenges, first off is the Markdown previewer. Set up a basic page, so far just renders a pair of main divs that will hold the input and the preview. Set up getInitialState in the main component as I will probably want to store the input there.
 
 **Thoughts:** Very happy that the input refs worked without any trouble. I am still not entirely sure on passing functions around components but I am sure this will become clearer with more work.
 
