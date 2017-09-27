@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 107: September 27, 2017
+
+**Today's Progress:** Finished off the React.js videos with some work on input refs.
+
+**Thoughts:** Very happy that the input refs worked without any trouble. I am still not entirely sure on passing functions around components but I am sure this will become clearer with more work.
+
+**Link to work:** [React Todo List](https://codepen.io/jsanderson/pen/PJWNab)
+
 ### Day 106: September 26, 2017
 
 **Today's Progress:** Continuing the Net Ninja's React.js videos. Working on state and component nesting. Basic events working ok but passing events back and forth is causing things to not render. Started backtracking through the playlist files and got it to work after rewriting the code to follow each change again.
