@@ -2,7 +2,7 @@
 
 ### Day 107: September 27, 2017
 
-**Today's Progress:** Finished off the React.js videos with some work on input refs.
+**Today's Progress:** Finished off the React.js videos with some work on input refs, then did some SCSS styling.
 
 **Thoughts:** Very happy that the input refs worked without any trouble. I am still not entirely sure on passing functions around components but I am sure this will become clearer with more work.
 
