@@ -6,6 +6,8 @@
 
 Next I need to transfer that text to the preview div. At the moment I'm not concerned with interpreting the Markdown or worrying about whether what's in the text box even is Markdown - I just want to make sure I can move the data from one place to another.
 
+Moved the preview div to its own component which is rendered within the main. It occurs to me that it might be the preview component's state that I need to update, not the main one. 
+
 **Thoughts:** Although I don't know how I'll do much of it, I can visualise what needs to be done. I think I have a good handle on this. The hardest part is remembering that this is React. I'm still thinking in terms of JQuery and vanilla JavaScript but things aren't the same here.
 
 ### Day 107: September 27, 2017
