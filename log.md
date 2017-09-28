@@ -2,9 +2,11 @@
 
 ### Day 108: September 28, 2017
 
-**Today's Progress:** Added a textbox to the main component. I need to find a way to get React to grab whatever's in the box and update the component state, as the user types. I've done this with word counters before, the difference here is in using React. Reading up now on events for React to see what will work.
+**Today's Progress:** Added a textbox to the main component. I need to find a way to get React to grab whatever's in the box and update the component state, as the user types. I've done this with word counters before, the difference here is in using React. Reading up now on events for React to see what will work. onKeyUp seems like the best, wrote a function to update the component state with the current text.
 
-**Thoughts:** Although I don't know how I'll do much of it, I can visualise what needs to be done. I think I have a good handle on this.
+Next I need to transfer that text to the preview div. At the moment I'm not concerned with interpreting the Markdown or worrying about whether what's in the text box even is Markdown - I just want to make sure I can move the data from one place to another.
+
+**Thoughts:** Although I don't know how I'll do much of it, I can visualise what needs to be done. I think I have a good handle on this. The hardest part is remembering that this is React. I'm still thinking in terms of JQuery and vanilla JavaScript but things aren't the same here.
 
 ### Day 107: September 27, 2017
 
