@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 108: September 28, 2017
+
+**Today's Progress:** Added a textbox to the main component. I need to find a way to get React to grab whatever's in the box and update the component state, as the user types. I've done this with word counters before, the difference here is in using React. Reading up now on events for React to see what will work.
+
+**Thoughts:** Although I don't know how I'll do much of it, I can visualise what needs to be done. I think I have a good handle on this.
+
 ### Day 107: September 27, 2017
 
 **Today's Progress:** Finished off the React.js videos with some work on input refs, then did some SCSS styling. Moving on to the FCC React challenges, first off is the Markdown previewer. Set up a basic page, so far just renders a pair of main divs that will hold the input and the preview. Set up getInitialState in the main component as I will probably want to store the input there.
