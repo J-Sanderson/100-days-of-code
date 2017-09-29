@@ -2,9 +2,14 @@
 
 ### Day 109: September 29, 2017
 
-**Today's Progress:** I gave myself time to let the problem go for a bit. Needed space to not dwell on it.
+**Today's Progress:** I gave myself time to let the problem go for a bit. Needed space to not dwell on it. It occured to me that I could probably do all of this in one component. It's a relatively simple page. Put the output back into the main component and passed it the text from the component state. Now whatever I write in the text box shows up in the preview.
 
-**Thoughts:** 
+Now there are two more issues:
+
+-have some sample text in the preview box, this will be the initial state.
+-get that text interpreted as Markdown (FCC reccomends a library for this).
+
+**Thoughts:** I worried that doing a single component was not the "correct" way to put the app together, but I suppose the important part is to get it done and not worry about how. I can look up altermate solutions later and see how I did. For now, this is new to me and I'll focus on making the thing work.
 
 ### Day 108: September 28, 2017
 
