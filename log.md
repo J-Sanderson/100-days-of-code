@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 109: September 29, 2017
+
+**Today's Progress:** I gave myself time to let the problem go for a bit. Needed space to not dwell on it.
+
+**Thoughts:** 
+
 ### Day 108: September 28, 2017
 
 **Today's Progress:** Added a textbox to the main component. I need to find a way to get React to grab whatever's in the box and update the component state, as the user types. I've done this with word counters before, the difference here is in using React. Reading up now on events for React to see what will work. onKeyUp seems like the best, wrote a function to update the component state with the current text.
