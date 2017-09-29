@@ -11,9 +11,9 @@ Now there are two more issues:
 
 Decided to start with the sample text as that's an easy foundation for the interpreting stage to sit on top of. Created a defaultText property in the component. Not sure if this is good form but it allowed for me to reference it both in the state and as the text box's default input. Set the default text to some valid Markdown.
 
-Now to interpret that text so that it appears correctly in the preview. FCC reccomends [Marked](https://cdnjs.com/libraries/marked) for this.
+Now to interpret that text so that it appears correctly in the preview. FCC reccomends [Marked](https://cdnjs.com/libraries/marked) for this. Added Marked to the pen header and got it working, which turned out to be very easy, but now the input variable is a string of HTML that renders as such a string. I need the page to parse it as actual HTML.
 
-**Thoughts:** I worried that doing a single component was not the "correct" way to put the app together, but I suppose the important part is to get it done and not worry about how. I can look up altermate solutions later and see how I did. For now, this is new to me and I'll focus on making the thing work.
+**Thoughts:** I worried that doing a single component was not the "correct" way to put the app together, but I suppose the important part is to get it done and not worry about how. I can look up alternate solutions later and see how I did. For now, this is new to me and I'll focus on making the thing work.
 
 ### Day 108: September 28, 2017
 
