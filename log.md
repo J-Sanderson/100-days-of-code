@@ -9,6 +9,8 @@ Now there are two more issues:
 * have some sample text in the preview box, this will be the initial state.
 * get that text interpreted as Markdown (FCC reccomends a library for this).
 
+Decided to start with the sample text as that's an easy foundation for the interpreting stage to sit on top of.
+
 **Thoughts:** I worried that doing a single component was not the "correct" way to put the app together, but I suppose the important part is to get it done and not worry about how. I can look up altermate solutions later and see how I did. For now, this is new to me and I'll focus on making the thing work.
 
 ### Day 108: September 28, 2017
