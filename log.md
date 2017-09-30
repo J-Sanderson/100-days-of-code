@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 110: September 30, 2017
+
+**Today's Progress:** Finished off the markdown interpreter with some styling, including a bit of responsive design.
+
+**Thoughts:** Last day of the challenge. I think I will take a day off and then restart with a new round. This isn't something I want to give up.
+
+I'm liking SCSS's nesting syntax, both for elements and screen size variations. It's so much easier than moving up and down all the time.
+
+**Link to work:** [Markdown Interpreter](https://codepen.io/jsanderson/pen/aLwLWw)
+
 ### Day 109: September 29, 2017
 
 **Today's Progress:** I gave myself time to let the problem go for a bit. Needed space to not dwell on it. It occured to me that I could probably do all of this in one component. It's a relatively simple page. Put the output back into the main component and passed it the text from the component state. Now whatever I write in the text box shows up in the preview.
