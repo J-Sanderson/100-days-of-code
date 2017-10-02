@@ -4,8 +4,8 @@
 
 **Today's Progress:** Back once again for round two!
 
-I'm ready to get started with the camper leaderboard. Started off the day with a read of [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) to get me going.
+I'm ready to get started with the camper leaderboard. Started off the day with a read of [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) to get me going. It reccomends starting with a static version of the app you want to create and adding the interactivity to that. As luck would have it, the example app functions a lot like the finished camper leaderboard, in both cases making calls to an API and listing details in a table. I grabbed some static data from the API (the first few items in the array it returns) and put together an app with nested components. This game me some practice with passing props around - there is no state at the moment since this is a static page.
 
 **Thoughts:** Can I pull this off through NaNoWriMo and holidays? Yes. Yes I can.
 
-**Link to work:** TBD
+**Link to work:** [Camper Leaderboard](https://codepen.io/jsanderson/pen/VMzgRx)
