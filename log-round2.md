@@ -9,7 +9,7 @@
 * Inside the child Header component, create a function to handle the button clicks (here called onClick)
 * Inside onClick, get which of the buttons was clicked, then pass that to onSwitch (this.props.onSwitch(clicked);)
 
-And this should work. It should also sound pretty obvious to anyone who knows React but I'm still wrapping my head around the data flow.
+And this should work. It should also sound pretty obvious to anyone who knows React but I'm still wrapping my head around the data flow. Tested it out, then set up toggling, which was very easy, just the same as the componentDidMount function but with a variable URL. The app now has full functionality and all it needs is some styling!
 
 **Thoughts:** I love it when murky things finally click.
 
