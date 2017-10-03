@@ -11,7 +11,7 @@
 
 And this should work. It should also sound pretty obvious to anyone who knows React but I'm still wrapping my head around the data flow. Tested it out, then set up toggling, which was very easy, just the same as the componentDidMount function but with a variable URL. The app now has full functionality. Added some styling and it's all ready to go.
 
-Next up is the recipie box challenge which will involve working with the brower's local storage. I haven't dealt with this before so will do some reading.
+Next up is the recipe box challenge which will involve working with the brower's local storage. I haven't dealt with this before so will do some reading.
 
 **Thoughts:** I love it when murky things finally click. This project really helped me make sense of state, props, and data flow back and forth. I now feel comfortable that I know where an app's state should sit, and how to pass data up and down the DOM tree.
 
