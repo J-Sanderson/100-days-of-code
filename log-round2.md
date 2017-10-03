@@ -20,4 +20,4 @@ I'm liking having Thinking in React as a guide. It's tempting to go look up the 
 
 I'm surprised and impressed with how fast this is going.
 
-**Link to work:** [Camper Leaderboard](https://codepen.io/jsanderson/pen/VMzgRx)
+**Link to work:** [Camper Leaderboard](https://codepen.io/jsanderson/pen/NavZeb)
