@@ -1,5 +1,20 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 1: October 03/10/17
+
+**Today's Progress:** Continuing the camper leaderboard. I need to work out the toggle function, which means passing to a child component (Header) of the main, state owning component (App). The header contains the buttons that toggle whether to sort by last 30 days or all time, which should then trigger a new call in the app component to the API and update its state/re-render. This has tripped me up so far but I think I'm understanding it as such:
+
+* Inside the parent App component, create a function that will handle the new API call (here called onSwitch)
+* Pass this function to the child Header as a prop in the parent's render function (onSwitch={this.onSwitch})
+* Inside the child Header component, create a function to handle the button clicks (here called onClick)
+* Inside onClick, get which of the buttons was clicked, then pass that to onSwitch (this.props.onSwitch(clicked);)
+
+And this should work. It should also sound pretty obvious to anyone who knows React but I'm still wrapping my head around the data flow.
+
+**Thoughts:** I love it when murky things finally click.
+
+**Link to work:** [Camper Leaderboard](https://codepen.io/jsanderson/pen/NavZeb)
+
 ### Day 0: October 02/10/17
 
 **Today's Progress:** Back once again for round two!
