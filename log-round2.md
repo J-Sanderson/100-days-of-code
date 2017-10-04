@@ -10,7 +10,7 @@ Set up a toggle function that fires upon clicking the header containing the reci
 
 Next up I need to be able to add, edit, and delete the recipes. This means setting them up as a component state. I think I'm going to again let the top component, App, handle the state as it owns the Add button - it can handle talking to the browser storage, then pass the data onto its child, RecipeList, which then renders as many Recipe components as it has to. First of all, I want to put my default recipes into the browser storage. I imagine I'll only want to do this the first time a user visits, as on any subsequent visits I'll want to load any changes they made.
 
-Set up the componentDidMount function inside the App component and set it to store the initial data inside of the local storage. Had trouble with passing through the dat as it's an array of objects, found that JSON.stringify and JSON.parse would fix it. 
+Set up the componentDidMount function inside the App component and set it to store the initial data inside of the local storage. Had trouble with passing through the data as it's an array of objects, found that JSON.stringify and JSON.parse would fix it. 
 
 **Thoughts:** Having a process of events to follow (start static, work out data flow) is very helpful. I feel like I'm following a logical order rather than looking at a huge pile of things to do and no idea where to begin.
 
