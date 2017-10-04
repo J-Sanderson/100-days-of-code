@@ -2,7 +2,7 @@
 
 ### Day 2: October 04/10/17
 
-**Today's Progress:** Doing some reading on [http://htmlui.com/blog/2011-08-23-5-obscure-facts-about-html5-localstorage.html](local storage) and it looks easy to implement. Going to put that on one side for now and think about the rest of the app. Adding and removing items seems easy enough. But I also need to display the recipe when the name is clicked. I guess we're learning about conditional rendering today!
+**Today's Progress:** Doing some reading on [local storage](http://htmlui.com/blog/2011-08-23-5-obscure-facts-about-html5-localstorage.html) and it looks easy to implement. Going to put that on one side for now and think about the rest of the app. Adding and removing items seems easy enough. But I also need to display the recipe when the name is clicked. I guess we're learning about conditional rendering today!
 
 ### Day 1: October 03/10/17
 
