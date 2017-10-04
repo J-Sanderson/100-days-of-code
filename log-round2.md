@@ -18,7 +18,9 @@ Now to make changes to it. There are three things we need to be able to do:
 * edit a recipe (change its name, add ingredients, or remove ingredients)
 * delete a recipe
 
-I think I will focus on deleting first as this seems like it will be the most basic one of the three, not requing any user input other than a button press.
+I think I will focus on deleting first as this seems like it will be the most basic one of the three, not requing any user input other than a button press. Created a deleteRecipe function in the Ingredients component as this contains the delete button, then an onDelete function in the App component that will handle talking to the local storage and resetting the state. onDelete then gets passed down to Ingredients through the components (App>RecipeList>Recipe(multiple instances)>Ingredients). onDelete then fires when I click any of the delete buttons. So far it just displays an alert with the name of the recipe to delete on it, to prove it was working ok.
+
+Now it needs to go into localStorage and find the recipe with the same 'name' property as the one that triggered onDelete (passed to it as a parameter named 'recipe').
 
 **Thoughts:** Having a process of events to follow (start static, work out data flow) is very helpful. I feel like I'm following a logical order rather than looking at a huge pile of things to do and no idea where to begin.
 
