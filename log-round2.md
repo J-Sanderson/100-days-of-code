@@ -1,5 +1,9 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 2: October 04/10/17
+
+**Today's Progress:** Doing some reading on [http://htmlui.com/blog/2011-08-23-5-obscure-facts-about-html5-localstorage.html](local storage) and it looks easy to implement. Going to put that on one side for now and think about the rest of the app. Adding and removing items seems easy enough. But I also need to display the recipe when the name is clicked. I guess we're learning about conditional rendering today!
+
 ### Day 1: October 03/10/17
 
 **Today's Progress:** Continuing the camper leaderboard. I need to work out the toggle function, which means passing to a child component (Header) of the main, state owning component (App). The header contains the buttons that toggle whether to sort by last 30 days or all time, which should then trigger a new call in the app component to the API and update its state/re-render. This has tripped me up so far but I think I'm understanding it as such:
