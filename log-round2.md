@@ -24,7 +24,7 @@ Now it needs to go into localStorage and find the recipe that triggered onDelete
 
 The add and edit functions are a bit more complicated as they will require working with user input. This will require adding a popup box, prompting the user for a name, parsing a list of ingredients (comma seperated in the example version, I'll probably do the same), then turning all that into a recipe object and passing it to local storage. First off, I need to create the popup. I'm guessing this will be a child component of App that will only render if the "add" button is clicked, in the same way that the ingredients don't display unless you click the parent recipe name. Set up a basic popup box that sits on top of the rest of the app and can be toggled on and off.
 
-Next step is to add a form so the user can add a recipe.
+Next step is to add a form so the user can add a recipe. I put in a basic form with fields for a name and ingredients and set up an onSubmit function in the component that would take the input. Again, created an function in App (addRecipe) that gets passed to Add and fires from Add's onSubmit. Tested it out (passing variables through and setting the display state to false so the popup doesn't stick around) and the name/ingredients variables are passing through, next step will be to do something with them.
 
 **Thoughts:** Having a process of events to follow (start static, work out data flow) is very helpful. I feel like I'm following a logical order rather than looking at a huge pile of things to do and no idea where to begin.
 
