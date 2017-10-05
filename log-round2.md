@@ -4,9 +4,11 @@
 
 **Today's Progress:** Back to the recipe box and adding a new recipe. Seperated out ingredients into their own array by splitting at commas and used trim() to remove any leading and trailing whitespace in the name and ingredients. Then this all gets added to local storage and the app updates. Finally added a cancel button to the add box so it can be closed without adding a recipe.
 
-The last bit of functionality to add is the ability to edit recipes.
+The last bit of functionality to add is the ability to edit recipes. Added an edit box, which could be toggled to appear and disappear the same as the Add box, though a little more complex as the edit box belongs to App but is triggered further down the hierachy.
 
 **Thoughts:** I'm just happy with how fast and painless this has been. I hope that wasn't too soon.
+
+One thing that's starting to bug me is how much data flow is going back and forth. I should make a diagram, I'm starting to lose track.
 
 **Link to work:** [Recipe Box](https://codepen.io/jsanderson/pen/WZXERR)
 
