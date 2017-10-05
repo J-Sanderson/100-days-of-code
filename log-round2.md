@@ -1,5 +1,15 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 3: October 05/10/17
+
+**Today's Progress:** Back to the recipe box and adding a new recipe. Seperated out ingredients into their own array by splitting at commas and used trim() to remove any leading and trailing whitespace in the name and ingredients. Then this all gets added to local storage and the app updates.
+
+The last bit of functionality to add is the ability to edit recipes.
+
+**Thoughts:** I'm just happy with how fast and painless this has been. I hope that wasn't too soon.
+
+**Link to work:** [Recipe Box](https://codepen.io/jsanderson/pen/WZXERR)
+
 ### Day 2: October 04/10/17
 
 **Today's Progress:** Doing some reading on [local storage](http://htmlui.com/blog/2011-08-23-5-obscure-facts-about-html5-localstorage.html) and it looks easy to implement. Going to put that on one side for now and think about the rest of the app. Adding and removing items seems easy enough. But I also need to display the recipe when the name is clicked. I guess we're learning about conditional rendering today!
