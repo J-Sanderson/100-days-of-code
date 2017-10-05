@@ -8,7 +8,9 @@ The last bit of functionality to add is the ability to edit recipes. Added an ed
 
 Run into a problem with passing the name and ingredients to the Add component when triggering the edit box - the state doesn't update until the second click. I can't tell why. Maybe the edit box shouldn't be a direct child of App, but sit under the ingredients list? That way there's no need to pass state around when it doesn't need to be passed. Edit doesn't really need to interact with App until the user submits the results, and then it can pass them over to App to do all the parsing and storing stuff. Until then, everything can live in Ingredients, including the edit display state.
 
-So I put it under the Ingredients component so it could directly recieve what the user is trying to edit. I'm not happy with how the positioning is now set up, but will worry about the CSS later. With the name and ingredients passed as props I could then set them as default values in the form.
+So I put it under the Ingredients component so it could directly recieve what the user is trying to edit. I'm not happy with how the positioning is now set up, but will worry about the CSS later. With the name and ingredients passed as props I could then set them as default values in the form. Made an onEdit function inside App that takes the old name of the recipe (for search purposes), the new name, and the new ingredient list.
+
+Run into a problem, the edit form doesn't let me change the default value in the box.
 
 **Thoughts:** I'm just happy with how fast and painless this has been. I hope that wasn't too soon.
 
