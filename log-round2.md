@@ -12,11 +12,13 @@ So I put it under the Ingredients component so it could directly recieve what th
 
 Run into a problem, the edit form doesn't let me change the default value in the box. I don't think this is normal for the value property. Placeholder lets me add in text, but it's overwritten as soon as the user starts typing. I want default text that the user can edit, for example they just want to add or remove one ingredient. Making them type the whole list again isn't user friendly. Reading now about [uncontrolled components](https://reactjs.org/docs/uncontrolled-components.html) to see if they can fix this. Turns out I needed to use defaultValue rather than plain value. Now the onEdit function is taking the data it needs, so it should do something with it. Parsed the input as with add, removing excess whitespace and splitting the ingredients into an array with commas as the seperator, then pulled out the existing recipe list. I don't want to remove the old recipe and put a new one in, I want to find the one I'm editing and update it as needed. Can't use indexOf as it's an array of objects, so going through it with forEach and looking at each object inside. I don't know if this is the best thing to do but not sure I can think of anything better.
 
+Still, it works, and after putting the new list back in local storage and updating the state, all user stories are now fulfilled. Tomorrow I'll work on the styling.
+
 **Thoughts:** I'm just happy with how fast and painless this has been. I hope that wasn't too soon.
 
 One thing that's starting to bug me is how much data flow is going back and forth. I should make a diagram, I'm starting to lose track. I should really have done that before I added in any state and flow, that is something I should remember for the next challenge.
 
-**Link to work:** [Recipe Box](https://codepen.io/jsanderson/pen/WZXERR)
+**Link to work:** [Recipe Box](https://codepen.io/jsanderson/pen/rGpYze)
 
 ### Day 2: October 04/10/17
 
@@ -46,7 +48,7 @@ Next step is to add a form so the user can add a recipe. I put in a basic form w
 
 **Thoughts:** Having a process of events to follow (start static, work out data flow) is very helpful. I feel like I'm following a logical order rather than looking at a huge pile of things to do and no idea where to begin.
 
-**Link to work:** [Recipe Box](https://codepen.io/jsanderson/pen/WZXERR)
+**Link to work:** [Recipe Box](https://codepen.io/jsanderson/pen/rGpYze)
 
 ### Day 1: October 03/10/17
 
