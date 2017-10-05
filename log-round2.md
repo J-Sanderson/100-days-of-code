@@ -10,7 +10,7 @@ Run into a problem with passing the name and ingredients to the Add component wh
 
 So I put it under the Ingredients component so it could directly recieve what the user is trying to edit. I'm not happy with how the positioning is now set up, but will worry about the CSS later. With the name and ingredients passed as props I could then set them as default values in the form. Made an onEdit function inside App that takes the old name of the recipe (for search purposes), the new name, and the new ingredient list.
 
-Run into a problem, the edit form doesn't let me change the default value in the box.
+Run into a problem, the edit form doesn't let me change the default value in the box. I don't think this is normal for the value property. Placeholder lets me add in text, but it's overwritten as soon as the user starts typing. I want default text that the user can edit, for example they just want to add or remove one ingredient. Making them type the whole list again isn't user friendly.
 
 **Thoughts:** I'm just happy with how fast and painless this has been. I hope that wasn't too soon.
 
