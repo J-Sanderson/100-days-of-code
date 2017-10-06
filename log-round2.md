@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 4: October 06/10/17
+
+**Today's Progress:** Put together some styling for the recipe box (and a cancel edit button I'd forgotten to add yesterday). Tried to expand my use of Sass with some mixins to kill repetitive code. After a morning of styling, I'm calling this one done. Next up is the Game of Life.
+
+**Thoughts:** I still have my reservations about how much data is going back and forth... there's probably some repetitive code in there. Wishing I could do modules in Codepen, but overall really happy with the end result.
+
+**Link to work:** [Recipe Box](https://codepen.io/jsanderson/pen/rGpYze)
+
 ### Day 3: October 05/10/17
 
 **Today's Progress:** Back to the recipe box and adding a new recipe. Seperated out ingredients into their own array by splitting at commas and used trim() to remove any leading and trailing whitespace in the name and ingredients. Then this all gets added to local storage and the app updates. Finally added a cancel button to the add box so it can be closed without adding a recipe.
