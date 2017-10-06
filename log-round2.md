@@ -4,7 +4,7 @@
 
 **Today's Progress:** Put together some styling for the recipe box (and a cancel edit button I'd forgotten to add yesterday). Tried to expand my use of Sass with some mixins to kill repetitive code. After a morning of styling, I'm calling this one done.
 
-Next up is the Game of Life. [I'm kicking back with a video](https://www.youtube.com/watch?v=PM0_Er3SvFQ) and thinking of [requestAnimationFrame](https://css-tricks.com/using-requestanimationframe/).
+Next up is the Game of Life. [I'm kicking back with a video](https://www.youtube.com/watch?v=PM0_Er3SvFQ) and thinking of [requestAnimationFrame](https://css-tricks.com/using-requestanimationframe/). Seeing a lot of suggestions to use canvas, which is relatively new to me but may be worth a go.
 
 **Thoughts:** I still have my reservations about how much data is going back and forth... there's probably some repetitive code in there. Wishing I could do modules in Codepen, but overall really happy with the end result.
 
