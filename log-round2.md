@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 5: October 07/10/17
+
+**Today's Progress:** Put together a basic static layout for the Game of Life including a canvas tag. Next up, I need to learn more about canvas...
+
+**Thoughts:** I feel intimidated by choosing to use canvas, which is an element I've barely used, but at the same time I think it's something it's about time I learnt about.
+
+I also want to keep better track of the data flow on this project. I think I let it grow too organically with the recipe box and because of that, it ended up messy. For this project I want to get down what I want the page to do and have it all down from the start. I might not know HOW to do all the things right now, but I will know WHAT needs to be done.
+
 ### Day 4: October 06/10/17
 
 **Today's Progress:** Put together some styling for the recipe box (and a cancel edit button I'd forgotten to add yesterday). Tried to expand my use of Sass with some mixins to kill repetitive code. After a morning of styling, I'm calling this one done.
