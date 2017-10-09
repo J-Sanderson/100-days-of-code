@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 7: October 09/10/17
+
+**Today's Progress:** TBD
+
+**Thoughts:** TBD
+
 ### Day 6: October 08/10/17
 
 **Today's Progress:** Stuck to some small personal HTML work today.
