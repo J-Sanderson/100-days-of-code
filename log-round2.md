@@ -4,7 +4,7 @@
 
 **Today's Progress:** Spent some time learning the basics of canvas. I think now that I have an idea where I'm going. I can split up my game screen canvas into squares, which correspond to on or off values inside an array passed to the canvas from the parent App container. That container can then update the array every tick of the game and pass it back to the canvas.
 
-Drew up a diagram of data flow around the app so I now have something to go by.
+Drew up a diagram of data flow around the app so I now have something to go by. Added the required functions onto the page. None of them do anything yet but everything is laid out and ready.
 
 **Thoughts:** I don't like taking a day to sidetrack, but I think this was one of the ones I needed to do.
 
