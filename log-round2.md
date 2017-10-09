@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 6: October 08/10/17
+
+**Today's Progress:** Stuck to some small personal HTML work today.
+
+**Thoughts:** I shouldn't feel so bad for doing small personal projects every now and again. They're important too.
+
 ### Day 5: October 07/10/17
 
 **Today's Progress:** Put together a basic static layout for the Game of Life including a canvas tag. Next up, I need to learn more about canvas...
