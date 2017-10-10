@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 8: October 10/10/17
+
+**Today's Progress:** Back to the game and working out the canvas. Wrote up the function to change the canvas size to one of three presets (small, medium, and large). That's saved in the state and then passed to the grid component. Also wrote up an initial board setup function that runs when the App component mounts. It creates a 2D array of cell values (true for alive, false for dead) and saves that in the App state - this also gets passed to the board. In the future there will be functionality to update this state. For now it's just generating an initial setup.
+
+Now the grid needs to draw this setup on the canvas. Here's where things get interesting, and by interesting, I mean I am not sure what I'm doing, but will have fun finding out...
+
 ### Day 7: October 09/10/17
 
 **Today's Progress:** Spent some time learning the basics of canvas. I think now that I have an idea where I'm going. I can split up my game screen canvas into squares, which correspond to on or off values inside an array passed to the canvas from the parent App container. That container can then update the array every tick of the game and pass it back to the canvas.
