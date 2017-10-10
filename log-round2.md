@@ -6,6 +6,10 @@
 
 Now the grid needs to draw this setup on the canvas. Here's where things get interesting, and by interesting, I mean I am not sure what I'm doing, but will have fun finding out...
 
+A lot of wrangling and I think what I need to do is set the canvas drawing inside of Grid's componentDidUpdate function. So far I managed to get it to render the initial state and fix some bugs with the state not updating right when I tried to change sizes. I now have a starting point and the next thing to do is to update the board every generation.
+
+**Thoughts:** This is not one of the good days. I don't think React and canvas are having a nice time together. I'm not having a nice time with them. I'll get through this, but really starting to wonder if I put the state in the right place. Maybe will rewatch that video again and take a closer look as to how it's put together.
+
 ### Day 7: October 09/10/17
 
 **Today's Progress:** Spent some time learning the basics of canvas. I think now that I have an idea where I'm going. I can split up my game screen canvas into squares, which correspond to on or off values inside an array passed to the canvas from the parent App container. That container can then update the array every tick of the game and pass it back to the canvas.
