@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 9: October 11/10/17
+
+**Today's Progress:** Trying to set up the code to iterate the game every interval, but having trouble working out where it should go. Going to go back to the video and double check where everything is. 
+
+**Thoughts:** I don't want to copy but I do want a better idea of what state goes where. If I can update the page with a click, I can update it with a timer.
+
 ### Day 8: October 10/10/17
 
 **Today's Progress:** Back to the game and working out the canvas. Wrote up the function to change the canvas size to one of three presets (small, medium, and large). That's saved in the state and then passed to the grid component. Also wrote up an initial board setup function that runs when the App component mounts. It creates a 2D array of cell values (true for alive, false for dead) and saves that in the App state - this also gets passed to the board. In the future there will be functionality to update this state. For now it's just generating an initial setup.
