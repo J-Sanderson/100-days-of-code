@@ -1,5 +1,9 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 10: October 12/10/17
+
+**Today's Progress:** Busy day! Taking it off - new end point is day 100.
+
 ### Day 9: October 11/10/17
 
 **Today's Progress:** Trying to set up the code to iterate the game every interval, but having trouble working out where it should go. Going to go back to the video and double check where everything is. Managed to set up a timer, though so far it only increments the generation count and does nothing to the actual board. I want to get all the things associated with the timer (starting, stopping, changing speed and board size - the latter of which should reset the game as it's a new board) going before I worry about the game logic. So far I have managed to get the counter to reset if the board size changes. The rest is up next.
