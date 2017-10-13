@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 11: October 13/10/17
+
+**Today's Progress:** Looking at the page layout, I felt that the buttons should go in their own component. So I shuffled things around and updated the functions. Worked on changing game speed, again with just the generation counter. Managed to get it set up and going. Added a test into the play() function (currently updates the generation counter but will eventually handle all the game logic) to update the canvas too - so far it just inverts dead and alive cells each generation. This works but it then occured to me that every bit of array code so far was directly accessing and updating the array held in state, not copying it and then updating state once all needed changes are making.
+
+**Thoughts:** I think this is the point where things start to look up...
+
 ### Day 10: October 12/10/17
 
 **Today's Progress:** Busy day! Taking it off - new end point is day 100.
