@@ -4,9 +4,13 @@
 
 **Today's Progress:** Looking at the page layout, I felt that the buttons should go in their own component. So I shuffled things around and updated the functions. Worked on changing game speed, again with just the generation counter. Managed to get it set up and going. Added a test into the play() function (currently updates the generation counter but will eventually handle all the game logic) to update the canvas too - so far it just inverts dead and alive cells each generation. This works but it then occured to me that every bit of array code so far was directly accessing and updating the array held in state, not copying it and then updating state once all needed changes are making. After some reading fixed it with a combination of map() for the ounter array and slice() for the inner. Now that's working too.
 
-There's one more thing I need to set up before I do some real game logic, though, and that's the pause and resume buttons. Added that in with a function to clear the current timeout. I also want to be able to clear the board, which will also mean pausing it so that the user can add their own cell pattern. Set up the clear function with the ability to pause the game. Now to clear the board.
+There's one more thing I need to set up before I do some real game logic, though, and that's the pause and resume buttons. Added that in with a function to clear the current timeout. I also want to be able to clear the board, which will also mean pausing it so that the user can add their own cell pattern. Set up the clear function with the ability to pause the game. Now to clear the board. Set up two nested map() functions to copy the state array and set every cell to false (i.e. dead). Everything working so far.
 
-**Thoughts:** I think this is the point where things start to look up...
+Next step will be the actual game logic. (There is one more story I need to address, which is the ability to click to add cells, but that's going to involve some more reading up on canvas so I will save it for later).
+
+**Thoughts:** I think this is the point where things start to look up. I'm excited to start tackling the game logic and have the board start to do what it should do. All of this work so far has just been a setup for this point.
+
+**Link to work:** [Game of Life](https://codepen.io/jsanderson/pen/xXYMNK)
 
 ### Day 10: October 12/10/17
 
