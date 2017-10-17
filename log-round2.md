@@ -1,5 +1,21 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 14: October 16/10/17
+
+**Today's Progress:** Still feeling unwell, so went to my usual fallback of personal HTML webpage work (read: pretending it's the 90s). Also did some brushing up on CSS.
+
+**Thoughts:** I was surprised by how little I knew about CSS. I learnt about attribute selectors - mind blown. Also some more interesting selectors: children, nth of type, adjacent, etc - also specificity and how it works with the cascade. Much of what I know about CSS has been patchy, picking things up as needed. I didn't realise just how complex and powerful it could be.
+
+### Day 13: October 15/10/17
+
+**Today's Progress:** Feeling unwell today so took the day off. New end point is day 101.
+
+### Day 12: October 14/10/17
+
+**Today's Progress:** Spontaneous project day! I made an attempt at reverse-engineering the random name generator from the game [Niche](http://niche-game.com/). My guess was that it determined a number of syllables, then pulled that number randomly from a syllable list, one for male creatures, one for females. The generator I made did indeed manage to pull up names consistent with the ones from the game.
+
+**Thoughts:** I didn't plan on doing this, but it was something I'd meant to make for a while and I got inspired by a livestream. It was fun to make something as a one-day project, going from an idea to a full page in a few hours.
+
 ### Day 11: October 13/10/17
 
 **Today's Progress:** Looking at the page layout, I felt that the buttons should go in their own component. So I shuffled things around and updated the functions. Worked on changing game speed, again with just the generation counter. Managed to get it set up and going. Added a test into the play() function (currently updates the generation counter but will eventually handle all the game logic) to update the canvas too - so far it just inverts dead and alive cells each generation. This works but it then occured to me that every bit of array code so far was directly accessing and updating the array held in state, not copying it and then updating state once all needed changes are making. After some reading fixed it with a combination of map() for the ounter array and slice() for the inner. Now that's working too.
