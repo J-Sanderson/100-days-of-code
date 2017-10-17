@@ -2,7 +2,9 @@
 
 ### Day 15: October 17/10/17
 
-**Today's Progress:** A little more CSS brushing up. Still not feeling so great and soem busy days are ahead but doing what I can - there is a reason for the sudden CSS swerve.
+**Today's Progress:** A little more CSS brushing up. Still not feeling so great and some busy days are ahead but doing what I can - there is a reason for the sudden CSS swerve.
+
+Made an attempt at implementing game logic for the Game of Life, however running into trouble with the edge cells not working correctly and the entire thing failing to run. I can see the problem - the function to check on the number of neighbours fails if the cell is on the edge since there is nothing for it to reference - but need to figure out how to overcome this. Ideally I would like the game board to wrap around into a toroidal shape.
 
 ### Day 14: October 16/10/17
 
