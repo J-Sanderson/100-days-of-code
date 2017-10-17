@@ -1,5 +1,9 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 15: October 17/10/17
+
+**Today's Progress:** A little more CSS brushing up. Still not feeling so great and soem busy days are ahead but doing what I can - there is a reason for the sudden CSS swerve.
+
 ### Day 14: October 16/10/17
 
 **Today's Progress:** Still feeling unwell, so went to my usual fallback of personal HTML webpage work (read: pretending it's the 90s). Also did some brushing up on CSS.
