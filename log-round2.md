@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 16: October 18/10/17
+
+**Today's Progress:** Trying to work out the wrap around function of the game play. Starting to get some animation but running into an error when I try to look up the bottom left cell with a wrap around - somehow it acts as if the rightmost column is undefined? I can tell that the cell is there because the state will log to the console but somehow the code to check if it is set to true or false acts as if it is not there. 
+
+**Thoughts:** This is frustrating because on paper the whole thing makes sense - get the state of all neighbouring cells. 
+
 ### Day 15: October 17/10/17
 
 **Today's Progress:** A little more CSS brushing up. Still not feeling so great and some busy days are ahead but doing what I can - there is a reason for the sudden CSS swerve.
