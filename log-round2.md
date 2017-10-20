@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 18: October 20/10/17
+
+**Today's Progress:** Going through the Game of Life code step by step but still unable to determine why it can't find the reference array. I did find another bug in which changing the canvas size doesn't cause the game to create an entirely new randomised grid, which it should do. Turned out that was another issue with the generator function directly referencing the grid in state - switched things around so that it makes a completely new one, and the problems are solved. Now back to the missing reference...
+
+### Day 17: October 19/10/17
+
+**Today's Progress:** Another busy day so taking it off. New end point is day 102.
+
 ### Day 16: October 18/10/17
 
 **Today's Progress:** Trying to work out the wrap around function of the game play. Starting to get some animation but running into an error when I try to look up the bottom left cell with a wrap around - somehow it acts as if the rightmost column is undefined? I can tell that the cell is there because the state will log to the console but somehow the code to check if it is set to true or false acts as if it is not there. 
