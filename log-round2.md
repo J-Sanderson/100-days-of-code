@@ -10,6 +10,12 @@ Filled in the rest of the missing game logic and it runs perfectly! (also altere
 
 The last user story is the ability to add or remove cells by clicking the grid. I already have a function set up to detect clicks on the canvas element but what I need is to know where on the canvas the click was. I am not sure how to do that so I will have to do some more reading. [This might help.](http://miloq.blogspot.co.uk/2011/05/coordinates-mouse-click-canvas.html)
 
+Using the example I managed to work out the corresponding array position (divide the co-ordinate by ten, then round down) and pass it to the cell click function. From there I managed to use the same board update logic as before - create a copy, modify it according to the row and column position, then pass back to state. The function allows the user to turn a cell on or off depending on its initial state.
+
+The only problem is that the co-ordinate detection does not work in Firefox according to the linked example. Thankfully it includes a workround, but at the moment I don't have access to Firefox so I can't test it. Tomorrow I will, so will try to test it then.
+
+That aside, the gameplay and user stories are fulfilled, and it's time to work on styling, but I think I'll leave most of that until I know the Firefox issue is solved.
+
 **Thoughts:** See, I knew it would be something stupid.
 
 I'm kind of liking some of the emergent behaviour I'm already seing even with the game logic only partially implemented. I'm seeing these little thorn shaped things going from right to left. I'm calling them "fenceposts" for now. Cute little guys.
