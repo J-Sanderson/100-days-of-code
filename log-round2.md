@@ -4,6 +4,8 @@
 
 **Today's Progress:** Going through the Game of Life code step by step but still unable to determine why it can't find the reference array. I did find another bug in which changing the canvas size doesn't cause the game to create an entirely new randomised grid, which it should do. Turned out that was another issue with the generator function directly referencing the grid in state - switched things around so that it makes a completely new one, and the problems are solved. Now back to the missing reference...
 
+...Looks like an off by one error. Of course it would be something stupid like that! At least the code is a bit neater now, none of these refBoard.length - 1 statements all over the place.
+
 ### Day 17: October 19/10/17
 
 **Today's Progress:** Another busy day so taking it off. New end point is day 102.
