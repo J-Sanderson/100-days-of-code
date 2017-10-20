@@ -6,6 +6,10 @@
 
 ...Looks like an off by one error. Of course it would be something stupid like that! At least the code is a bit neater now, none of these refBoard.length - 1 statements all over the place.
 
+**Thoughts:** See, I knew it would be something stupid.
+
+I'm kind of liking some of the emergent behaviour I'm already seing even with the game logic only partially implemented. I'm seeing these little thorn shaped things going from right to left. I'm calling them "fenceposts" for now. Cute little guys.
+
 ### Day 17: October 19/10/17
 
 **Today's Progress:** Another busy day so taking it off. New end point is day 102.
