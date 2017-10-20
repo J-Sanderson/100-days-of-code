@@ -6,9 +6,15 @@
 
 ...Looks like an off by one error. Of course it would be something stupid like that! At least the code is a bit neater now, none of these refBoard.length - 1 statements all over the place.
 
+Filled in the rest of the missing game logic and it runs perfectly! (also altered the game speed settings as even the fast one seemed too slow)
+
+The last user story is the ability to add or remove cells by clicking the grid. I already have a function set up to detect clicks on the canvas element but what I need is to know where on the canvas the click was. I am not sure how to do that so I will have to do some more reading.
+
 **Thoughts:** See, I knew it would be something stupid.
 
 I'm kind of liking some of the emergent behaviour I'm already seing even with the game logic only partially implemented. I'm seeing these little thorn shaped things going from right to left. I'm calling them "fenceposts" for now. Cute little guys.
+
+**Link to work:** [Game of Life](https://codepen.io/jsanderson/pen/xXYMNK)
 
 ### Day 17: October 19/10/17
 
