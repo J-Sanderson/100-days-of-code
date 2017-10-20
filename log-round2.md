@@ -14,6 +14,8 @@ The last user story is the ability to add or remove cells by clicking the grid. 
 
 I'm kind of liking some of the emergent behaviour I'm already seing even with the game logic only partially implemented. I'm seeing these little thorn shaped things going from right to left. I'm calling them "fenceposts" for now. Cute little guys.
 
+Kind of fun to watch everything run now I have the full game logic. Makes up for the frustration to have something cool to stare at.
+
 **Link to work:** [Game of Life](https://codepen.io/jsanderson/pen/xXYMNK)
 
 ### Day 17: October 19/10/17
