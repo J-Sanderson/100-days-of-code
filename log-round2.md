@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 19: October 21/10/17
+
+**Today's Progress:** Tested the Game of Life in Firefox, seems to work ok. Passing it out to some friends to see if they have difficulties. Added some styling to finish it off for now, will call it done.
+
+**Thoughts:** There are definitely things I feel I could have done better. Sometimes I think the game logic was too complex. I think now that I'm done I might see how other people have implemented it. That said I'm happy to be done, this was a complicated piece of work that took a while, and having a finished product is very satisfying.
+
+**Link to work:** [Game of Life](https://codepen.io/jsanderson/pen/xXYMNK)
+
 ### Day 18: October 20/10/17
 
 **Today's Progress:** Going through the Game of Life code step by step but still unable to determine why it can't find the reference array. I did find another bug in which changing the canvas size doesn't cause the game to create an entirely new randomised grid, which it should do. Turned out that was another issue with the generator function directly referencing the grid in state - switched things around so that it makes a completely new one, and the problems are solved. Now back to the missing reference...
