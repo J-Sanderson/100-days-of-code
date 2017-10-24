@@ -1,5 +1,27 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 22: October 24/10/17
+
+**Today's Progress:** Back to FCC's curriculum. The last of the React/SASS projects is the roguelike dungeon crawler. This seems like a big deal and intimidating. I'm trying to think of it as several smaller problems. Things that come to mind:
+
+* setting up a board - randomly generating rooms etc, will need to look up how to do this. There are probably plenty of well documented examples out there to look up.
+* rendering the board - I'm thinking this will be similar to the Game of Life with a grid rendered on canvas, although this time the whole thing will not be shown.
+* moving the player character - there's probably going to be an x,y co-ordinate stored in state for them. I think I would like to have them respond to keyboard presses and maybe some on screen buttons too.
+* populating the board with enemies, weapons, health items etc - probably will store stats for these in an object somewhere.
+* the ability to save progress to local storage? Not vital but nice to have.
+
+It does seem like a natural progression from the Game of Life, when I think of it. As with everything else I've done in React, the first thing will probably be to build a static version. It won't do an awful lot, but it'll hold everything that needs to come later.
+
+**Thoughts:** I'm feeling intimidated? By this project and by a lot of things. It's ok. Someone told me I need to fly. So get out those wings. Or something.
+
+### Day 21: October 23/10/17
+
+**Today's Progress:** Another personal work day as today was very hectic and people heavy!
+
+### Day 20: October 22/10/17
+
+**Today's Progress:** Took another slow day and did some more personal site work...
+
 ### Day 19: October 21/10/17
 
 **Today's Progress:** Tested the Game of Life in Firefox, seems to work ok. Passing it out to some friends to see if they have difficulties. Added some styling to finish it off for now, will call it done.
