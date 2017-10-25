@@ -2,7 +2,7 @@
 
 ### Day 23: October 25/10/17
 
-**Today's Progress:** Looking for some resources for random dungeon generation. [This](http://bigbadwofl.me/random-dungeon-generator/) may help.
+**Today's Progress:** Looking for some resources for random dungeon generation. [This](http://bigbadwofl.me/random-dungeon-generator/) may help, also [this](http://www.roguebasin.com/index.php?title=Dungeon-Building_Algorithm).
 
 **Thoughts:** I keep on feeling really intimidated. Is too much going on at once? It's okay. I have this. It's okay.
 
