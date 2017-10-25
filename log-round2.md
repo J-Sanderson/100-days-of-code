@@ -4,7 +4,7 @@
 
 **Today's Progress:** Looking for some resources for random dungeon generation. [This](http://bigbadwofl.me/random-dungeon-generator/) may help, also [this](http://www.roguebasin.com/index.php?title=Dungeon-Building_Algorithm). Tried doing some basic setup, so far I can generate an initial chamber but I'm still unsure which one to go for...
 
-**Thoughts:** I keep on feeling really intimidated. Is too much going on at once? It's okay. I have this. It's okay.
+**Thoughts:** I keep on feeling really intimidated. Is too much going on at once? It's okay. I have this. It's okay. (okay admittedly I'm trying to focus through the odd minor panic attack but long story... small progress is progress.)
 
 ### Day 22: October 24/10/17
 
