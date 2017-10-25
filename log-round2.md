@@ -2,7 +2,7 @@
 
 ### Day 23: October 25/10/17
 
-**Today's Progress:** Looking for some resources for random dungeon generation. [This](http://bigbadwofl.me/random-dungeon-generator/) may help, also [this](http://www.roguebasin.com/index.php?title=Dungeon-Building_Algorithm).
+**Today's Progress:** Looking for some resources for random dungeon generation. [This](http://bigbadwofl.me/random-dungeon-generator/) may help, also [this](http://www.roguebasin.com/index.php?title=Dungeon-Building_Algorithm). Tried doing some basic setup, so far I can generate an initial chamber but I'm still unsure which one to go for...
 
 **Thoughts:** I keep on feeling really intimidated. Is too much going on at once? It's okay. I have this. It's okay.
 
