@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 23: October 25/10/17
+
+**Today's Progress:** Looking for some resources for random dungeon generation. [This](http://bigbadwofl.me/random-dungeon-generator/) may help.
+
+**Thoughts:** I kepe on feeling really intimidated. Is too much going on at once? It's okay. I have this. It's okay.
+
 ### Day 22: October 24/10/17
 
 **Today's Progress:** Back to FCC's curriculum. The last of the React/SASS projects is the roguelike dungeon crawler. This seems like a big deal and intimidating. I'm trying to think of it as several smaller problems. Things that come to mind:
@@ -11,6 +17,8 @@
 * the ability to save progress to local storage? Not vital but nice to have.
 
 It does seem like a natural progression from the Game of Life, when I think of it. As with everything else I've done in React, the first thing will probably be to build a static version. It won't do an awful lot, but it'll hold everything that needs to come later.
+
+Set up a basic page layout with a canvas element to hold the game screen. Next up will be generating the dungeon.
 
 **Thoughts:** I'm feeling intimidated? By this project and by a lot of things. It's ok. Someone told me I need to fly. So get out those wings. Or something.
 
