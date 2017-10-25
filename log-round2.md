@@ -4,7 +4,7 @@
 
 **Today's Progress:** Looking for some resources for random dungeon generation. [This](http://bigbadwofl.me/random-dungeon-generator/) may help.
 
-**Thoughts:** I kepe on feeling really intimidated. Is too much going on at once? It's okay. I have this. It's okay.
+**Thoughts:** I keep on feeling really intimidated. Is too much going on at once? It's okay. I have this. It's okay.
 
 ### Day 22: October 24/10/17
 
