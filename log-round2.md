@@ -1,5 +1,9 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 24: October 26/10/17
+
+Putting this challenge on hold for a while. Unsure when it'll be back, sorry. Things are heavy.
+
 ### Day 23: October 25/10/17
 
 **Today's Progress:** Looking for some resources for random dungeon generation. [This](http://bigbadwofl.me/random-dungeon-generator/) may help, also [this](http://www.roguebasin.com/index.php?title=Dungeon-Building_Algorithm). Tried doing some basic setup, so far I can generate an initial chamber but I'm still unsure which one to go for...
