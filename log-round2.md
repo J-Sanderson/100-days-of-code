@@ -8,6 +8,8 @@ So far I've found that there were a lot of errors with the board trying to place
 
 Next issue: whilst the stairs and room generate in new random positions with each level, the player character stays in the same place and often ends up inside a wall tile. Thankfully I haven't added in collision detection with walls in the movement function so you can still move around (I guess you're a ghost right now) and get to the stairs, but I need to fix that. My guess is that the player co-ordinates are not updating to the main app state properly.
 
+Upon testing it does seem that the state is not updating with the player co-ordinates. The strange thing is that the other things that get passed to the state (the board layout, stair location, and level counter) pass on normally. I can't figure out why this should happen.
+
 **Thoughts:** I'm going back to this challenge but for now it will not be everyday, just two or three days a week. I think that's a good balance to keep me going and leave me time for the day job too. So if the dates seem wrong, don't worry, I'm just pacing myself.
 
 ### Day 24: October 26/10/17
