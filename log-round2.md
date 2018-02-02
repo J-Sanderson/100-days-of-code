@@ -16,6 +16,8 @@ Following that put collision detection back in, so that the player character can
 
 Set up the generator so that it "digs" passages and rooms in random directions. Really liking the resultsbut there is an issue - loads of type errors when the  generator digs out of bounds - i.e. outside the array. I think I will need to read up some more on catching errors.
 
+Turned out to be as easy as wrapping the passage/room digging code in a try statement and catching the error with a console message. Playing about with different values for the room size/number constants now to see what gets the best looking results. I now have a very basic game - move around, find the stairs, go to another level with another random dungeon. Not pretty or fun, but it's a start. Next up, populate the dungeon with some stuff!
+
 **Thoughts:** I'm going back to this challenge but for now it will not be everyday, just two or three days a week. I think that's a good balance to keep me going and leave me time for the day job too. So if the dates seem wrong, don't worry, I'm just pacing myself - I find I get a lot done on the days I do work on this project so it evens itself out.
 
 And as always, problems aren't the framework being weird, it's you making a silly mistake.
