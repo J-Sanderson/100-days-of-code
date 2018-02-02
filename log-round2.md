@@ -1,14 +1,24 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 25: February 02 2018
+
+**Today's Progress** It's been a while but I have been working on the roguelike React game. I now have the board set up to generate some nice looking random dungeons, and to place some stairs and a player character, which can be moved about with some basic controls, but I am getting various errors where the board does not load for whatever reason. I have decided to strip back the code and tackle things more slowly. Right now I am working on a very stripped back version of the game code. "Gameplay" is moving through a single room to the stairs, going down them (just using an alert box confirmation for now, I will replace it with something fancier later) and entering a newly generated room with new stairs. This lets me test the basics (moving around, generating new levels, placing the character and the stairs) without getting bogged down. I've also taken the chance to rewrite how the character/stairs are represented in the state - objects containing row/column figures corresponding to location, rather than being hardcoded into the board array like they were before, which was unsatisfactory). There's also a level counter variable that goes up by one with each new board, which should come in handy when the game needs to know when to bring out the final boss fight.
+
+So far I've found that there were a lot of errors with the board trying to place rooms etc out of bounds, which was causing it to not render. This now seems to be fixed, it's a simple off by one error. Chrome console is your friend.
+
+Next issue: whilst the stairs and room generate in new random positions with each level, the player character stays in the same place and often ends up inside a wall tile. Thankfully I haven't added in collision detection with walls in the movement function so you can still move around (I guess you're a ghost right now) and get to the stairs, but I need to fix that. My guess is that the player co-ordinates are not updating to the main app state properly.
+
+**Thoughts:** I'm going back to this challenge but for now it will not be everyday, just two or three days a week. I think that's a good balance to keep me going and leave me time for the day job too. So if the dates seem wrong, don't worry, I'm just pacing myself.
+
 ### Day 24: October 26/10/17
 
-Putting this challenge on hold for a while. Unsure when it'll be back, sorry. Things are heavy.
+Putting this challenge on hold for a while.
 
 ### Day 23: October 25/10/17
 
 **Today's Progress:** Looking for some resources for random dungeon generation. [This](http://bigbadwofl.me/random-dungeon-generator/) may help, also [this](http://www.roguebasin.com/index.php?title=Dungeon-Building_Algorithm). Tried doing some basic setup, so far I can generate an initial chamber but I'm still unsure which one to go for...
 
-**Thoughts:** I keep on feeling really intimidated. Is too much going on at once? It's okay. I have this. It's okay. (okay admittedly I'm trying to focus through the odd minor panic attack but long story... small progress is progress.)
+**Thoughts:** I keep on feeling really intimidated. Is too much going on at once? It's okay. I have this. It's okay.
 
 ### Day 22: October 24/10/17
 
