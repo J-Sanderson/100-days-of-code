@@ -10,6 +10,8 @@ Next issue: whilst the stairs and room generate in new random positions with eac
 
 Upon testing it does seem that the state is not updating with the player co-ordinates. The strange thing is that the other things that get passed to the state (the board layout, stair location, and level counter) pass on normally. I can't figure out why this should happen.
 
+Finally figured it out - the problem was that the character movement function also sets the state at the end, including, if the character walked into stairs, after the board was done setting up. So it would update the character position state after setting up the board, then go back to the movement function and update the state again to the position the character was at. Fixed it by setting it so that the state update in the movement function only triggers if the character did not walk into the stairs.
+
 **Thoughts:** I'm going back to this challenge but for now it will not be everyday, just two or three days a week. I think that's a good balance to keep me going and leave me time for the day job too. So if the dates seem wrong, don't worry, I'm just pacing myself.
 
 ### Day 24: October 26/10/17
