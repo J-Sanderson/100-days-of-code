@@ -12,7 +12,9 @@ Upon testing it does seem that the state is not updating with the player co-ordi
 
 Finally figured it out - the problem was that the character movement function also sets the state at the end, including, if the character walked into stairs, after the board was done setting up. So it would update the character position state after setting up the board, then go back to the movement function and update the state again to the position the character was at. Fixed it by setting it so that the state update in the movement function only triggers if the character did not walk into the stairs.
 
-Following that put collision detection back in, so that the player character can no longer walk through walls. Now to re-implement the dungeon generator so the levels are more interesting than a single room. 
+Following that put collision detection back in, so that the player character can no longer walk through walls. Now to re-implement the dungeon generator so the levels are more interesting than a single room.
+
+Set up the generator so that it "digs" passages and rooms in random directions. Really liking the resultsbut there is an issue - loads of type errors when the  generator digs out of bounds - i.e. outside the array. I think I will need to read up some more on catching errors.
 
 **Thoughts:** I'm going back to this challenge but for now it will not be everyday, just two or three days a week. I think that's a good balance to keep me going and leave me time for the day job too. So if the dates seem wrong, don't worry, I'm just pacing myself - I find I get a lot done on the days I do work on this project so it evens itself out.
 
