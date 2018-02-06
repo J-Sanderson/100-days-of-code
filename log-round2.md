@@ -1,5 +1,23 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 26: February 06 2018
+
+**Today's Progress** Now that I have some basic functionality - dungeon generation, stairs, and movement - the game needs some action. First of all I created a playerStats object in the state to hold things such as the player's current HP, level, weapon, etc. This should be visible to the player so I set up a Status component above the board to display these things. So far it just shows the floor and current HP - weapons etc haven't been implemented yet.
+
+The example project from FCC has the final boss on the fifth floor. I think I will do the same, so that the game has a defined endpoint. Set up a conditional so that the stairs will only place if the floor number is less than five. Also made sure that the dungeon generator is keeping proper track of what floor we're on - this way it can generate stronger and more challenging monsters the further down we go.
+
+Now for some actual monsters. Set up an array constant to hold some weapon stats and another one to hold monster stats. (Feeling a little silly, because games are more fun with a little silliness, I named the starting weapon and monster the "Pointed Stick" and the "Ubiquitous Bat" respectively. Perhaps a later weapon will be a sharp slice of mango.) Set the game to display the palyer's HP and weapon.
+
+I'd also like a scrolling status log that displays messages, like welcoming the player to the game, describing fights blow by blow, etc (what's the point of giving the monsters funny names if you can't see them?). Created a statusLog in the app state, which starts out with an empty array. Different events will push strings to this array which will then be displayed in the scrolling log. So far I have added a welcome message and another for going down the stairs. As I add more events such as fighting and picking up items, I will add more messages. (Also need to fix the rendering so that it displays line breaks but that can wait...)
+
+Now I realise I need to think a bit about the maths beyond the player/monster stats and how to implement them. Typical RPG stuff: you have a level, EXP, HP, attack values, and trade blows with monsters who also have HP and attack - but I haven't yet thought about what values to plug in, what level curve to implement, all that stuff. I think it's time to step back from the code and get that all worked out before progressing any further.
+
+**Thoughts:** I'm feeling quite positive about this project. It seems as though most of the big problems are behind me. Of course that could all change fast, but right now it's good. Mixed feelings about not doing this every day, but as everyone seems to want something at work (lots of mapping and visual diagram work) this is a good balance.
+
+One thing is for certain: this challenge is loads of fun!
+
+**Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
+
 ### Day 25: February 02 2018
 
 **Today's Progress** It's been a while but I have been working on the roguelike React game. I now have the board set up to generate some nice looking random dungeons, and to place some stairs and a player character, which can be moved about with some basic controls, but I am getting various errors where the board does not load for whatever reason. I have decided to strip back the code and tackle things more slowly. Right now I am working on a very stripped back version of the game code. "Gameplay" is moving through a single room to the stairs, going down them (just using an alert box confirmation for now, I will replace it with something fancier later) and entering a newly generated room with new stairs. This lets me test the basics (moving around, generating new levels, placing the character and the stairs) without getting bogged down. I've also taken the chance to rewrite how the character/stairs are represented in the state - objects containing row/column figures corresponding to location, rather than being hardcoded into the board array like they were before, which was unsatisfactory). There's also a level counter variable that goes up by one with each new board, which should come in handy when the game needs to know when to bring out the final boss fight.
