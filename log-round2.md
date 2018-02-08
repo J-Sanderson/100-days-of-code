@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 26: February 08 2018
+
+**Today's Progress** Very quick check in today to set up some monster functionality. Generating the board now generates an array of monsters, though at the moment there are no stats associated with them or consideration for placement. The goal right now is to have them just show on the board, then I can find tune that and add combat functionality.
+
+**Thoughts:** Not much done but a quick check in is always godo to keep motivation up.
+
+**Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
+
 ### Day 26: February 06 2018
 
 **Today's Progress** Now that I have some basic functionality - dungeon generation, stairs, and movement - the game needs some action. First of all I created a playerStats object in the state to hold things such as the player's current HP, level, weapon, etc. This should be visible to the player so I set up a Status component above the board to display these things. So far it just shows the floor and current HP - weapons etc haven't been implemented yet.
