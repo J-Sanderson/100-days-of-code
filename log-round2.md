@@ -4,7 +4,7 @@
 
 **Today's Progress** More monster placement. Monsters now display on the board and will only spawn in free spaces (though I have yet to tweak the stair/player placement so they do not spawn on top of a monster - put in a note to myself to add that later). Each monster is an object inside an array which so far contains the row and column position of the monster, the type (an index number that corresponds to the monster type array constant, which holds the name and stats for that monster species) and whether or not the board canvas renders it (this is true to begin with and will be set to false when defeated so it can no longer be seen or interacted with).
 
-Now we need to be able to fight them! Wrote collision detection into the movement function so that it triggers a fightMonster function whem bumping into an undefeated monster. This displays a message that you have been attacked, switches the monster's display property to false (meaning defeated) and updates the board. We can now walk around one shotting bats. But where's the fun in that? We need to actually fight.
+Now we need to be able to fight them! Wrote collision detection into the movement function so that it triggers a fightMonster function whem bumping into an undefeated monster. This displays a message that you have been attacked, switches the monster's display property to false (meaning defeated) and updates the board. We can now walk around one shotting bats. But where's the fun in that? We need to actually fight. I set up a combat structure where the player does damage within a random range and can hit the monster, taking away HP and eventually defeating it.
 
 ### Day 26: February 08 2018
 
