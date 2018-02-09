@@ -2,13 +2,25 @@
 
 ### Day 27: February 09 2018
 
-**Today's Progress** More monster placement. Monsters now display on the board and will only spawn in free spaces (though I have yet to tweak the stair/player placement so they do not spawn on top of a monster - put in a note to myself to add that later). Each monster is an object inside an array which so far contains the row and column position of the monster, the type (an index number that corresponds to the monster type array constant, which holds the name and stats for that monster species) and whether or not the board canvas renders it (this is true to begin with and will be set to false when defeated so it can no longer be seen or interacted with).
+**Today's Progress:** More monster placement. Monsters now display on the board and will only spawn in free spaces (though I have yet to tweak the stair/player placement so they do not spawn on top of a monster - put in a note to myself to add that later). Each monster is an object inside an array which so far contains the row and column position of the monster, the type (an index number that corresponds to the monster type array constant, which holds the name and stats for that monster species) and whether or not the board canvas renders it (this is true to begin with and will be set to false when defeated so it can no longer be seen or interacted with).
 
-Now we need to be able to fight them! Wrote collision detection into the movement function so that it triggers a fightMonster function whem bumping into an undefeated monster. This displays a message that you have been attacked, switches the monster's display property to false (meaning defeated) and updates the board. We can now walk around one shotting bats. But where's the fun in that? We need to actually fight. I set up a combat structure where the player does damage within a random range and can hit the monster, taking away HP and eventually defeating it.
+Now we need to be able to fight them! Wrote collision detection into the movement function so that it triggers a fightMonster function whem bumping into an undefeated monster. This displays a message that you have been attacked, switches the monster's display property to false (meaning defeated) and updates the board. We can now walk around one shotting bats. But where's the fun in that? We need to actually fight. I set up a combat structure where the player does damage within a random range and can hit the monster, taking away HP and eventually defeating it. Next added in functionality for the monster to do the same to the player and possibly reduce their HP to 0, therefore killing them.
+
+Next up:
+
+* have some actual consequences for dying rather than a "You died!" message - right now you can keep going with negative HP. Wipe the whole board and make the player start over. Probably do this in a seperate death function.
+* let the player gain EXP for defeating the monster and level up, giving HP and attack increases.
+* scatter health items around the dungeon so we can heal.
+* drop a weapon somewhere in the dungeon that we can pick up and get an attack bonus from.
+* fix the play log so that there are actual line breaks in there.
+
+**Thoughts:** I think I made the bats too hardcore.
+
+**Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
 
 ### Day 26: February 08 2018
 
-**Today's Progress** Very quick check in today to set up some monster functionality. Generating the board now generates an array of monsters, though at the moment there are no stats associated with them or consideration for placement. The goal right now is to have them just show on the board, then I can find tune that and add combat functionality.
+**Today's Progress:** Very quick check in today to set up some monster functionality. Generating the board now generates an array of monsters, though at the moment there are no stats associated with them or consideration for placement. The goal right now is to have them just show on the board, then I can find tune that and add combat functionality.
 
 **Thoughts:** Not much done but a quick check in is always good to keep motivation up.
 
