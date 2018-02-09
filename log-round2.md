@@ -1,10 +1,16 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 27: February 09 2018
+
+**Today's Progress** More monster placement. Monsters now display on the board and will only spawn in free spaces (though I have yet to tweak the stair/player placement so they do not spawn on top of a monster - put in a note to myself to add that later). Each monster is an object inside an array which so far contains the row and column position of the monster, the type (an index number that corresponds to the monster type array constant, which holds the name and stats for that monster species) and whether or not the board canvas renders it (this is true to begin with and will be set to false when defeated so it can no longer be seen or interacted with).
+
+Now we need to be able to fight them!
+
 ### Day 26: February 08 2018
 
 **Today's Progress** Very quick check in today to set up some monster functionality. Generating the board now generates an array of monsters, though at the moment there are no stats associated with them or consideration for placement. The goal right now is to have them just show on the board, then I can find tune that and add combat functionality.
 
-**Thoughts:** Not much done but a quick check in is always godo to keep motivation up.
+**Thoughts:** Not much done but a quick check in is always good to keep motivation up.
 
 **Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
 
