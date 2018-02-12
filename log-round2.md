@@ -1,5 +1,19 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 28: February 12 2018
+
+**Today's Progress:** Adding more to the gameplay from the list I made last time. Each floor now spawns a weapon which can be picked up and adds to the player's strength. Also each floor will now spawn a progressively stronger monster than the last one to make it more of a challenge. Most have placeholder names and stats but that can get fixed later. There's also a nice amount of silliness, especially on the last floor...
+
+Weapon spawning/pickup is easy enough, the same choosing a free square to place it and the same collision detection that tells the game if the player has hit a monster or the stairs. I will still need to tweak placements though so that things don't spawn on top of other things.
+
+All that's left to spawn now is healing items. This should be the same as the monster placement loop - get square, check it's free, place item.
+
+**Thoughts:** Forget the bats. The rabbits are worse.
+
+Starting to think the code is getting overly complex again. Trying not to worry about it, getting it to work is most important right now but I think there are some areas that could do to be more concise.
+
+**Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
+
 ### Day 27: February 09 2018
 
 **Today's Progress:** More monster placement. Monsters now display on the board and will only spawn in free spaces (though I have yet to tweak the stair/player placement so they do not spawn on top of a monster - put in a note to myself to add that later). Each monster is an object inside an array which so far contains the row and column position of the monster, the type (an index number that corresponds to the monster type array constant, which holds the name and stats for that monster species) and whether or not the board canvas renders it (this is true to begin with and will be set to false when defeated so it can no longer be seen or interacted with).
