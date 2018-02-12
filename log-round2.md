@@ -12,7 +12,7 @@ The last gameplay vital things to add are levels/EXP and death. Added a basic le
 
 Finally, we need a death function so that the player can't continue with negative HP. For now I set the screen component to only display the board if the player has more than 0HP. In the future I would like to update this to show a death screen and give the option to continue but for now this will do.
 
-There is one more gameplay aspect left: the boss monster in the final dungeon - but I want to ensure the game is balanced enough to get you there with enough of a challenge to make it fun.
+There is one more gameplay aspect left: the boss monster in the final dungeon - but I want to ensure the game is balanced enough to get you there with enough of a challenge to make it fun. A quick playtest and I think I need to better scale the heals to the dungeon floor. They become too useless later on. But it does so far seem to be reasonably well balanced.
 
 **Thoughts:** Forget the bats. The rabbits are worse.
 
