@@ -6,7 +6,13 @@
 
 Weapon spawning/pickup is easy enough, the same choosing a free square to place it and the same collision detection that tells the game if the player has hit a monster or the stairs. I will still need to tweak placements though so that things don't spawn on top of other things.
 
-All that's left to spawn now is healing items. This should be the same as the monster placement loop - get square, check it's free, place item.
+All that's left to spawn now is healing items. This should be the same as the monster placement loop - get square, check it's free, place item. Added that in, the code is just repurposed monster placement.
+
+The last gameplay vital things to add are levels/EXP and death. Added a basic level system that lets you gain EXP based on the monster's attack stat (this is probably going to be temporary, I'll figure something else out later - if nothing else maybe the EXP should be slightly random). The player stats now contain a toNextLevel figure that decrements with EXP gained and allows levelling up if it passes 0. The status panel also shows how much more EXP the player needs to gain to level up.
+
+Finally, we need a death function so that the player can't continue with negative HP. For now I set the screen component to only display the board if the player has more than 0HP. In the future I would like to update this to show a death screen and give the option to continue but for now this will do.
+
+There is one more gameplay aspect left: the boss monster in the final dungeon - but I want to ensure the game is balanced enough to get you there with enough of a challenge to make it fun.
 
 **Thoughts:** Forget the bats. The rabbits are worse.
 
