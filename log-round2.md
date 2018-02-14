@@ -1,5 +1,21 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 29: February 14 2018
+
+**Today's Progress:** Some small tweaks to monster stats and the game feels playable but reasonably challenging. Fixed the log so that it now displays as a list rather than an unbroken stream of text, and whilst it still needs some fixes it is a lot more readable.
+
+For the last gameplay critical element I added in a boss monster that spawns on the final floor. It has unique messages and displays a "you won!" message when deleted, although there still needs to be a proper win screen. I'll handle that when working on the death screens as they will have similar "play again?" functionality.
+
+The game is now reasonably complete but still very bare bones and nowhere near done. Things to work on next:
+
+* a pop-up component for going down stairs rather than the basic alert I'm using right now.
+* death and win screens that properly disable play and offer a new game. Theoretically it should still be possible to continue playing after death since all that happens is the screen no longer renders, and winning does nothing but add a "You won!" message to the log. Boring!
+* the board should only render part of the dungeon, centred on the player, rather than all of it as it does now.
+
+**Thoughts:** Very glad that I have basic gameplay sorted, although the list of things to do now is a little intimidating - there's a lot of new things to write. But not so intimidating that I can't do it. I think I have a handle on this now.
+
+**Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
+
 ### Day 28: February 12 2018
 
 **Today's Progress:** Adding more to the gameplay from the list I made last time. Each floor now spawns a weapon which can be picked up and adds to the player's strength. Also each floor will now spawn a progressively stronger monster than the last one to make it more of a challenge. Most have placeholder names and stats but that can get fixed later. There's also a nice amount of silliness, especially on the last floor...
