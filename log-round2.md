@@ -1,5 +1,17 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 30: February 23 2018
+
+**Today's Progress:** Started out on the cleanup by making a "do you want to go down the stairs?" component that renders when the player bumps into a stair tile, rather than an alert box as was previously used. The box has basic styling like everything else right now, but should look nice with some proper styling later.
+
+Next, to add some death and victory boxes that render in much the same way.
+
+**Thoughts:** I ended up going back to my recipe box project to remember how to do components that only render at certain times. That was kind of embarassing but I think asking "how did I do this again?" is more common than people want to accept. Past you is a different person. Anyway, they were nice and easy to set up once I had it figured out. I expected an awkwark logic snarl when replacing the alert, but it was all very smooth.
+
+One thing that is annoying is the length of the code for this project, which is my longest so far. If I were not using Codepen, I would have split this thing up into modules ages ago.
+
+**Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
+
 ### Day 29: February 14 2018
 
 **Today's Progress:** Some small tweaks to monster stats and the game feels playable but reasonably challenging. Fixed the log so that it now displays as a list rather than an unbroken stream of text, and whilst it still needs some fixes it is a lot more readable.
