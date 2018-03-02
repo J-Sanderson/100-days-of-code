@@ -6,7 +6,7 @@
 
 I wanted to complete both these messages with a "Play again?" button so the player can restart without having to reload the page. The problem I'm now having is getting the state to update again to reset it back to its defaults, then calling the board setup function. As it stands the state is not properly updated, so the game thinks you are moving on to the next floor. Did some looking around and found that you can pass callbacks to setState, which solved everything immediately. Once that was resolved I added the same functionality to the win message.
 
-The next step is to rework the canvas rendering function so that we can only see a small part of the dungeon at any one time.
+The next step is to rework the canvas rendering function so that we can only see a small part of the dungeon at any one time. Did a rough mockup that just shows the dungeon layout, it is mostly working ok but falls apart when I try to add the player character and move them about. I think this will need some extra thought. Probably time to break out the graph paper.
 
 **Thoughts:** I love it when what looks like a big problem has an easy solution.
 
