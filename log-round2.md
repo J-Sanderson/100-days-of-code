@@ -1,12 +1,28 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 31: March 02 2018
+
+**Today's Progress:** Added death and victory popup boxes to the game and set the controls so that the player can no longer move and thus continue playing when either state has been reached.
+
+I wanted to complete both these messages with a "Play again?" button so the player can restart without having to reload the page. The problem I'm now having is getting the state to update again to reset it back to its defaults, then calling the board setup function. As it stands the state is not properly updated, so the game thinks you are moving on to the next floor. Did some looking around and found that you can pass callbacks to setState, which solved everything immediately. Once that was resolved I added the same functionality to the win message.
+
+The next step is to rework the canvas rendering function so that we can only see a small part of the dungeon at any one time.
+
+**Thoughts:** I love it when what looks like a big problem has an easy solution.
+
+Funny moment: setting the boss stats low for testing the win message, leading to a situatuion where you can slap a dragon to death in one hit.
+
+I'm a bit intimidated by fixing the canvas as it will involve reworking a lot of code, but I'll be okay. It's not beyond me to figure it out.
+
+**Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
+
 ### Day 30: February 23 2018
 
 **Today's Progress:** Started out on the cleanup by making a "do you want to go down the stairs?" component that renders when the player bumps into a stair tile, rather than an alert box as was previously used. The box has basic styling like everything else right now, but should look nice with some proper styling later.
 
 Next, to add some death and victory boxes that render in much the same way.
 
-**Thoughts:** I ended up going back to my recipe box project to remember how to do components that only render at certain times. That was kind of embarassing but I think asking "how did I do this again?" is more common than people want to accept. Past you is a different person. Anyway, they were nice and easy to set up once I had it figured out. I expected an awkwark logic snarl when replacing the alert, but it was all very smooth.
+**Thoughts:** I ended up going back to my recipe box project to remember how to do components that only render at certain times. That was kind of embarassing but I think asking "how did I do this again?" is more common than people want to accept. Past you is a different person. Anyway, they were nice and easy to set up once I had it figured out. I expected an awkward logic snarl when replacing the alert, but it was all very smooth.
 
 One thing that is annoying is the length of the code for this project, which is my longest so far. If I were not using Codepen, I would have split this thing up into modules ages ago.
 
