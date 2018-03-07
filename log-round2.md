@@ -12,7 +12,9 @@ Further testing and it seems that the error occurs when the player moves into ce
 
 There appears to be a cutoff when the playerPos.colPos variable (meaning in this situation what column the player is in) goes any higher than 22 - that's just under half the board size of 45. So something is happening to stop rendering when the player's position is on the right hand size of the board. If the player is on a column position of 22, the board starts drawing from column 13 in the board array, and ends at column 33. This seems to go ok.
 
-And I think I have it - it's the error handing statement causing a return and stopping the render at that point, and errors are common due to the numbers involved outstepping the bounds of the board array. Instead of relying on error handling to solve the problem, I should have written the board rendering in such a way that I didn't need to - throwing in a try/catch statement was just lazy coding. Time to fix that.
+And I think I have it - it's the error handing statement causing a return and stopping the render at that point, and errors are common due to the numbers involved outstepping the bounds of the board array. Instead of relying on error handling to solve the problem, I should have written the board rendering in such a way that I didn't need to - throwing in a try/catch statement was just lazy coding. Time to fix that. Set up a proper check when deciding whether to render a tile, and that problem has gone away.
+
+There is still the issue of the player not always being able to move correctly across the board - moving on to wall tiles, being unable to move in free ones, as if the board is different to what we see. I will need to work out what's going on - perhaps it IS rendering the wrong board because something isn't updating?
 
 **Thoughts:** It's a nothing works day. It's okay. We'll make it. I love a good puzzle.
 
