@@ -6,7 +6,9 @@
 
 Still running into issues with the player character not always rendering, or showing up in the wrong spot. I have yet to work out the problem, but I have noticed that when it happens, the weapon and stairs also vanish (but may still be interacted with). So I can tell that something is breaking that has a knock on effect with everything that should be rendered afterwards.
 
-**Thoughts:** It's a nothing works day. It's okay. We'll make it.
+Further testing and it seems that the error occurs when the player moves into certain spots, but I have yet to work out what it is about them that causes it. Error handling in the rendering doesn't seem to be bringing anything to light. But it's another thing to think of. Going to try logging the player's position on the board with each step and seeing if a pattern shows.
+
+**Thoughts:** It's a nothing works day. It's okay. We'll make it. I love a good puzzle.
 
 ### Day 32: March 06 2018
 
