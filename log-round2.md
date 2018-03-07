@@ -2,6 +2,14 @@
 
 ### Day 32: March 07 2018
 
+**Today's Progress:** Managed to work out how to get the weapon to display in the right place. The character is also able to move into it and pick it up. Did the same to add in the stairs as they are placed in the same way as the weapon (a single item that is in a fixed spot) and they also work. Mostly...
+
+Still running into issues with the player character not always rendering, or showing up in the wrong spot. I have yet to work out the problem, but I have noticed that when it happens, the weapon and stairs also vanish (but may still be interacted with). So I can tell that something is breaking that has a knock on effect with everything that should be rendered afterwards.
+
+**Thoughts:** It's a nothing works day. It's okay. We'll make it.
+
+### Day 32: March 06 2018
+
 **Today's Progress:** Attempting to add things to the dungeon layout starting with the player character. Managed to get the player to display but on some occasions it does not show in the correct place, unsure why. Moving on for now to unstick things, I need to add more items. This is harder because the player is always at the centre of the screen, but the other items (stairs, heals, monsters, weapons) are in specific locations.
 
 **Thoughts:** This part is a challenge and it sometimes feels tempting to not do the zoomed in thing... but I feel like that would be giving up. Don't want to go there.
