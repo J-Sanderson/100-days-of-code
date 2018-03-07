@@ -6,7 +6,13 @@
 
 Still running into issues with the player character not always rendering, or showing up in the wrong spot. I have yet to work out the problem, but I have noticed that when it happens, the weapon and stairs also vanish (but may still be interacted with). So I can tell that something is breaking that has a knock on effect with everything that should be rendered afterwards.
 
+This showed that the rendering seems to stop somewhere in the board rendering section, and thus it never moves on to rendering anything but the board layout.
+
 Further testing and it seems that the error occurs when the player moves into certain spots, but I have yet to work out what it is about them that causes it. Error handling in the rendering doesn't seem to be bringing anything to light. But it's another thing to think of. Going to try logging the player's position on the board with each step and seeing if a pattern shows.
+
+There appears to be a cutoff when the playerPos.colPos variable (meaning in this situation what column the player is in) goes any higher than 22 - that's just under half the board size of 45. So something is happening to stop rendering when the player's position is on the right hand size of the board. If the player is on a column position of 22, the board starts drawing from column 13 in the board array, and ends at column 33. This seems to go ok.
+
+And I think I have it - it's the error handing statement causing a return and stopping the render at that point, and errors are common due to the numbers involved outstepping the bounds of the board array. Instead of relying on error handling to solve the problem, I should have written the board rendering in such a way that I didn't need to - throwing in a try/catch statement was just lazy coding. Time to fix that.
 
 **Thoughts:** It's a nothing works day. It's okay. We'll make it. I love a good puzzle.
 
