@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 32: March 07 2018
+
+**Today's Progress:** Attempting to add things to the dungeon layout starting with the player character. Managed to get the player to display but on some occasions it does not show in the correct place, unsure why. Moving on for now to unstick things, I need to add more items. This is harder because the player is always at the centre of the screen, but the other items (stairs, heals, monsters, weapons) are in specific locations.
+
+**Thoughts:** This part is a challenge and it sometimes feels tempting to not do the zoomed in thing... but I feel like that would be giving up. Don't want to go there.
+
 ### Day 31: March 02 2018
 
 **Today's Progress:** Added death and victory popup boxes to the game and set the controls so that the player can no longer move and thus continue playing when either state has been reached.
