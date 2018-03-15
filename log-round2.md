@@ -10,9 +10,15 @@ This works to some extend - movement is no longer impeded in top/left positions 
 
 A little more checking the loops and it seems to be because the loop ends too soon once the starting position goes below zero. Fixed that so it will not end until the board size is reached. Now I seem to have free motion of the board. Time to put everything back on it. Adding the weapon and the stairs was easy enough. Now I'm back to fixing the monsters. I had some trouble so I tested by rendering just the first monster on the list. Once that was working I set a loop to render all the monsters. I then managed to do the same for the heals.
 
-Now everything seems to work ok, the game is playable again, but I hit another snag - on hitting either of the replay options (continue after a win or death) the board does not render. I can't see why this should happen as nothing changed in the board setup code, just the rendering, but something is off. Checking error messages and it seems like nothing (or at least not the board) is getting passed to the screen component. However, moving just once causes the board to poperly generate with a new game which then seems to work ok. This probably has something to do with the reset function (triggered by restarting a game) sets everything back to default, including making the board into a blank array - but why then does this not happen in the old version without the zoomed in screen?
+Now everything seems to work ok, the game is playable again, but I hit another snag - on hitting either of the replay options (continue after a win or death) the board does not render. I can't see why this should happen as nothing changed in the board setup code, just the rendering, but something is off. Checking error messages and it seems like nothing (or at least not the board) is getting passed to the screen component. However, moving just once causes the board to poperly generate with a new game which then seems to work ok. This probably has something to do with the reset function (triggered by restarting a game) sets everything back to default, including making the board into a blank array - but why then does this not happen in the old version without the zoomed in screen? Not sure, but removing the board reset seems to help. Going to have to keep an eye on this one.
+
+But if that's all the issues I'm having, it seems that the rest of the work should be cosmetic.
 
 **Thoughts:** I hope all those words above make sense...
+
+Everything else aside, I'm happy that one of the biggest challenges so far has been (apparently) sorted. I feel like another milestone is down.
+
+**Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
 
 ### Day 32: March 07 2018
 
