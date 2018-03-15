@@ -1,5 +1,19 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 33: March 15 2018
+
+**Today's Progress:** Whilst trying to get the monsters to display, I ran into another problem, being that the player cannot move too close to the top or edge of the board, including tiles they should be able to access. This might be the source of all the movement issues I've been having and it seems to tie in to the way the board rendering is set up.
+
+So I need to fix that. Disabled rendering anything except the board and the player, temp altered the player's stats so they can one shot any monsters (important when you're testing and they're currently invisible). It's something to do with the rendering code setting a start value to render from based on where on the board the player is. I found some code that would set it to zero if it was anything less, but of course that means it can't render top/left positions now. No wonder the player doesn't seem to move and all sorts of odd things happen. Removed that code and added a check in the board rendering that the calculated start position for each cell needs to be greater than 0.
+
+This works to some extend - movement is no longer impeded in top/left positions - but cells on the other side of the screen stop rendering, I think because the check stops the whole row or column from rendering rather than just the ones that aren't there to render anyway. Tried moving some of the checks to the outer loop but it didn't make a difference. Going to have to dig deeper.
+
+A little more checking the loops and it seems to be because the loop ends too soon once the starting position goes below zero. Fixed that so it will not end until the board size is reached. Now I seem to have free motion of the board. Time to put everything back on it. Adding the weapon and the stairs was easy enough. Now I'm back to fixing the monsters. I had some trouble so I tested by rendering just the first monster on the list. Once that was working I set a loop to render all the monsters. I then managed to do the same for the heals.
+
+Now everything seems to work ok, the game is playable again, but I hit another snag - on hitting either of the replay options (continue after a win or death) the board does not render. I can't see why this should happen as nothing changed in the board setup code, just the rendering, but something is off. Checking error messages and it seems like nothing (or at least not the board) is getting passed to the screen component.
+
+**Thoughts:** I hope all those words above make sense...
+
 ### Day 32: March 07 2018
 
 **Today's Progress:** Managed to work out how to get the weapon to display in the right place. The character is also able to move into it and pick it up. Did the same to add in the stairs as they are placed in the same way as the weapon (a single item that is in a fixed spot) and they also work. Mostly...
