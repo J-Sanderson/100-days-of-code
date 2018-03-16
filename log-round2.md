@@ -1,5 +1,15 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 34: March 16 2018
+
+**Today's Progress:** Moving on to layout and appearance. First off fixed the layout so that the screen is in between the status and the controls, and ensuring the status messages default to scrolling to the bottom whenever updated. I like the look of it, it seems vaguely reminiscent of a handheld console now.
+
+I then created some basic pixel graphics and worked on the board rendering so that they display rather than some coloured squares as before. I had always wanted to use pixel art, the squares were just a placeholder. At the moment the graphics are very basic. I'm mostly concerned about whether they display, not what they look like. So far there are wall and floor tiles, the player, stairs, health potions, and an image for each monster and weapon type (I wanted those to be distinct because they are supposed to be different objects/creatures). They work ok, but sometimes don't load. My guess is that the canvas is trying to render them before they have properly loaded, leading to blanks. I'll try testing out loading them in before rendering the canvas to see what that does. There are also a few lingering type errors in the dungeon generator code that still need looking at...
+
+**Thoughts:** There are two things here that I'm not happy with. First is that the layout is not responsive, indeed it uses fixed dimensions. I had the same issue with the Game of Life, because they both involve canvas grids. Not sure if there's a way around it, perhaps that is something to explore in a smaller project? Second, I admit I did copy paste the code to get the status div to scroll to the bottom, and I still don't fully understand it. Not great practice there, need to do some more reading on what refs actually do. But aside from those things I'm feeling quite happy.
+
+**Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
+
 ### Day 33: March 15 2018
 
 **Today's Progress:** Whilst trying to get the monsters to display, I ran into another problem, being that the player cannot move too close to the top or edge of the board, including tiles they should be able to access. This might be the source of all the movement issues I've been having and it seems to tie in to the way the board rendering is set up.
