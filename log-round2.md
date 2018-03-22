@@ -10,6 +10,8 @@ For now I managed to fix the bug where the board does not generate at all. Seems
 
 Not much else to do until I get the flickering sorted so I've started reading up on D3 using [this tutorial set](http://alignedleft.com/tutorials/d3/) in preperation for the next set of challenges.
 
+Later on: managed to get to a system with Firefox and fixed the inability to move bug. One of those stupid errors where you used the wrong variable name again...
+
 **Thoughts:** I really hope I don't need to rewrite anything big! I was so happy I had things working...
 
 ### Day 34: March 16 2018
