@@ -6,6 +6,8 @@
 
 There is also a possible bug I need to chase down with the player being unable to move in Firefox. I will have to chase this when I have access to a computer running it; right now I am only working on Chrome.
 
+For now I managed to fix the bug where the board does not generate at all. Seems to be a type error where the stairs randomly generate on an edge tile. As the stair generator checks for free space all around, it throws an error when there is nothing at all to one side. Fixed it so that the stairs should always generate at least one tile in from the edge by starting at array position 1 rather than 0.
+
 **Thoughts:** I really hope I don't need to rewrite anything big! I was so happy I had things working...
 
 ### Day 34: March 16 2018
