@@ -8,6 +8,8 @@ There is also a possible bug I need to chase down with the player being unable t
 
 For now I managed to fix the bug where the board does not generate at all. Seems to be a type error where the stairs randomly generate on an edge tile. As the stair generator checks for free space all around, it throws an error when there is nothing at all to one side. Fixed it so that the stairs should always generate at least one tile in from the edge by starting at array position 1 rather than 0.
 
+Not much else to do until I get the flickering sorted so I've started reading up on D3 using [this tutorial set](http://alignedleft.com/tutorials/d3/) in preperation for the next set of challenges.
+
 **Thoughts:** I really hope I don't need to rewrite anything big! I was so happy I had things working...
 
 ### Day 34: March 16 2018
