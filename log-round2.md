@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 35: March 22 2018
+
+**Today's Progress:** Did some tweaks to the dungeon tiles. They look a bit nicer but I'm still focused on the image problems. I've tried using the function linked earlier to only draw the screen when all the images are loaded in, which solved the issue with images not loading at all, but added a notable and very uncomfortable flicker sometimes when moving. My guess is the problem is to do with the images all loading each time the screen is drawn, leading to small lags which cause flickering. Not very efficient either. Currently trying to work out how to get around that, put up a help thread on freeCodeCamp.
+
+There is also a possible bug I need to chase down with the player being unable to move in Firefox. I will have to chase this when I have access to a computer running it; right now I am only working on Chrome.
+
+**Thoughts:** I really hope I don't need to rewrite anything big! I was so happy I had things working...
+
 ### Day 34: March 16 2018
 
 **Today's Progress:** Moving on to layout and appearance. First off fixed the layout so that the screen is in between the status and the controls, and ensuring the status messages default to scrolling to the bottom whenever updated. I like the look of it, it seems vaguely reminiscent of a handheld console now.
