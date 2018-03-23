@@ -1,5 +1,15 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 36: March 23 2018
+
+**Today's Progress:** Slept on the flickering problem and came back to it. I moved the image loader function into the main app's componentDidMount function and saved the images in the app state when they were all loaded in. These then get passed to the screen component as props and the board is rendered as usual. This seems to have solved the flickering problem and it does seem to be a lot more efficient as the page is not constantly having to fetch the images with each update.
+
+With all that solved I think the only things left to worry about so far are the graphics but I will keep an eye on things if any bugs develop. It'd be nice to also allow the user to move using the arrow keys insteas of just the on screen buttons.
+
+**Thoughts:** I think this is the longest project I've worked on. Thinking for a future project I might rewrite it outside of Codepen, tidy up the code and have some proper modules in there instead of one big blob.
+
+**Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
+
 ### Day 35: March 22 2018
 
 **Today's Progress:** Did some tweaks to the dungeon tiles. They look a bit nicer but I'm still focused on the image problems. I've tried using the function linked earlier to only draw the screen when all the images are loaded in, which solved the issue with images not loading at all, but added a notable and very uncomfortable flicker sometimes when moving. My guess is the problem is to do with the images all loading each time the screen is drawn, leading to small lags which cause flickering. Not very efficient either. Currently trying to work out how to get around that, put up a help thread on freeCodeCamp.
