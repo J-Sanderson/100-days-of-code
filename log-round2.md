@@ -4,7 +4,7 @@
 
 **Today's Progress:** Slept on the flickering problem and came back to it. I moved the image loader function into the main app's componentDidMount function and saved the images in the app state when they were all loaded in. These then get passed to the screen component as props and the board is rendered as usual. This seems to have solved the flickering problem and it does seem to be a lot more efficient as the page is not constantly having to fetch the images with each update.
 
-With all that solved I think the only things left to worry about so far are the graphics but I will keep an eye on things if any bugs develop. It'd be nice to also allow the user to move using the arrow keys insteas of just the on screen buttons.
+With all that solved I think the only things left to worry about so far are the graphics but I will keep an eye on things if any bugs develop. It'd be nice to also allow the user to move using the arrow keys instead of just the on screen buttons.
 
 **Thoughts:** I think this is the longest project I've worked on. Thinking for a future project I might rewrite it outside of Codepen, tidy up the code and have some proper modules in there instead of one big blob.
 
