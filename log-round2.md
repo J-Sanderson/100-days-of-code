@@ -6,6 +6,8 @@
 
 With all that solved I think the only things left to worry about so far are the graphics but I will keep an eye on things if any bugs develop. It'd be nice to also allow the user to move using the arrow keys instead of just the on screen buttons.
 
+While working on some pixel art and testing how it looks, I did find one potential bug - the player seems able to move out of the bounds of the dungeon. I think this is happening at the very edge points - perhaps the collison detection is not accounting for that. Added coordinate logging to the movement function to test it out. Oddly enough I found at one point the randomly placed weapon even spawned out of bounds. I think I can now see what happened - if a room dig is cut off because it reaches the edge, it still registers those array slots as "true" even if it shouldn't be possible to go there. That's a bad bug and one I'm surprised I didn't pick up on earlier. To fix this I added a couple of loops after the main dungeon layout had been generated to ensure all edge tiles are also wall tiles, and ensuring items etc cannot spawn on edge tiles. This seems to stop the "invisible rooms" but I will keep an eye on the issue.
+
 **Thoughts:** I think this is the longest project I've worked on. Thinking for a future project I might rewrite it outside of Codepen, tidy up the code and have some proper modules in there instead of one big blob.
 
 **Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
