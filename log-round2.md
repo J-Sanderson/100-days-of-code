@@ -14,6 +14,8 @@ Later on: managed to get to a system with Firefox and fixed the inability to mov
 
 **Thoughts:** I really hope I don't need to rewrite anything big! I was so happy I had things working...
 
+But I am happy to be working on D3. I think it's been way too long since I tried something new. I think I was stagnating a bit, picking up a new thing helps the brain go.
+
 ### Day 34: March 16 2018
 
 **Today's Progress:** Moving on to layout and appearance. First off fixed the layout so that the screen is in between the status and the controls, and ensuring the status messages default to scrolling to the bottom whenever updated. I like the look of it, it seems vaguely reminiscent of a handheld console now.
