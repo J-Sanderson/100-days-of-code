@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 37: March 28 2018
+
+**Today's Progress:** Coding for the roguelike has been put aside whilst I work on the pixel graphics. Once that's done I can get the styelsheet for the page looking good to match.
+
+In the meantime I am continuing work on D3, picking up some more charting details and learning about scales.
+
+**Thoughts:** D3 is very exciting, glad to be picking up something new. I'm already confident about the first FCC challenge as it's a simple enough bar chart, hopefully I should have enough to do that and keep me coding while I poke at the pixel art. I also think this may be something I can utilise in my day job as I already do a decent amount of data visualisation. Things are looking good!
+
 ### Day 36: March 23 2018
 
 **Today's Progress:** Slept on the flickering problem and came back to it. I moved the image loader function into the main app's componentDidMount function and saved the images in the app state when they were all loaded in. These then get passed to the screen component as props and the board is rendered as usual. This seems to have solved the flickering problem and it does seem to be a lot more efficient as the page is not constantly having to fetch the images with each update.
