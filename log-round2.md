@@ -2,7 +2,7 @@
 
 ### Day 37: March 28 2018
 
-**Today's Progress:** Coding for the roguelike has been put aside whilst I work on the pixel graphics. Once that's done I can get the styelsheet for the page looking good to match.
+**Today's Progress:** Coding for the roguelike has been put aside whilst I work on the pixel graphics. Once that's done I can get the stylesheet for the page looking good to match.
 
 In the meantime I am continuing work on D3, picking up some more charting details and learning about scales.
 
