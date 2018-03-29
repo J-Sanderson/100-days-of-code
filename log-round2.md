@@ -2,9 +2,9 @@
 
 ### Day 38: March 29 2018
 
-**Today's Progress:** Picking up some more D3 while I continue with pixel art for the roguelike. Worked on axes and now I think I have enough to create a basic chart.
+**Today's Progress:** Picking up some more D3 while I continue with pixel art for the roguelike. Worked on axes and now I think I have enough to create a basic chart. Put something together using the first FCC challenge's data (which meant learning to fetch JSON in D3 rather than using hardcoded sets). It looks ok but I need to get better at using scales.
 
-**Thoughts:** Trying to assess if I feel confident enough to start the first FCC D3 challenge now or later...
+**Thoughts:** Trying to assess if I feel confident enough to start the first FCC D3 challenge now or later... jumping in feels daunting but I figure making something is the best way to learn.
 
 ### Day 37: March 28 2018
 
