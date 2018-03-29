@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 38: March 29 2018
+
+**Today's Progress:** Picking up some more D3 while I continue with pixel art for the roguelike. Worked on axes and now I think I have enough to create a basic chart.
+
+**Thoughts:** Trying to assess if I feel confident enough to start the first FCC D3 challenge now or later...
+
 ### Day 37: March 28 2018
 
 **Today's Progress:** Coding for the roguelike has been put aside whilst I work on the pixel graphics. Once that's done I can get the stylesheet for the page looking good to match.
