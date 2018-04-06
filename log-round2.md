@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 39: April 06 2018
+
+**Today's Progress:** Finished the pixel art so went back to styling the dungeon crawler game, and got something good looking. I think I'm going to call this one done. There's plenty could still be done with this project, but it's time to call it finished and move on properly to the D3 projects.
+
+**Thoughts:** So glad that this one is done - I've never had a project take so much time and energy as this. I do enjoy making things look nice once the functionalit is done. Amongst other things I'm a sculptor, and both a strong framework and good looks are important to a sculpture; this is no different.
+
+**Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
+
 ### Day 38: March 29 2018
 
 **Today's Progress:** Picking up some more D3 while I continue with pixel art for the roguelike. Worked on axes and now I think I have enough to create a basic chart. Put something together using the first FCC challenge's data (which meant learning to fetch JSON in D3 rather than using hardcoded sets). It looks ok but I need to get better at using scales.
