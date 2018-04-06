@@ -4,7 +4,7 @@
 
 **Today's Progress:** Finished the pixel art so went back to styling the dungeon crawler game, and got something good looking. I think I'm going to call this one done. There's plenty could still be done with this project, but it's time to call it finished and move on properly to the D3 projects.
 
-**Thoughts:** So glad that this one is done - I've never had a project take so much time and energy as this. I do enjoy making things look nice once the functionalit is done. Amongst other things I'm a sculptor, and both a strong framework and good looks are important to a sculpture; this is no different.
+**Thoughts:** So glad that this one is done - I've never had a project take so much time and energy as this. I do enjoy making things look nice once the functionality is done, even if it feels more trivial. Amongst other things I'm a sculptor, and both a strong framework and good looks are important to a sculpture; this is no different.
 
 **Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
 
