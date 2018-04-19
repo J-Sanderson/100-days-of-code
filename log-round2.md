@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 40: April 19 2018
+
+**Today's Progress:** Working on the D3 graphs. I can import the data required and get a basic bar chart going without any problems, but I'm still having trouble with the scales.
+
+**Thoughts:** This is frustrating - I feel like there is a lot I don't properly understand about how scales work, and it's leading me to stumble in the dark. I know this feeling passes when I get a better handle on things, it's the early days like this that are annoying.
+
 ### Day 39: April 06 2018
 
 **Today's Progress:** Finished the pixel art so went back to styling the dungeon crawler game, and got something good looking. I think I'm going to call this one done. There's plenty could still be done with this project, but it's time to call it finished and move on properly to the D3 projects.
