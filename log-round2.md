@@ -2,7 +2,7 @@
 
 ### Day 41: April 20 2018
 
-**Today's Progress:** Working on the graphs and fixed the scales by creating two arrays out of the initial nested array, one for each axis. I now have a good enough looking graph, now it needs the bar hover effect specified in the project. Will need to look up how to do that.
+**Today's Progress:** Working on the graphs and fixed the scales by creating two arrays out of the initial nested array, one for each axis. I now have a good enough looking graph, now it needs the bar hover effect specified in the project. Will need to look up how to do that. [This seems like what I'm going for.](http://bl.ocks.org/Caged/6476579)
 
 **Thoughts:** Much better than yesterday, and I have some idea of what I'm doing when I work with a scale now.
 
