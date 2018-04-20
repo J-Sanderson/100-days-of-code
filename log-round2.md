@@ -6,7 +6,7 @@
 
 Ended up going with [this method](http://bl.ocks.org/d3noob/a22c42db65eb00d4e369) as I don't need anything excessively complicated and I may as well learn how to do it with a basic div. Got some nice basic tooltips in there, now the chart is looking good and readable.
 
-Added in some basic styling, and used the chance to try out the new native CSS variables as this project didn't require a preprocessor.
+Added in some basic styling, and used the chance to try out the new native CSS variables as this project didn't require a preprocessor. I'm going to call this one done.
 
 **Thoughts:** Much better than yesterday, and I have some idea of what I'm doing when I work with a scale now. Also happy to work with some CSS variables. I had been meaning to for a while but the last few projects all specified the usage of SCSS. I miss the nesting but native variables are always good to have.
 
