@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 41: April 20 2018
+
+**Today's Progress:** Working on the graphs and fixed the scales by creating two arrays out of the initial nested array, one for each axis. I now have a good enough looking graph, now it needs the bar hover effect specified in the project. Will need to look up how to do that.
+
+**Thoughts:** Much better than yesterday, and I have some idea of what I'm doing when I work with a scale now.
+
+**Link to work:** [Bar Chart](https://codepen.io/jsanderson/pen/VXQqEm)
+
 ### Day 40: April 19 2018
 
 **Today's Progress:** Working on the D3 graphs. I can import the data required and get a basic bar chart going without any problems, but I'm still having trouble with the scales.
@@ -12,7 +20,7 @@
 
 **Thoughts:** So glad that this one is done - I've never had a project take so much time and energy as this. I do enjoy making things look nice once the functionality is done, even if it feels more trivial. Amongst other things I'm a sculptor, and both a strong framework and good looks are important to a sculpture; this is no different.
 
-**Link to work:** [Roguelike WIP](https://codepen.io/jsanderson/pen/YeyZxx)
+**Link to work:** [Roguelike](https://codepen.io/jsanderson/pen/YeyZxx)
 
 ### Day 38: March 29 2018
 
