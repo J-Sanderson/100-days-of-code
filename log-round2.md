@@ -2,7 +2,9 @@
 
 ### Day 41: April 20 2018
 
-**Today's Progress:** Working on the graphs and fixed the scales by creating two arrays out of the initial nested array, one for each axis. I now have a good enough looking graph, now it needs the bar hover effect specified in the project. Will need to look up how to do that. [This seems like what I'm going for.](http://bl.ocks.org/Caged/6476579) Ended up going with [this method](http://bl.ocks.org/d3noob/a22c42db65eb00d4e369) as I don't need anything excessively complicated and I may as well learn how to do it with a basic div.
+**Today's Progress:** Working on the graphs and fixed the scales by creating two arrays out of the initial nested array, one for each axis. I now have a good enough looking graph, now it needs the bar hover effect specified in the project. Will need to look up how to do that. [This seems like what I'm going for.](http://bl.ocks.org/Caged/6476579)
+
+Ended up going with [this method](http://bl.ocks.org/d3noob/a22c42db65eb00d4e369) as I don't need anything excessively complicated and I may as well learn how to do it with a basic div. Got some nice basic tooltips in there, now the chart is looking good and readable. It just needs some styling to look even better.
 
 **Thoughts:** Much better than yesterday, and I have some idea of what I'm doing when I work with a scale now.
 
