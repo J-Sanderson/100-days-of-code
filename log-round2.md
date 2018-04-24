@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 42: April 24 2018
+
+**Today's Progress:** Started work on the scatterplot graph, which is the next challenge. This time I decided to set up the axes first. I found that setting them up after I made the main body of the chart meant I had to rewrite a lot of things to take into account the padding I would need, so I decided to get the axes up first so I could see how much of the main chart would be dedicated to the data.
+
+**Thoughts:** This already feels smoother than last time. I really think I've got a handle on what I'm doing now.
+
+**Link to work:** [Scatterplot](https://codepen.io/jsanderson/full/qYdxJx/)
+
 ### Day 41: April 20 2018
 
 **Today's Progress:** Working on the graphs and fixed the scales by creating two arrays out of the initial nested array, one for each axis. I now have a good enough looking graph, now it needs the bar hover effect specified in the project. Will need to look up how to do that. [This seems like what I'm going for.](http://bl.ocks.org/Caged/6476579)
