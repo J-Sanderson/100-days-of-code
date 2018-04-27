@@ -1,5 +1,15 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 43: April 27 2018
+
+**Today's Progress:** Continued work on the scatterplot. First I added in the circles with a small amount of styling to indicate whether the rider had any doping allegations, as with the example chart. Next up was the name labels. This caused some problems as only approximately the last half of the dataset would display. I kept trying to work out the problem but no matter what I changed it didn't make any difference, could not seem to find any other examples of the problem, and there were no error messages displaying. Eventually tried using a forEach function on the dataset and rendering the name labels in there. This did work, but I kept the original enter() function commented out in case I can find out what's wrong.
+
+Once that was done made some tweaks to the chart formatting, seperating out width and height as well as adding different padding variables for each side. Next time I will try to remember to do that earlier. Then added in some axis labels for the x and y axes.
+
+**Thoughts:** Happy with the way the chart is looking and how flexible the scales are, but not pleased about having to use a workaroudn to get the name labels to show.
+
+**Link to work:** [Scatterplot](https://codepen.io/jsanderson/full/qYdxJx/)
+
 ### Day 42: April 24 2018
 
 **Today's Progress:** Started work on the scatterplot graph, which is the next challenge. This time I decided to set up the axes first. I found that setting them up after I made the main body of the chart meant I had to rewrite a lot of things to take into account the padding I would need, so I decided to get the axes up first so I could see how much of the main chart would be dedicated to the data.
