@@ -6,7 +6,7 @@
 
 Once that was done made some tweaks to the chart formatting, seperating out width and height as well as adding different padding variables for each side. Next time I will try to remember to do that earlier. Then added in some axis labels for the x and y axes.
 
-**Thoughts:** Happy with the way the chart is looking and how flexible the scales are, but not pleased about having to use a workaroudn to get the name labels to show.
+**Thoughts:** Happy with the way the chart is looking and how flexible the scales are, but not pleased about having to use a workaround to get the name labels to show. It works, but it bugs me I'm not doing it the correct way.
 
 **Link to work:** [Scatterplot](https://codepen.io/jsanderson/full/qYdxJx/)
 
