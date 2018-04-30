@@ -8,6 +8,8 @@
 
 I'm keeping the styling on these minimal; I don't want to detract from the main point of interest which should obviously be the chart itself.
 
+Taking a look at the next challenge (heatmap visualisation) and I guess this is going to mean learning how to implement a colour scale. (Also I think the chart is eaier to read when tilted? I find the year/month data seems to make more sense that way. Maybe I will build it as such.)
+
 **Link to work:** [Scatterplot](https://codepen.io/jsanderson/full/qYdxJx/)
 
 ### Day 43: April 27 2018
