@@ -2,7 +2,7 @@
 
 ### Day 44: April 30 2018
 
-**Today's Progress:** Added tooltips to the scatterplot, using the same method as the bar chart. After that added in some styling.
+**Today's Progress:** Added tooltips to the scatterplot, using the same method as the bar chart. After that added in some styling. Going to call this one done!
 
 **Thoughts:** Everything's pretty much easy going for this one now. Still not happy with the forEach workaround on the labels but still unable to work out what's going on. Annoying.
 
