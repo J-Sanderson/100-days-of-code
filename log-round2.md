@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 44: April 30 2018
+
+**Today's Progress:** Added tooltips to the scatterplot, using the same method as the bar chart.
+
+**Thoughts:** Everything's pretty much easy going for this one now. Still not happy with the forEach workaround on the labels but still unable to work out what's going on. Annoying.
+
+**Link to work:** [Scatterplot](https://codepen.io/jsanderson/full/qYdxJx/)
+
 ### Day 43: April 27 2018
 
 **Today's Progress:** Continued work on the scatterplot. First I added in the circles with a small amount of styling to indicate whether the rider had any doping allegations, as with the example chart. Next up was the name labels. This caused some problems as only approximately the last half of the dataset would display. I kept trying to work out the problem but no matter what I changed it didn't make any difference, could not seem to find any other examples of the problem, and there were no error messages displaying. Eventually tried using a forEach function on the dataset and rendering the name labels in there. This did work, but I kept the original enter() function commented out in case I can find out what's wrong.
