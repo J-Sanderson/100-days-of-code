@@ -2,9 +2,11 @@
 
 ### Day 44: April 30 2018
 
-**Today's Progress:** Added tooltips to the scatterplot, using the same method as the bar chart.
+**Today's Progress:** Added tooltips to the scatterplot, using the same method as the bar chart. After that added in some styling.
 
 **Thoughts:** Everything's pretty much easy going for this one now. Still not happy with the forEach workaround on the labels but still unable to work out what's going on. Annoying.
+
+I'm keeping the styling on these minimal; I don't want to detract from the main point of interest which should obviously be the chart itself.
 
 **Link to work:** [Scatterplot](https://codepen.io/jsanderson/full/qYdxJx/)
 
