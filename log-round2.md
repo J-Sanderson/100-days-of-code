@@ -2,7 +2,7 @@
 
 ### Day 45: April 30 2018
 
-**Today's Progress:** Putting together the axes for the heatmap. The year is working ok, but having trouble making the months show up as months. Reading [this](https://stackoverflow.com/questions/20803833/line-chart-d3-js-x-axis-months) to see if I can work out what to do.
+**Today's Progress:** Putting together the axes for the heatmap. The year is working ok, but having trouble making the months show up as months. Reading [this](https://stackoverflow.com/questions/20803833/line-chart-d3-js-x-axis-months) to see if I can work out what to do. Using a band scale so far and it seems to work, will see if it still does when I add the data in...
 
 **Thoughts:** Setting up a basic graph feels kind of routine now, though the axis formatting issues are still full of things I don't know.
 
