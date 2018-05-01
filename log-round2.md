@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 45: April 30 2018
+
+**Today's Progress:** Putting together the axes for the heatmap. The year is working ok, but having trouble making the months show up as months. Reading [this](https://stackoverflow.com/questions/20803833/line-chart-d3-js-x-axis-months) to see if I can work out what to do.
+
+**Thoughts:** Setting up a basic graph feels kind of routine now, though the axis formatting issues are still full of things I don't know.
+
+**Link to work:** [Heatmap](https://codepen.io/jsanderson/pen/ELWzKW)
+
 ### Day 44: April 30 2018
 
 **Today's Progress:** Added tooltips to the scatterplot, using the same method as the bar chart. After that added in some styling. Going to call this one done!
