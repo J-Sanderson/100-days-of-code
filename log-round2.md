@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 45: May 03 2018
+
+**Today's Progress:** Added boxes to the heatmap, and some test tooltips to check the data is transferring properly. Looking good so far. Next step will be to set up a colour scale and apply it to the boxes, right now they are just one colour. I may also see about setting up tooltips differently this time. They are laggy and seem to vanish before I've moused out of the box.
+
+**Thoughts:** So far everything feels good apart from the tooltips. I guess the basic method I was using the last two times is too slow for a larger dataset?
+
+**Link to work:** [Heatmap](https://codepen.io/jsanderson/pen/ELWzKW)
+
 ### Day 45: April 30 2018
 
 **Today's Progress:** Putting together the axes for the heatmap. The year is working ok, but having trouble making the months show up as months. Reading [this](https://stackoverflow.com/questions/20803833/line-chart-d3-js-x-axis-months) to see if I can work out what to do. Using a band scale so far and it seems to work, will see if it still does when I add the data in...
