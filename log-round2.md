@@ -1,5 +1,15 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 46: May 04 2018
+
+**Today's Progress:** The tooltips were being too laggy, so I decided to try out d3.tip, which I had tried before but ended up not using because I couldn't find an up to date version I could use on Codepen. That was fine before but this time around I needed some speed so I kept looking until I found a version that would work. Set up the tooltips to use it and eveything is going great.
+
+Next set up the colour scales using scaleQuantile and the map now has the correct colour values.  The key still needs working on, that will come next.
+
+**Thoughts:** The colour scale was surprisingly easy, and worked first time... for once. This one feels like another project with the meat of things done. Very satisfying.
+
+**Link to work:** [Heatmap](https://codepen.io/jsanderson/pen/ELWzKW)
+
 ### Day 45: May 03 2018
 
 **Today's Progress:** Added boxes to the heatmap, and some test tooltips to check the data is transferring properly. Looking good so far. Next step will be to set up a colour scale and apply it to the boxes, right now they are just one colour. I may also see about setting up tooltips differently this time. They are laggy and seem to vanish before I've moused out of the box.
