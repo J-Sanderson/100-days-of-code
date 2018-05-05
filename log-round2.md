@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 47: May 05 2018
+
+**Today's Progress:** Fixed an issue with colours not showing correctly in Firefox. Set up the key and tweaked it to look better, added some explanatory text from the FCC original. Everything looks nice, the page just needs some styling.
+
+**Thoughts:** I know this entry looks short, but that's only because it's close to midnight and I used up my brainpower on positioning that key!
+
+**Link to work:** [Heatmap](https://codepen.io/jsanderson/pen/ELWzKW)
+
 ### Day 46: May 04 2018
 
 **Today's Progress:** The tooltips were being too laggy, so I decided to try out d3.tip, which I had tried before but ended up not using because I couldn't find an up to date version I could use on Codepen. That was fine before but this time around I needed some speed so I kept looking until I found a version that would work. Set up the tooltips to use it and eveything is going great.
