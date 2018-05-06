@@ -4,7 +4,11 @@
 
 **Today's Progress:** Added styling to the heatmap, calling this one done.
 
-**Thoughts:**  Feeling very satisfied overall.
+I was happy enough with d3tip's speed and positioning that I went back and edited my two previous challenges to use it as well. Normally I wouldn't worry about going back unless there was a serious bug, but I liked it enough it was worth the time.
+
+Next up is the force directed graph. [This](https://bl.ocks.org/mbostock/4062045) looks like a good starting point for reference.
+
+**Thoughts:** Feeling very satisfied overall.
 
 **Link to work:** [Heatmap](https://codepen.io/jsanderson/pen/ELWzKW)
 
