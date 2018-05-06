@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 48: May 06 2018
+
+**Today's Progress:** Added styling to the heatmap, calling this one done.
+
+**Thoughts:**  Feeling very satisfied overall.
+
+**Link to work:** [Heatmap](https://codepen.io/jsanderson/pen/ELWzKW)
+
 ### Day 47: May 05 2018
 
 **Today's Progress:** Fixed an issue with colours not showing correctly in Firefox. Set up the key and tweaked it to look better, added some explanatory text from the FCC original. Everything looks nice, the page just needs some styling.
