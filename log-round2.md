@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 48: May 07 2018
+
+**Today's Progress:** Started on the force directed graph. This is something very new to me, everything else was a concept I'd already encountered and had little difficulty applying to the projects, but this time I'm more lost. I've been going through the example linked yesterday and looking up the documentation for anything I'm unfamiliar with. Doing that I've managed to get a very rudimentary graph going, but there is still a lot to do.
+
+**Thoughts:** This has gone from everything being in hand to an overwhelming new world. But it's kind of exciting too.
+
+**Link to work:** [Force directed graph](https://codepen.io/jsanderson/pen/RyjVWr)
+
 ### Day 48: May 06 2018
 
 **Today's Progress:** Added styling to the heatmap, calling this one done.
