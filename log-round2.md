@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 49: May 08 2018
+
+**Today's Progress:** Doing some [reading](http://www.puzzlr.org/basics-of-d3-force-directed-graphs/) about force directed graphs in D3 and trying to apply it to what I have so far. Managed to fix an issue with lines not displaying, now I have another problem with the nodes all going off the edge of the graph. I can drag them back but it's not useful or how it needs to be.
+
+**Thoughts:** There's a long way to go but things are feeling a bit clearer now.
+
+**Link to work:** [Force directed graph](https://codepen.io/jsanderson/pen/RyjVWr)
+
 ### Day 48: May 07 2018
 
 **Today's Progress:** Started on the force directed graph. This is something very new to me, everything else was a concept I'd already encountered and had little difficulty applying to the projects, but this time I'm more lost. I've been going through the example linked yesterday and looking up the documentation for anything I'm unfamiliar with. Doing that I've managed to get a very rudimentary graph going, but there is still a lot to do.
