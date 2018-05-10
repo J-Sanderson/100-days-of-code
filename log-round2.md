@@ -1,5 +1,15 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 50: May 10 2018
+
+**Today's Progress:** Trying to get the flags to display. This was hard, I didn't realise at first that images couldn't be added to the svg, and once I added them as divs instead, they kept refusing to move. Spent too long on the JS, turned out I needed to work with the CSS positioning. Once that was fixed and they had proper margins and absolute positioning instead, the graph looked fine.
+
+Next up is the styling.
+
+**Thoughts:** Frustrating, I nearly wanted to start over a few times. Need to remember that the issue may not always be where I think it should be.
+
+**Link to work:** [Force directed graph](https://codepen.io/jsanderson/pen/RyjVWr)
+
 ### Day 49: May 08 2018
 
 **Today's Progress:** Doing some [reading](http://www.puzzlr.org/basics-of-d3-force-directed-graphs/) about force directed graphs in D3 and trying to apply it to what I have so far. Managed to fix an issue with lines not displaying, now I have another problem with the nodes all going off the edge of the graph. I can drag them back but it's not useful or how it needs to be. Managed to figure out how to set maximum link distance and add in some bounding behaviour so nothing floats off.
