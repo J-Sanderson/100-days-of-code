@@ -4,9 +4,9 @@
 
 **Today's Progress:** Trying to get the flags to display. This was hard, I didn't realise at first that images couldn't be added to the svg, and once I added them as divs instead, they kept refusing to move. Spent too long on the JS, turned out I needed to work with the CSS positioning. Once that was fixed and they had proper margins and absolute positioning instead, the graph looked fine.
 
-Next up is the styling.
+Added in some styling, this was fairly quick as there wasn't much to sort out.
 
-**Thoughts:** Frustrating, I nearly wanted to start over a few times. Need to remember that the issue may not always be where I think it should be.
+**Thoughts:** Frustrating, I nearly wanted to start over a few times. Need to remember that the issue may not always be where I think it should be. But I'm happy this is sorted now.
 
 **Link to work:** [Force directed graph](https://codepen.io/jsanderson/pen/RyjVWr)
 
