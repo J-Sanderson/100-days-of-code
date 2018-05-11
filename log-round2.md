@@ -4,6 +4,12 @@
 
 **Today's Progress:** Did some more work with force directed graphs using some data from work. No links because it's work info, but found it quite helpful to try another graph and see how much I'd learnt; many things were much clearer the second time around, including how forceLink works.
 
+Next up is the mapping challenge so I'm reading some more about how to do that.
+
+**Thoughts:** I liked doing some non-FCC work with D3, it was good for getting a handle on what I'm doing.
+
+The mapping challenge is very exciting! I'm looking at some [interesting things](https://www.jasondavies.com/maps/transition/) and getting really excited. I love maps. The actual how to is a bit opaque here but that should improve with time.
+
 ### Day 50: May 10 2018
 
 **Today's Progress:** Trying to get the flags to display. This was hard, I didn't realise at first that images couldn't be added to the svg, and once I added them as divs instead, they kept refusing to move. Spent too long on the JS, turned out I needed to work with the CSS positioning. Once that was fixed and they had proper margins and absolute positioning instead, the graph looked fine.
