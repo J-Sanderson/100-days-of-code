@@ -1,5 +1,9 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 51: May 11 2018
+
+**Today's Progress:** Did some more work with force directed graphs using some data from work. No links because it's work info, but found it quite helpful to try another graph and see how much I'd learnt; many things were much clearer the second time around, including how forceLink works.
+
 ### Day 50: May 10 2018
 
 **Today's Progress:** Trying to get the flags to display. This was hard, I didn't realise at first that images couldn't be added to the svg, and once I added them as divs instead, they kept refusing to move. Spent too long on the JS, turned out I needed to work with the CSS positioning. Once that was fixed and they had proper margins and absolute positioning instead, the graph looked fine.
