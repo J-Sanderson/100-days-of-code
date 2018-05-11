@@ -4,7 +4,7 @@
 
 **Today's Progress:** Did some more work with force directed graphs using some data from work. No links because it's work info, but found it quite helpful to try another graph and see how much I'd learnt; many things were much clearer the second time around, including how forceLink works.
 
-Next up is the mapping challenge so I'm reading some more about how to do that.
+Next up is the mapping challenge so I'm reading some more about how to do that. Reading through [this](https://maptimeboston.github.io/d3-maptime/#/62) and trying to follow through with some geoJSON data generated [here](https://geojson-maps.ash.ms/). Not worring about the meteorite data right now, I'm focusing on getting the basic map to work.
 
 **Thoughts:** I liked doing some non-FCC work with D3, it was good for getting a handle on what I'm doing.
 
