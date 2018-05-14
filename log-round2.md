@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 52: May 14 2018
+
+**Today's Progress:** Working some more on the mapping challenge. Not going well, the geoJSON does load but something is wrong when I try to draw paths and I still haven't worked out what. Kept trying several geoJSOn sources and not having any luck.
+
+**Thoughts:** Aaaaaaaargh.
+
 ### Day 51: May 11 2018
 
 **Today's Progress:** Did some more work with force directed graphs using some data from work. No links because it's work info, but found it quite helpful to try another graph and see how much I'd learnt; many things were much clearer the second time around, including how forceLink works.
