@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 53: May 15 2018
+
+**Today's Progress:** Tried starting fresh with the mapping challenge, finally got it to work after studying some examples, and also managed to get some basic pan/zoom behaviour. Now I can get started with the meteorite data.
+
+**Thoughts:** Finally, some progress with this thing. I'm still not satisfied with how much I understand what's going on; I may try some more maps after this one.
+
 ### Day 52: May 14 2018
 
 **Today's Progress:** Working some more on the mapping challenge. Not going well, the geoJSON does load but something is wrong when I try to draw paths and I still haven't worked out what. Kept trying several geoJSOn sources and not having any luck.
