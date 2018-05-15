@@ -6,6 +6,8 @@
 
 **Thoughts:** Finally, some progress with this thing. I'm still not satisfied with how much I understand what's going on; I may try some more maps after this one.
 
+**Link to work:** [Global meteorite landings](https://codepen.io/jsanderson/full/xjaxPj/)
+
 ### Day 52: May 14 2018
 
 **Today's Progress:** Working some more on the mapping challenge. Not going well, the geoJSON does load but something is wrong when I try to draw paths and I still haven't worked out what. Kept trying several geoJSOn sources and not having any luck.
