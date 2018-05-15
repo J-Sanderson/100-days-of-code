@@ -4,7 +4,7 @@
 
 **Today's Progress:** Tried starting fresh with the mapping challenge, finally got it to work after studying some examples, and also managed to get some basic pan/zoom behaviour. Now I can get started with the meteorite data.
 
-Imported the data and managed to get it to show, which was a lot quicker and easier than can be said for the base map. But the points need some functionality, right now they're a load of black blobs that nobody wants to look at.
+Imported the data and managed to get it to show, which was a lot quicker and easier than can be said for the base map. But the points need some functionality, right now they're a load of black blobs that nobody wants to look at. I looked up how to render them as circles instead and apply the co-ordinates properly, and set up a scale for meteorite mass, though that was tricky to get right due to the wide range. Finally managed to get something working and looking reasonable. Next up will be getting some tooltips so I have more than just a load of circles.
 
 **Thoughts:** Finally, some progress with this thing. I'm still not satisfied with how much I understand what's going on; I may try some more maps after this one.
 
