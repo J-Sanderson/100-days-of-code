@@ -1,5 +1,15 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 54: May 16 2018
+
+**Today's Progress:** Added tooltips and styling to the map. Calling this one done, too.
+
+**Thoughts:** That's the data visualisation challenges all wrapped up. It feels like they went a bit too fast. I want to work more with D3 because I feel like I only touched upon the basics of what it can do. But I also don't want to stall on the rest of the backend challenges that are still waiting for me. I'll have to keep balancing things.
+
+Still. Wow. Another certification down!
+
+**Link to work:** [Global meteorite landings](https://codepen.io/jsanderson/full/xjaxPj/)
+
 ### Day 53: May 15 2018
 
 **Today's Progress:** Tried starting fresh with the mapping challenge, finally got it to work after studying some examples, and also managed to get some basic pan/zoom behaviour. Now I can get started with the meteorite data.
