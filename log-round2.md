@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 55: May 20 2018
+
+**Today's Progress:** Decided to make a start on the first of the advanced backend challenges, the voting app. This is a big step. So far I just set up some basic routes in Express, similar to the API challenges. There is a lot yet to come. I think first of all I want to look into how to allow someone to log in as an authenticated user.
+
+**Thoughts:** This one's intimidating enough that I went back to do all the data visualisation challenges as a form of stalling, and I'm still trying to work out where to go. I think this challenge trips up a lot of people because it feels like a sudden spike in complexity. But I don't know if that's true, or just a perceived thing due to user authentication being new at this point. We will see. This may be slow going but I don't want to stop outright.
+
 ### Day 54: May 16 2018
 
 **Today's Progress:** Added tooltips and styling to the map. Calling this one done, too.
