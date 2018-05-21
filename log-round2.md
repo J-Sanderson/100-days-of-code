@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 56: May 21 2018
+
+**Today's Progress:** Didn't have time to work on the voting app but did find some time to work on learning how to create Sankey diagrams with D3 for some work stuff, and created a test version to play around with.
+
+**Thoughts:** Well hey, it's useful. Now make the thing you're meant to make, self!
+
+**Link to work:** [Sankey diagram test](https://codepen.io/jsanderson/full/yjZdpG/)
+
 ### Day 55: May 20 2018
 
 **Today's Progress:** Decided to make a start on the first of the advanced backend challenges, the voting app. This is a big step. So far I just set up some basic routes in Express, similar to the API challenges. There is a lot yet to come. I think first of all I want to look into how to allow someone to log in as an authenticated user. [This](https://scotch.io/tutorials/easy-node-authentication-google) and [this](http://www.passportjs.org/docs/) may be good reading.
