@@ -4,6 +4,8 @@
 
 **Today's Progress:** Didn't have time to work on the voting app but did find some time to work on learning how to create Sankey diagrams with D3 for some work stuff, and created a test version to play around with.
 
+I should also watch [these](https://forum.freecodecamp.org/t/good-passport-tutorial-net-ninja-on-youtube/175699).
+
 **Thoughts:** Well hey, it's useful. Now make the thing you're meant to make, self!
 
 **Link to work:** [Sankey diagram test](https://codepen.io/jsanderson/full/yjZdpG/)
