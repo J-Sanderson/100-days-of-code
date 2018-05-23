@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 57: May 23 2018
+
+**Today's Progress:** Did some work on the voting app, following on with a playlist from the Net Ninja that I linked the previous day. It isn't totally set up, but now I have a database setup and some authentication from Google, and it appears to be working.
+
+**Thoughts:** I love these videos. Everything is so clear!
+
 ### Day 56: May 21 2018
 
 **Today's Progress:** Didn't have time to work on the voting app but did find some time to work on learning how to create Sankey diagrams with D3 for some work stuff, and created a test version to play around with.
