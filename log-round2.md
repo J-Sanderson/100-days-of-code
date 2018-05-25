@@ -1,5 +1,15 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 58: May 25 2018
+
+**Today's Progress:** Continued to work through the videos and managed to setup a very bare bones app that you can log in and out of. Great! But you can't do anything yet so here comes the rest. Users need to be able to make polls, which is going to mean setting up another schema and all that fun.
+
+**Thoughts:** I'm worried that I still don't know much about how Passport works, I just coded along with the videos, but I have several more projects to fully understand it. I'll get somewhere.
+
+The next steps of this project are a bit intimidating because I'm back on my own, but this is stuff I should already be able to do. The only thing that was really intimidating me was Passport and the Google authentication because I had never touched it before. The rest is stuff I've already got.
+
+**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/)
+
 ### Day 57: May 23 2018
 
 **Today's Progress:** Did some work on the voting app, following on with a playlist from the Net Ninja that I linked the previous day. It isn't totally set up, but now I have a database setup and some authentication from Google, and it appears to be working.
