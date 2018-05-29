@@ -1,5 +1,15 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 59: May 26 2018
+
+**Today's Progress:** Trying to set up the ability to create polls - got a schema/model for polls, although right now it only records the title and the person who created it. The rest can wait until it's working ok. Spent some time trying to fire off an ajax request from the create page form. Feels like a mess but I finally got it running and got the post route to fire, and I can now save a copy of the poll to the database. Now the polls need some more detail so they're not just names, but that was a big step.
+
+**Thoughts:** This was a real low point where I felt like giving up. I wasn't going to but it was hard going anyway. I'm still unsure of where I'm going but I have some idea now.
+
+I think the hard part is that I have some idea of how to work all these different technologies but not so much on how to hook them all together. I think that will come in time but right now it still feels like strange magic.
+
+**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/)
+
 ### Day 58: May 25 2018
 
 **Today's Progress:** Continued to work through the videos and managed to setup a very bare bones app that you can log in and out of. Great! But you can't do anything yet so here comes the rest. Users need to be able to make polls, which is going to mean setting up another schema and all that fun.
