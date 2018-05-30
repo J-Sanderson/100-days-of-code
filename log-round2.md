@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 60: May 30 2018
+
+**Today's Progress:** Worked on making sure that the polls could be saved with options. Took some fiddling about with converting the initial string into an object with option/votecount pairs, but it works, and polls can now be saved with all the required details. But right now that's all that can be done - we can't even see them without looking at the database. That's not much use at all. Next up I will want to have a user's polls display on their profile, which will mean searching the database for every poll they have created upon loading it.
+
+**Thoughts:** Everything feels like small steps right now but they also feel manageable, a big step up from last time. I think I can do this now.
+
+**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/)
+
 ### Day 59: May 26 2018
 
 **Today's Progress:** Trying to set up the ability to create polls - got a schema/model for polls, although right now it only records the title and the person who created it. The rest can wait until it's working ok. Spent some time trying to fire off an ajax request from the create page form. Feels like a mess but I finally got it running and got the post route to fire, and I can now save a copy of the poll to the database. Now the polls need some more detail so they're not just names, but that was a big step.
