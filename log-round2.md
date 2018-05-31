@@ -1,5 +1,19 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 61: May 31 2018
+
+**Today's Progress:** Polls now display in decending order on a user's profile. There is also an "all polls" page that displays every poll - this will probably need pagination later.
+
+Worked on the redirection after creating a poll. I wanted it to go to the page for that poll, but I'm still having trouble working out how to pass around all the required information so right now it just redirects back to the user's profile.
+
+Next up I want to allow a user to delete a poll they no longer want.
+
+**Thoughts:** Still a bit disjointed but I think things are going to make sense as I keep going.
+
+Whilst checking user stories I noticed that FCC has changed curriculum and no longer has this project as a requirement. I should probably finish it anyway, but I think I would like to explore what's new - there may be something that works as a better introduction to back end work.
+
+**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/)
+
 ### Day 60: May 30 2018
 
 **Today's Progress:** Worked on making sure that the polls could be saved with options. Took some fiddling about with converting the initial string into an object with option/votecount pairs, but it works, and polls can now be saved with all the required details. But right now that's all that can be done - we can't even see them without looking at the database. That's not much use at all. Next up I will want to have a user's polls display on their profile, which will mean searching the database for every poll they have created upon loading it.
