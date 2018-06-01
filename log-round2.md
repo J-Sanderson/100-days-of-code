@@ -6,6 +6,8 @@
 
 **Thoughts:** That was a mess and I hate the solution even if it works. But the only other way I could manage it was to make a GET request, which worked but isn't the right thing to do here. So I'm stuck with whatever works until I can figure out something better...
 
+Also I made a mistake last time, the voting app is still in the curriculum but as part of the take home challenges and not the main certification. That's making it tempting to leave it on the side for now. But I've invested enough frustration in this thing as it is, I can't stop now! Maybe I'll just slow down and work on the existing certifications too.
+
 **Link to work:** [Voting app](https://jsanderson-voting.glitch.me/)
 
 ### Day 61: May 31 2018
