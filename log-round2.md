@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 62: May 31 2018
+
+**Today's Progress:** Attempted to set up a delete function. This turned out to be a major pain. As far as I can tell, the delete route is doing exactly what it's meant to and deleting the poll, but the Ajax request that triggers is still returns an error, and I can't redirect to another page afterwards. I had to settle eventually for putting the redirect request in the Ajax call's error handler. It works at least but even after all this reading I can't work out what the problem is.
+
+**Thoughts:** That was a mess and I hate the solution even if it works. But the only other way I could manage it was to make a GET request, which worked but isn't the right thing to do here. So I'm stuck with whatever works until I can figure out something better...
+
+**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/)
+
 ### Day 61: May 31 2018
 
 **Today's Progress:** Polls now display in decending order on a user's profile. There is also an "all polls" page that displays every poll - this will probably need pagination later.
