@@ -1,5 +1,17 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 63: June 04 2018
+
+**Today's Progress:** Worked on a voting route for the voting app. Works so far, and this time it redirects properly too. Still needs some checks to make sure that no logged in person can vote more than once, but the basic principle is there and works.
+
+Went back to the new FCC responsive design challenges and finished up the first of the ones I'm missing, the survey form.
+
+**Thoughts:** I suspect this votting app is going to be one huge mess behind the scenes once it's done, but eh, it's my first time working on this scale. It's not going to be elegant. Save that for later.
+
+Going back to the responsive design challenges is interesting. I was worried that it would feel too much like a step backwards, but there's plenty of new things like flexbox and CSS grid to work with, so it still feels fresh.
+
+**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/) - [Survey page](https://codepen.io/jsanderson/full/RJroBm/)
+
 ### Day 62: May 31 2018
 
 **Today's Progress:** Attempted to set up a delete function. This turned out to be a major pain. As far as I can tell, the delete route is doing exactly what it's meant to and deleting the poll, but the Ajax request that triggers is still returns an error, and I can't redirect to another page afterwards. I had to settle eventually for putting the redirect request in the Ajax call's error handler. It works at least but even after all this reading I can't work out what the problem is.
