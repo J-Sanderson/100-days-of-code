@@ -1,5 +1,15 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 64: June 05 2018
+
+**Today's Progress:** Set up the voting voutes so that a user can only vote once. There's two checks - the poll page won't display the vote buttons if the user has voted, and the route will check on retreiving the poll if the user's ID is already listed inside it, and only update if it is not.
+
+Next up is the ability to add new options to an existing poll.
+
+**Thoughts:** It works and that's the important thing.
+
+**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/)
+
 ### Day 63: June 04 2018
 
 **Today's Progress:** Worked on a voting route for the voting app. Works so far, and this time it redirects properly too. Still needs some checks to make sure that no logged in person can vote more than once, but the basic principle is there and works.
