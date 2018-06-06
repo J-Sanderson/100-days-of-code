@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 65: June 06 2018
+
+**Today's Progress:** Added in the new poll option functionality, and also allowed unathenticated users to vote. This fulfils most of the user stories apart from the visible charts, but this will be added in when styling.
+
+**Thoughts:** I'm admittedly surprised that the routes are all set up. I keep thinking there should be something else to do, but the whole thing is functional now.
+
+**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/)
+
 ### Day 64: June 05 2018
 
 **Today's Progress:** Set up the voting voutes so that a user can only vote once. There's two checks - the poll page won't display the vote buttons if the user has voted, and the route will check on retreiving the poll if the user's ID is already listed inside it, and only update if it is not.
