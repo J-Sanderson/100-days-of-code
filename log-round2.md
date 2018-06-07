@@ -6,11 +6,13 @@
 
 Added in the charts via Chart.js. Technically this fulfils all the user stories but I still want some pagination setting up so the pages don't get overloaded. But I may do that once I have a better handle on what I'm doing here.
 
+Finished off the styling to make it look better. I think I will call this one done. There is still a lot to do (like the abovementioned pagination) but I think I've done as much as I can with my current skillset. I will probably come back to this later and do some overhauling. For now I'll focus on the new challenges.
+
 Finished off the product landing page mockup.
 
 **Thoughts:** I'm happy so far but I think adding in the charts is going to be another complexity leap because one of the hardest parts of this project is learning how the different components "talk" to one another. So I'm going to have to work out how to get the database information to a front end script to generate the chart.
 
-I wrote all of that before deciding to just scrape the DOM. I'm not entirely happy with that solution but it works for something small like this. I suspect once I have a better idea of what I'm doing I'll be fixing a lot, but I'll probably get better at it once I've worked through the updated curriculum.
+I wrote all of that before deciding to just scrape the DOM. I'm not entirely happy with that solution but it works for something small like this. I suspect once I have a better idea of what I'm doing I'll be fixing a lot, but I'll probably get better at it once I've worked through the updated curriculum. I still don't regret doing it; it was a wobbly start but lots of interesting new ground to tread.
 
 Chart.js is nicely intuitive, I didn't do much more than copy in the sample chart, feed in the correct data, and fiddle with the options, but it was fun to play with it and I found it easy to pick up.
 
