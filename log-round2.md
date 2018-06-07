@@ -4,9 +4,13 @@
 
 **Today's Progress:** Added in the new poll option functionality, and also allowed unathenticated users to vote. This fulfils most of the user stories apart from the visible charts, but this will be added in when styling.
 
+Worked on the landing page project for the new FCC challenges. Got a decent looking layout going on.
+
 **Thoughts:** I'm admittedly surprised that the routes are all set up. I keep thinking there should be something else to do, but the whole thing is functional now.
 
-**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/)
+Although it could do with some pagination for the poll lists. There's not a lot now but it could quickly get out of control.
+
+**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/) - [product landing page](https://codepen.io/jsanderson/full/zaBeao/)
 
 ### Day 64: June 05 2018
 
