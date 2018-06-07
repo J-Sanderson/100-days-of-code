@@ -4,9 +4,15 @@
 
 **Today's Progress:** Added some basic styling for the poll app. It's not exactly nice to look at, but there is some organisation there that wasn't there before, and it'll make a good basis for adding in the charts.
 
+Added in the charts via Chart.js. Technically this fulfils all the user stories but I still want some pagination setting up so the pages don't get overloaded. But I may do that once I have a better handle on what I'm doing here.
+
 Finished off the product landing page mockup.
 
 **Thoughts:** I'm happy so far but I think adding in the charts is going to be another complexity leap because one of the hardest parts of this project is learning how the different components "talk" to one another. So I'm going to have to work out how to get the database information to a front end script to generate the chart.
+
+I wrote all of that before deciding to just scrape the DOM. I'm not entirely happy with that solution but it works for something small like this. I suspect once I have a better idea of what I'm doing I'll be fixing a lot, but I'll probably get better at it once I've worked through the updated curriculum.
+
+Chart.js is nicely intuitive, I didn't do much more than copy in the sample chart, feed in the correct data, and fiddle with the options, but it was fun to play with it and I found it easy to pick up.
 
 Quite happy with the landing page mockup. I keep trying to strike a balance between what I like and common layouts for this sort of page as I do feel a lot of these sites are very samey. I think I pulled it off here.
 
