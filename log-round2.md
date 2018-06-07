@@ -4,9 +4,13 @@
 
 **Today's Progress:** Added some basic styling for the poll app. It's not exactly nice to look at, but there is some organisation there that wasn't there before, and it'll make a good basis for adding in the charts.
 
+Finished off the product landing page mockup.
+
 **Thoughts:** I'm happy so far but I think adding in the charts is going to be another complexity leap because one of the hardest parts of this project is learning how the different components "talk" to one another. So I'm going to have to work out how to get the database information to a front end script to generate the chart.
 
-**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/)
+Quite happy with the landing page mockup. I keep trying to strike a balance between what I like and common layouts for this sort of page as I do feel a lot of these sites are very samey. I think I pulled it off here.
+
+**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/) - [product landing page](https://codepen.io/jsanderson/full/zaBeao/)
 
 ### Day 65: June 06 2018
 
