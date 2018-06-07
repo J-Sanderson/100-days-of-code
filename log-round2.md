@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 66: June 07 2018
+
+**Today's Progress:** Added some basic styling for the poll app. It's not exactly nice to look at, but there is some organisation there that wasn't there before, and it'll make a good basis for adding in the charts.
+
+**Thoughts:** I'm happy so far but I think adding in the charts is going to be another complexity leap because one of the hardest parts of this project is learning how the different components "talk" to one another. So I'm going to have to work out how to get the database information to a front end script to generate the chart.
+
+**Link to work:** [Voting app](https://jsanderson-voting.glitch.me/)
+
 ### Day 65: June 06 2018
 
 **Today's Progress:** Added in the new poll option functionality, and also allowed unathenticated users to vote. This fulfils most of the user stories apart from the visible charts, but this will be added in when styling.
