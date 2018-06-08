@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 67: June 08 2018
+
+**Today's Progress:** Finished off the last of the responsive frontend challenges, the technical documentation page. This one went really quickly. That's all for the new responsive frontend certification.
+
+**Thoughts:** That one felt a little anticlimatic, but it was a docs page, so it's not meant to be fancy.
+
+**Link to work:** [Technical documentation page](https://codepen.io/jsanderson/full/wXzNEQ/)
+
 ### Day 66: June 07 2018
 
 **Today's Progress:** Added some basic styling for the poll app. It's not exactly nice to look at, but there is some organisation there that wasn't there before, and it'll make a good basis for adding in the charts.
