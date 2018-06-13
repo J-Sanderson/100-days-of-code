@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 68: June 13 2018
+
+**Today's Progress:** Worked on the new algorithm scripting challenges for FCC. Mainly just catching up to where I was before.
+
+**Thoughts:** Not much to say but there's a few interesting new things popping up.
+
 ### Day 67: June 08 2018
 
 **Today's Progress:** Finished off the last of the responsive frontend challenges, the technical documentation page. This one went really quickly. That's all for the new responsive frontend certification.
