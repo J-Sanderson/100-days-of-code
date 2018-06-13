@@ -4,7 +4,11 @@
 
 **Today's Progress:** Worked on the new algorithm scripting challenges for FCC. Mainly just catching up to where I was before.
 
+Took a break and did some layout testing with CSS grid to keep myself on track with making things.
+
 **Thoughts:** Not much to say but there's a few interesting new things popping up.
+
+**Link to work:** [CSS Grid cards (WIP)](https://codepen.io/jsanderson/full/oywEGJ/)
 
 ### Day 67: June 08 2018
 
