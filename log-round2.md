@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 69: June 14 2018
+
+**Today's Progress:** Got the CSS grid cards looking nice. Got started on the new challenges for FCC's frontend certification and worked through the React lesson.
+
+**Thoughts:** Good to get a refresher on React as it's been a few months since I touched it. That's why I keep wanting to make smaller things. I don't want to lose those skills.
+
+**Link to work:** [CSS Grid cards](https://codepen.io/jsanderson/full/oywEGJ/)
+
 ### Day 68: June 13 2018
 
 **Today's Progress:** Worked on the new algorithm scripting challenges for FCC. Mainly just catching up to where I was before.
@@ -8,7 +16,7 @@ Took a break and did some layout testing with CSS grid to keep myself on track w
 
 **Thoughts:** Not much to say but there's a few interesting new things popping up.
 
-**Link to work:** [CSS Grid cards (WIP)](https://codepen.io/jsanderson/full/oywEGJ/)
+**Link to work:** [CSS Grid cards](https://codepen.io/jsanderson/full/oywEGJ/)
 
 ### Day 67: June 08 2018
 
