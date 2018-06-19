@@ -1,5 +1,15 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 70: June 19 2018
+
+**Today's Progress:** Working my way through the Redux portion of FCC's new sections. Threw together another layout, a 24 hour clock with a varying background depending on the hour.
+
+**Thoughts:** Not the most functional thing, but it looks nice and was fun to build as a random challenge.
+
+Redux isn't quite sinking in yet but I think I need to actually use it to grasp the idea behind it.
+
+**Link to work:** [24 Hour Clock](https://codepen.io/jsanderson/full/MXrLbd/)
+
 ### Day 69: June 14 2018
 
 **Today's Progress:** Got the CSS grid cards looking nice. Got started on the new challenges for FCC's frontend certification and worked through the React lesson.
