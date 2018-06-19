@@ -4,11 +4,13 @@
 
 **Today's Progress:** Working my way through the Redux portion of FCC's new sections. Threw together another layout, a 24 hour clock with a varying background depending on the hour.
 
+Decided to jump in with the one outstanding FCC frontend project, the drum machine. It turned out to be surprisingly quick, taking only a couple of hours. Decided to implement it in JQuery, anything more complex felt like overkill.
+
 **Thoughts:** Not the most functional thing, but it looks nice and was fun to build as a random challenge.
 
 Redux isn't quite sinking in yet but I think I need to actually use it to grasp the idea behind it.
 
-**Link to work:** [24 Hour Clock](https://codepen.io/jsanderson/full/MXrLbd/)
+**Link to work:** [24 Hour Clock](https://codepen.io/jsanderson/full/MXrLbd/) - [drum machine](https://codepen.io/jsanderson/full/QxaRoR/)
 
 ### Day 69: June 14 2018
 
