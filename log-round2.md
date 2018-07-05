@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 71: July 05 2018
+
+**Today's Progress:** After being away for a while I got back to the challenges by working on the Choropleth Map. Managed to get something nice looking together.
+
+**Thoughts:** Pleased with the result, although concerned there's a lot of things I still don't fully understand about the mapping process. (Also setting up gradients in SVG is way too verbose, wow!)
+
+**Link to work:** [Choropleth Map](https://codepen.io/jsanderson/full/ERzebX/)
+
 ### Day 70: June 19 2018
 
 **Today's Progress:** Working my way through the Redux portion of FCC's new sections. Threw together another layout, a 24 hour clock with a varying background depending on the hour.
