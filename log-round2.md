@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 72: July 05 2018
+
+**Today's Progress:** Finished off the outstanding data visualisation challenges with the treemap project.
+
+**Thoughts:** I'm finding the most complex part of these layouts is setting up D3 so that it returns what I want. It seems to do a lot of the heavy lifting behind the scenes but I need to understand what to do to get it to work for me.
+
+**Link to work:** [Treemap](https://codepen.io/jsanderson/full/vrwqOK/)
+
 ### Day 71: July 05 2018
 
 **Today's Progress:** After being away for a while I got back to the challenges by working on the Choropleth Map. Managed to get something nice looking together.
