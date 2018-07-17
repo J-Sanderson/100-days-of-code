@@ -6,7 +6,7 @@
 
 * root request - serves up a static page with two forms, "create new user" and "add exercise"
 * "create new user" requires a username, fires a POST request to /api/exercise/new-user. If the userid does not exist, the server returns a JSON object, format {"username": chosenusername, "id": mongodb id(?)} (eg BkDUNPjmm). If the username does exist, the server returns the text string "username already taken".
-* "add exercises" requires a user (not name), description of the exercise, duration in minutes, and optionally a date (yyyy mm dd) and fires a POST request to /api/exercise/add. The server responds with a JSON object, format {"username": username associated with the ID, "description": desc given, "duration": number given, "id": user's ID, "date": date given} (Date defaults to current date is not specified, format is "Tue Jul 17 2018" etc)
+* "add exercises" requires a user (not name), description of the exercise, duration in minutes, and optionally a date (yyyy mm dd) and fires a POST request to /api/exercise/add. The server responds with a JSON object, format {"username": username associated with the ID, "description": desc given, "duration": number given, "id": user's ID, "date": date given} (Date defaults to current date if not specified, format is "Tue Jul 17 2018" etc)
 * finally a GET request is possible to /api/exercise/log with optional parameters to get a user's log. I can't seem to get this to work on the example project but it looks self explanatory. (I wonder if it would be more user friendly as a form, too?)
 
 **Thoughts:** This looks like a good project to get myself into, not too complicated (I do think the voting app was too big a jump) but decently weighty. Looking forward to it.
