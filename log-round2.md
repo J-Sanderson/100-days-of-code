@@ -9,7 +9,11 @@
 * "add exercises" requires a user (not name), description of the exercise, duration in minutes, and optionally a date (yyyy mm dd) and fires a POST request to /api/exercise/add. The server responds with a JSON object, format {"username": username associated with the ID, "description": desc given, "duration": number given, "id": user's ID, "date": date given} (Date defaults to current date if not specified, format is "Tue Jul 17 2018" etc)
 * finally a GET request is possible to /api/exercise/log with optional parameters to get a user's log. I can't seem to get this to work on the example project but it looks self explanatory. (I wonder if it would be more user friendly as a form, too?)
 
+Set up the basic routes as detailed above, next up I will need to hook up a database and make sure the routes actually do something.
+
 **Thoughts:** This looks like a good project to get myself into, not too complicated (I do think the voting app was too big a jump) but decently weighty. Looking forward to it.
+
+**Link to work:** [Exercise tracker](https://jsanderson-exercise.glitch.me/)
 
 ### Day 72: July 05 2018
 
