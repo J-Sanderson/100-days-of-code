@@ -1,5 +1,13 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 74: July 18 2018
+
+**Today's Progress:** Hooked up a datebase to the exercise tracker and set up username and ID creation. Works so far but still having trouble getting the response to do anything when it needs to display the user ID or the "user already exists" message. I had similar issues with the voting app and ended up looking for workarounds, which I don't want to do here. I think it has something to do with the AJAX requests technically failing even though the data goes through. Still can't work out why that happens...
+
+**Thoughts:** I remember how annoying this was on the voting app. I feel like this is an area where there's many things I still don't understand and need to work out how to find.
+
+**Link to work:** [Exercise tracker](https://jsanderson-exercise.glitch.me/)
+
 ### Day 73: July 17 2018
 
 **Today's Progress:** Worked through the APIs and Microservices challenges on FCC. I've done most of these previously for the old certifications, apart from the exercise tracker. FCC didn't provide user stories so I'm piecing together what needs to be done from the example.
