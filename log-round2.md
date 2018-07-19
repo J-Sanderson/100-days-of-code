@@ -1,5 +1,20 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 74: July 19 2018
+
+**Today's Progress:** Kept looking at the ajax call in the exercise tracker. It seems that there's a 504 timeout error but I can't work out what's causing it. Tried to cross check with some code I know works. Eventually managed to get the success function to fire, if all the Mongoose stuff in the post route is commented out. If left in I get a 504 again. So I'm guessing (given that this is still a relatively new world for me) all the database querying and saving is taking too long...
+
+Testing stuff:
+* nothing but a res.send() function in the endpoint: ajax call works ok, although the res message never appears.
+* console.log() statement in the endpoint: logged message is visible on the server, ajax call times out.
+* creating a variable in the endpoint but not doing anything with it: timeout.
+
+Not getting anywhere with this. Starting to think it's an issue with the database connection due to some error messages, but fixing that didn't seem to change anything. The strange thing is that all the mongoose stuff and any console.log statements in the endpoint still run, but I can't get the response to display anything, which was my issue all along. Oddly enough an actual res.send() statement, which doesn't cause a timeout, doesn't show anything. Maybe I need to look at that.
+
+**Thoughts:** Feels like I'm finding a lot of things that could be the problem and nothing that actually is.
+
+**Link to work:** [Exercise tracker](https://jsanderson-exercise.glitch.me/)
+
 ### Day 74: July 18 2018
 
 **Today's Progress:** Hooked up a datebase to the exercise tracker and set up username and ID creation. Works so far but still having trouble getting the response to do anything when it needs to display the user ID or the "user already exists" message. I had similar issues with the voting app and ended up looking for workarounds, which I don't want to do here. I think it has something to do with the AJAX requests technically failing even though the data goes through. Still can't work out why that happens...
