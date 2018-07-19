@@ -11,7 +11,13 @@ Testing stuff:
 
 Not getting anywhere with this. Starting to think it's an issue with the database connection due to some error messages, but fixing that didn't seem to change anything. The strange thing is that all the mongoose stuff and any console.log statements in the endpoint still run, but I can't get the response to display anything, which was my issue all along. Oddly enough an actual res.send() statement, which doesn't cause a timeout, doesn't show anything. Maybe I need to look at that.
 
+After a break and some reading it seems all I needed to do was passthe "next" function as a parameter into the endpoint, which helped solve the problem even if I'm not actually using it. Don't know why that happens but I keep saying, this is new ground.
+
+So now the save/check if existing username stuff works fine, but I still don't see a response, either for res.send or res.json.
+
 **Thoughts:** Feels like I'm finding a lot of things that could be the problem and nothing that actually is.
+
+regarding the next parameter being missing causing all this trouble: OF COURSE. It had to be something small.
 
 **Link to work:** [Exercise tracker](https://jsanderson-exercise.glitch.me/)
 
