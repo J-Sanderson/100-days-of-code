@@ -10,6 +10,8 @@ Moved on to the exercise creation route. This was really easy once I'd worked ou
 
 Finally I need to add the GET request to return an individual user's exercises. Looks like a simple search, probably order the results by date, then display sort of job. I still can't get the route to work on the example project so I'll just reconstruct it as best I can. Set up a form on the main page to take requests, as I wanted the route to be more user friendly. The GET request fires nicely and displays the test message, now it just needs to do something with the data.
 
+Set up the endpoint to search for a user by their ID and their associated exercise log, then return some readable JSON on the response. So far it takes no parameters other than the ID, but this is a good enough spot to build on.
+
 **Thoughts:** I really have no idea why any of this is happening. Why am I still surprised?
 
 I think I'm starting to see why this project was added in at this point. It's a much more in depth date creation/retreival project than the others, but not so complex as to be overwhelming, so it's not the massive leap that the voting app represented. Aside from the issues with getting the post requests to fire correctly, I've really liked this one.
