@@ -6,7 +6,13 @@
 
 The problem I'm now having is that the short IDs don't seem to be working properly. Not sure how or when this started as it was working ok to begin with. Decided to remove it for now and see if I can get it working later.
 
+Moved on to the exercise creation route. This was really easy once I'd worked out the issues with user creation, just needed to make a new model for the exercises and then it was a simple search and create route that returns more JSON at the end. I've also added in some form validation to ensure the user submits numbers and dates where needed.
+
+Finally I need to add the GET request to return an individual user's exercises. Looks like a simple search, probably order the results by date, then display sort of job. I still can't get the route to work on the example project so I'll just reconstruct it as best I can. Set up a form on the main page to take requests, as I wanted the route to be more user friendly. The GET request fires nicely and displays the test message, now it just needs to do something with the data.
+
 **Thoughts:** I really have no idea why any of this is happening. Why am I still surprised?
+
+I think I'm starting to see why this project was added in at this point. It's a much more in depth date creation/retreival project than the others, but not so complex as to be overwhelming, so it's not the massive leap that the voting app represented. Aside from the issues with getting the post requests to fire correctly, I've really liked this one.
 
 **Link to work:** [Exercise tracker](https://jsanderson-exercise.glitch.me/)
 
