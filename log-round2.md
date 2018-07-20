@@ -1,5 +1,11 @@
 # 100 Days Of Code Round 2 - Log
 
+### Day 75: July 20 2018
+
+**Today's Progress:** Took a different approach and temp disabled the ajax calls/Jquery, and set the form to send via HTML. Once I got that to work, the responses displayed properly. No idea why that worked but I guess it was something to do with the ajax calls all along.
+
+The problem I'm now having is that the short IDs don't seem to be working and I'm getting the default Mongo IDs which are too unweildy for this project. Not sure how or when this started as it was working ok to begin with.
+
 ### Day 74: July 19 2018
 
 **Today's Progress:** Kept looking at the ajax call in the exercise tracker. It seems that there's a 504 timeout error but I can't work out what's causing it. Tried to cross check with some code I know works. Eventually managed to get the success function to fire, if all the Mongoose stuff in the post route is commented out. If left in I get a 504 again. So I'm guessing (given that this is still a relatively new world for me) all the database querying and saving is taking too long...
@@ -14,6 +20,8 @@ Not getting anywhere with this. Starting to think it's an issue with the databas
 After a break and some reading it seems all I needed to do was passthe "next" function as a parameter into the endpoint, which helped solve the problem even if I'm not actually using it. Don't know why that happens but I keep saying, this is new ground.
 
 So now the save/check if existing username stuff works fine, but I still don't see a response, either for res.send or res.json.
+
+Decided to give it a break and did some sort exercises for FCC instead. Managed to complete bubble and selection sort, got partway through insertion sort.
 
 **Thoughts:** Feels like I'm finding a lot of things that could be the problem and nothing that actually is.
 
