@@ -4,7 +4,11 @@
 
 **Today's Progress:** Took a different approach and temp disabled the ajax calls/Jquery, and set the form to send via HTML. Once I got that to work, the responses displayed properly. No idea why that worked but I guess it was something to do with the ajax calls all along.
 
-The problem I'm now having is that the short IDs don't seem to be working and I'm getting the default Mongo IDs which are too unweildy for this project. Not sure how or when this started as it was working ok to begin with.
+The problem I'm now having is that the short IDs don't seem to be working properly. Not sure how or when this started as it was working ok to begin with. Decided to remove it for now and see if I can get it working later.
+
+**Thoughts:** I really have no idea why any of this is happening. Why am I still surprised?
+
+**Link to work:** [Exercise tracker](https://jsanderson-exercise.glitch.me/)
 
 ### Day 74: July 19 2018
 
